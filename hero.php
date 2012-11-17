@@ -34,12 +34,16 @@
       </div>
 
       <hr>
-
-      <footer>
-        <p>&copy; Company 2012</p>
-      </footer>
-
+      
     </div> <!-- /container -->
+
+<!-- Start of the footer -->
+
+<?php include('./includes/footer.inc.php'); ?>
+
+<!-- End of the footer -->
+
+
 
     <!-- Le javascript
     ================================================== -->
