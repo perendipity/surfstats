@@ -54,7 +54,11 @@
 
 
     </style>
+<<<<<<< HEAD
     <link href="css/surfscore.css" rel="stylesheet">
+=======
+
+>>>>>>> 581f1c5dc3e8822ac7c9dc88b5682c37bc9dcfdc
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Averia+Libre:700' rel='stylesheet' type='text/css'>
 
