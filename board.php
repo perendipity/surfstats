@@ -5,7 +5,7 @@
 
 <?php
 
-include('./includes/navbar.inc.html');
+include('./includes/navbar.inc.php');
 
 include('./includes/sidebar.inc.php');
 
