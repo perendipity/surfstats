@@ -13,7 +13,7 @@ include('./includes/sidebar.inc.php');
 
 
     <div class="container">
-      <div class="hero-unit row-fluid">
+      <div class="hero-unit row-fluid" id="test">
         <div class="span6">
           <h1>Marco's Surfstats</h1>
           <p>Surfer/Hacker from Cambridge. Member for 1 day.</p>
@@ -44,7 +44,7 @@ include('./includes/sidebar.inc.php');
           <div class="span3"><h4>Set Waves</h4><h3>367</h3></div>
         </div>
         <h2>Averages</h2>
-        <div class="lifetime-average row-fluid">
+        <div class="lifetime-average row-fluid" id="test1">
           <div class="span3"><h4>Waves</h4><h3>47</h3></div>
           <div class="span3"><h4>Tricks</h4><h3>113</h3></div>
           <div class="span3"><h4>Hours</h4><h3>2.3</h3></div>
