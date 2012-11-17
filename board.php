@@ -48,7 +48,7 @@
 
       
       <div class="dashboard-container well">
-        <h1 class="span12">Dashboard</h1>
+        <h1 class="span12">Drilldown</h1>
         <h2 class="span12">Session #54</h2>
         <div class="session row-fluid">
           <div class="session-stats span1 offset1">
