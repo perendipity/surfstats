@@ -3,7 +3,13 @@
 
   <body>
 
-<?php include('./includes/navbar.inc.html'); ?>
+<?php
+
+include('./includes/navbar.inc.html');
+
+include('./includes/sidebar.inc.php');
+
+?>
 
 
     <div class="container">
@@ -18,7 +24,7 @@
           </p>
         </div>
         <div class="profile-pic span6">
-          profile pic 
+          profile pic
           <ul class="thumbnails">
             <li class="span4">
               <a href="#" class="thumbnail">
@@ -46,7 +52,7 @@
         </div>
       </div>
 
-      
+
       <div class="dashboard-container well">
         <h1 class="span12">Dashboard</h1>
         <h2 class="span12">Session #54</h2>
@@ -69,8 +75,8 @@
         </div>
       </div>
     </div> <!-- /container -->
-    
-    
+
+
 <!-- Start of the footer -->
 
 <?php include('./includes/footer.inc.php'); ?>
