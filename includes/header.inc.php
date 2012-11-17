@@ -7,7 +7,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <!-- Le styles -->
+    <!-- Surf styles -->
     <link href="css/bootstrap.css" rel="stylesheet">
     <style type="text/css">
       body {
@@ -54,8 +54,13 @@
 
 
     </style>
+<<<<<<< HEAD
+    <link href="css/surfscore.css" rel="stylesheet">
+=======
 
+>>>>>>> 581f1c5dc3e8822ac7c9dc88b5682c37bc9dcfdc
     <link href="css/bootstrap-responsive.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Averia+Libre:700' rel='stylesheet' type='text/css'>
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
