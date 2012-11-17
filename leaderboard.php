@@ -17,48 +17,46 @@ include('./includes/sidebar.inc.php');
           </a>
         </div>
         <div id="friends" class="accordion-body collapse in">
-          <div class="accordion-inner">
-            <!-- <table class="table table-striped"> -->
-              
-            <table id="friends" class="table tablesorter table-striped">
+          <div class="accordion-inner">              
+            <table class="table tablesorter table-striped">
               <thead>
                 <tr>
-                  <th>Rank</th>
                   <th>Name</th>
-                  <th>High Score</th>
-                  <th>Average Score</th>
+                  <th>Best Sesh</th>
+                  <th>Average Sesh</th>
+                  <th>Waves</th>
+                  <th>Tricks</th>
+                  <th>Set Waves</th>
+                  <th>Water Time</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>1</td>
-                  <td>Marco</td>
+                  <th>Bethany Warburton</th>
+                  <td>9.9</td>
+                  <td>8.7</td>
+                  <td>6783</td>
+                  <td>12345</td>
+                  <td>456</td>
+                  <td>763</td>
+                </tr>
+                <tr>
+                  <td>Sven Alsvik</th>
                   <td>9.8</td>
-                  <td>7.3</td>
+                  <td>8.6</td>
+                  <td>5463</td>
+                  <td>10020</td>
+                  <td>400</td>
+                  <td>654</td>
                 </tr>
                 <tr>
-                  <td>2</td>
-                  <td>Peter</td>
-                  <td>7.3</td>
-                  <td>5.3</td>
-                </tr>
-                <tr>
-                  <td>3</td>
-                  <td>Nishan</td>
-                  <td>6.7</td>
-                  <td>6.0</td>
-                </tr>
-                <tr>
-                  <td>4</td>
-                  <td>Alec</td>
-                  <td>6.5</td>
-                  <td>6.1</td>
-                </tr>
-                <tr>
-                  <td>5</td>
-                  <td>Cody</td>
-                  <td>3.2</td>
-                  <td>1.6</td>
+                  <td>Natalia Olsen</td>
+                  <td>5.6</td>
+                  <td>3.4</td>
+                  <td>200</td>
+                  <td>554</td>
+                  <td>23</td>
+                  <td>107</td>
                 </tr>
               </tbody>
             </table>
@@ -73,33 +71,45 @@ include('./includes/sidebar.inc.php');
         </div>
         <div id="national" class="accordion-body collapse">
           <div class="accordion-inner">
-            <table class="table table-striped">
+            <table class="table tablesorter table-striped">
               <thead>
                 <tr>
-                  <th>Rank</th>
                   <th>Name</th>
-                  <th>High Score</th>
-                  <th>Average Score</th>
+                  <th>Best Sesh</th>
+                  <th>Average Sesh</th>
+                  <th>Waves</th>
+                  <th>Tricks</th>
+                  <th>Set Waves</th>
+                  <th>Water Time</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>1</td>
-                  <td>Jimbo</td>
+                  <th>Bethany Warburton</th>
+                  <td>9.9</td>
                   <td>8.7</td>
-                  <td>6.3</td>
+                  <td>6783</td>
+                  <td>12345</td>
+                  <td>456</td>
+                  <td>763</td>
                 </tr>
                 <tr>
-                  <td>2</td>
-                  <td>Dustin</td>
-                  <td>7.3</td>
-                  <td>5.4</td>
+                  <td>Sven Alsvik</th>
+                  <td>9.8</td>
+                  <td>8.6</td>
+                  <td>5463</td>
+                  <td>10020</td>
+                  <td>400</td>
+                  <td>654</td>
                 </tr>
                 <tr>
-                  <td>3</td>
-                  <td>Catherine</td>
-                  <td>7.2</td>
-                  <td>7.0</td>
+                  <td>Natalia Olsen</td>
+                  <td>5.6</td>
+                  <td>3.4</td>
+                  <td>200</td>
+                  <td>554</td>
+                  <td>23</td>
+                  <td>107</td>
                 </tr>
               </tbody>
             </table>
@@ -114,33 +124,45 @@ include('./includes/sidebar.inc.php');
         </div>
         <div id="international" class="accordion-body collapse">
           <div class="accordion-inner">
-            <table class="table table-striped">
+            <table class="table tablesorter table-striped">
               <thead>
                 <tr>
-                  <th>Rank</th>
                   <th>Name</th>
-                  <th>High Score</th>
-                  <th>Average Score</th>
+                  <th>Best Sesh</th>
+                  <th>Average Sesh</th>
+                  <th>Waves</th>
+                  <th>Tricks</th>
+                  <th>Set Waves</th>
+                  <th>Water Time</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>1</td>
-                  <td>Bethany</td>
+                  <th>Bethany Warburton</th>
                   <td>9.9</td>
                   <td>8.7</td>
+                  <td>6783</td>
+                  <td>12345</td>
+                  <td>456</td>
+                  <td>763</td>
                 </tr>
                 <tr>
-                  <td>2</td>
-                  <td>Jer</td>
-                  <td>9.9</td>
+                  <td>Sven Alsvik</th>
+                  <td>9.8</td>
                   <td>8.6</td>
+                  <td>5463</td>
+                  <td>10020</td>
+                  <td>400</td>
+                  <td>654</td>
                 </tr>
                 <tr>
-                  <td>3</td>
-                  <td>Sven</td>
-                  <td>9.9</td>
-                  <td>8.4</td>
+                  <td>Natalia Olsen</td>
+                  <td>5.6</td>
+                  <td>3.4</td>
+                  <td>200</td>
+                  <td>554</td>
+                  <td>23</td>
+                  <td>107</td>
                 </tr>
               </tbody>
             </table>
@@ -153,8 +175,8 @@ include('./includes/sidebar.inc.php');
     $(document).ready(function() { 
       // call the tablesorter plugin 
       $("table").tablesorter({ 
-        // sort on the first column and third column, order asc 
-        sortList: [[0,0],[2,0]] 
+        // sort on the first column, order desc. 
+        sortList: [[1,1]] 
       }); 
     }); 
   </script>
