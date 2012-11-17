@@ -1,13 +1,19 @@
-<?php include('./includes/header.inc.html'); ?>
+<?php include('./includes/header.inc.php'); ?>
 
 
   <body>
 
-<?php include('./includes/navbar.inc.html'); ?>
+<?php
+
+include('./includes/navbar.inc.php');
+
+include('./includes/sidebar.inc.php');
+
+?>
 
 
     <div class="container">
-      <div class="hero-unit row-fluid">
+      <div class="hero-unit row-fluid" id="test">
         <div class="span6">
           <h1>Marco's Surfstats</h1>
           <p>Surfer/Hacker from Cambridge. Member for 1 day.</p>
@@ -18,7 +24,7 @@
           </p>
         </div>
         <div class="profile-pic span6">
-          profile pic 
+          profile pic
           <ul class="thumbnails">
             <li class="span4">
               <a href="#" class="thumbnail">
@@ -38,7 +44,7 @@
           <div class="span3"><h4>Set Waves</h4><h3>367</h3></div>
         </div>
         <h2>Averages</h2>
-        <div class="lifetime-average row-fluid">
+        <div class="lifetime-average row-fluid" id="test1">
           <div class="span3"><h4>Waves</h4><h3>47</h3></div>
           <div class="span3"><h4>Tricks</h4><h3>113</h3></div>
           <div class="span3"><h4>Hours</h4><h3>2.3</h3></div>
@@ -46,7 +52,7 @@
         </div>
       </div>
 
-      
+
       <div class="dashboard-container well">
         <h1 class="span12">Drilldown</h1>
         <h2 class="span12">Session #54</h2>
@@ -69,30 +75,10 @@
         </div>
       </div>
     </div> <!-- /container -->
-    
-    
+
+
 <!-- Start of the footer -->
 
 <?php include('./includes/footer.inc.php'); ?>
 
-<!-- End of the footer -->
 
-    <!-- Le javascript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="js/jquery.js"></script>
-    <script src="js/bootstrap-transition.js"></script>
-    <script src="js/bootstrap-alert.js"></script>
-    <script src="js/bootstrap-modal.js"></script>
-    <script src="js/bootstrap-dropdown.js"></script>
-    <script src="js/bootstrap-scrollspy.js"></script>
-    <script src="js/bootstrap-tab.js"></script>
-    <script src="js/bootstrap-tooltip.js"></script>
-    <script src="js/bootstrap-popover.js"></script>
-    <script src="js/bootstrap-button.js"></script>
-    <script src="js/bootstrap-collapse.js"></script>
-    <script src="js/bootstrap-carousel.js"></script>
-    <script src="js/bootstrap-typeahead.js"></script>
-
-  </body>
-</html>
