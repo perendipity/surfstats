@@ -18,7 +18,9 @@ include('./includes/sidebar.inc.php');
         </div>
         <div id="friends" class="accordion-body collapse in">
           <div class="accordion-inner">
-            <table class="table table-striped">
+            <!-- <table class="table table-striped"> -->
+              
+            <table id="friends" class="table tablesorter table-striped">
               <thead>
                 <tr>
                   <th>Rank</th>
@@ -147,4 +149,13 @@ include('./includes/sidebar.inc.php');
       </div>
   </body>
   <?php include('./includes/footer.inc.php'); ?>
+  <script type="text/javascript" id="js">
+    $(document).ready(function() { 
+      // call the tablesorter plugin 
+      $("table").tablesorter({ 
+        // sort on the first column and third column, order asc 
+        sortList: [[0,0],[2,0]] 
+      }); 
+    }); 
+  </script>
 </html>
