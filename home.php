@@ -49,7 +49,7 @@
         <img class="featurette-image pull-right" style="width:50%"
              src="img/kahuna.png">
         <h2 class="featurette-heading">Your progress, tracked. <span class="muted">Improve instantly.</span></h2>
-      <p class="lead">Like many action sports, surfing is not only hard to learn but <i>harder</i> to master. Why pay hundreds of dollars for mediocre 
+      <p class="lead">Like many action sports, surfing is not only hard to learn but <i>harder</i> to master. Why pay hundreds of dollars for mediocre
         feedback when you can focus on the waves and rest assured all your killer moves are being analyzed.</p>
     </div>
 
