@@ -52,33 +52,22 @@ include('./includes/sidebar.inc.php');
         </div>
       </div>
 
-
       <div class="dashboard-container well">
-        <h1 class="span12">Dashboard</h1>
-        <h2 class="span12">Session #54</h2>
-        <div class="session row-fluid">
-          <div class="session-stats span1 offset1">
-            <h3>Stats</h3>
-            <p>Radical: 7.9</p>
-            <p>27 waves</p>
-            <p>89 tricks</p>
+        <h1 class="span12">Drilldown</h1>
+          <div class="row-fluid session-slider span12" id="session-slider">
+            <div class="row-fluid">
+              <div class="span2 slide-left" id="slide-left">Left Arrow</div>
+              <div id="slider-tab-container"></div>
+              <div class="span2 slide-right" id="slide-right">Right Arrow</div>
+            </div>
           </div>
-          <div class="session-charts span10 row-fluid">
-            <h3 class="span10">Charts</h3>
-            <div class="span5"><img class="img-rounded" src="http://placehold.it/300x200" alt=""></div>
-            <div class="span5"><img class="img-rounded" src="http://placehold.it/300x200" alt=""></div>
-
-            <div class="span5"><img class="img-rounded" src="http://placehold.it/300x200" alt=""></div>
-            <div class="span5"><img class="img-rounded" src="http://placehold.it/300x200" alt=""></div>
-
-          </div>
+          <div class="sessions" id="sessions"></div>
         </div>
       </div>
     </div> <!-- /container -->
 
 
 <!-- Start of the footer -->
-
 <?php include('./includes/footer.inc.php'); ?>
-
+<script src="js/surfscore-slider.js"></script>
 
