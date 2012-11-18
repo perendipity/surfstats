@@ -2,32 +2,67 @@
  * Surfscore CSS
  * Designed and built with all the love Peter, Cody, Nishan, Alec and Marco.
  */
- 
- 
- 
+
+
+
 h1 {
-  font-size: 38.5px;
+    font-size: 38.5px;
 }
 
 h2 {
-  font-size: 31.5px;
+    font-size: 31.5px;
 }
 
 h3 {
-  font-size: 24.5px;
+    font-size: 24.5px;
 }
 
 h4 {
-  font-size: 17.5px;
+    font-size: 17.5px;
 }
 
 h5 {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 h6 {
-  font-size: 11.9px;
+    font-size: 11.9px;
 }
+
+/* TABLES */
+table.tablesorter {
+    font-family:arial;
+    background-color: #CDCDCD;
+    margin:10px 0pt 15px;
+    font-size: 8pt;
+    width: 100%;
+    text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+    background-color: #e6EEEE;
+    border: 1px solid #FFF;
+    font-size: 14pt;
+    padding: 4px;
+}
+table.tablesorter thead tr .header {
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+}
+table.tablesorter tbody td {
+    color: #3D3D3D;
+    padding: 4px;
+    background-color: #FFF;
+    vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+    background-color:#F0F0F6;
+}
+
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+    background-color: #8dbdd8;
+}
+
 
 .tab {
     border-style:solid;
@@ -45,9 +80,9 @@ h6 {
 
 
 /*
-SURFSCORE : Helvetica Neue LT Std, 67 Medium Condensed, 72pt
-LOCATION : Helvetica Neue LT Std, 47 Light Condensed Oblique, 24pt
-NAME : Helvetica Neue LT Std, 27 Ultra Light, 72pt
+  SURFSCORE : Helvetica Neue LT Std, 67 Medium Condensed, 72pt
+  LOCATION : Helvetica Neue LT Std, 47 Light Condensed Oblique, 24pt
+  NAME : Helvetica Neue LT Std, 27 Ultra Light, 72pt
 
 HEADER 5 : Helvetica Neue LT Std, 67 Medium Condensed, 48pt
 HEADER 4 : Helvetica Neue LT Std, 57 Condensed, 36pt
