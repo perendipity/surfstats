@@ -132,14 +132,21 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
 }
 
 .session-slider {
-  width: 90% !important;
-  border-top:thick double white;
-  border-bottom:thick double white;
+    margin-top:50px;
+    margin-bottom:50px;
+    width: 90% !important;
+    border-top:thick double white;
+    border-bottom:thick double white;
   /*margin: auto !important;*/
 }
 
 .session-title {
   text-align: center;
+}
+
+.sessions {
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
 body{

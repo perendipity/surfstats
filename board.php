@@ -27,7 +27,9 @@ include('./includes/sidebar.inc.php');
         </div> -->
       </div>
       <div class="lifetime-container">
+        <br>
         <h1>LIFETIME</h1>
+          <br>
         <div class="lifetime-total row-fluid">
           <div class="span3"><h3>TOTAL WAVES</h3><h2 class="bignum">2073</h2></div>
           <div class="span3"><h3>TOTAL TRICKS</h3><h2 class="bignum">7653</h2></div>
@@ -43,7 +45,7 @@ include('./includes/sidebar.inc.php');
       </div>
 
       <div class="drilldown-container">
-        <h1 class="span12">Drilldown - Recent Sessions</h1>
+        <h1 class="span12" style="text-align: center">RECENT SESSIONS</h1>
           <div class="row-fluid session-slider span12" id="session-slider">
             <div class="row-fluid" style="margin-left:8%;">
               <h5 class="span2 arrow" id="slide-left" style="text-align: center;">&lt;</h5>
