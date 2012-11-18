@@ -9,7 +9,7 @@ include('./includes/sidebar.inc.php');
   <body>
     <div class="container">
     <div class="container board-transparent">
-      <div class="profile-container row-fluid ">
+      <div class="profile-container row-fluid " id="profile-container">
         <div class="span12 row-fluid">
           <div class="span2"><div class="red-circle surfscore">9.8</div></div>
           <div class="span10"><h3 class="location">NEW ENGLAND</h3><h1 class="user-name">MARCO MORAWEC</h1></div>
@@ -26,7 +26,7 @@ include('./includes/sidebar.inc.php');
           </ul>
         </div> -->
       </div>
-      <div class="lifetime-container">
+      <div class="lifetime-container" id="lifetime-container">
         <h1 class="custom-h1">LIFETIME</h1>
         <div class="lifetime-total row-fluid">
           <div class="span3"><h3 class="custom-h3">TOTAL WAVES</h3><h2 class="bignum custom-h2">2073</h2></div>
@@ -42,7 +42,7 @@ include('./includes/sidebar.inc.php');
         </div>
       </div>
 
-      <div class="drilldown-container">
+      <div class="drilldown-container" id="drilldown-container">
         <h1 class="span12">Drilldown - Recent Sessions</h1>
           <div class="row-fluid session-slider span12" id="session-slider">
             <div class="row-fluid" style="margin-left:8%;">
