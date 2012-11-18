@@ -226,6 +226,7 @@ small {
 }
 
 .red-circle {
+  font-family: Exo, Helvetica, san-serif;
   border-radius: 50%;
   width: 150px;
   height: 150px;

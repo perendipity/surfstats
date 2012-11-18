@@ -21,10 +21,10 @@ function initializeSlider(tabContainer, sessionContainer) {
                     '<div class="row-fluid">'+
                       '<div class="span1 offset1">'+
                         '<h2>Stats</h2>'+
-                        '<h3>AVG RADICAL</h3> <h2 class="bignum">'+radical+'</h2>'+
-                        '<h3>TOTAL WAVES</h3> <h2 class="bignum">'+waves+'</h2>'+
-                        '<h3>TOTAL SET WAVES</h3> <h2 class="bignum">'+waves/5+'</h2>'+
-                        '<h3>TOTAL TRICKS</h3> <h2 class="bignum">'+tricks+'</h2>'+
+                        '<h3 class="custom-h3">AVG RADICAL</h3> <h2 class="custom-h2 bignum">'+radical+'</h2>'+
+                        '<h3 class="custom-h3">TOTAL WAVES</h3> <h2 class="custom-h2 bignum">'+waves+'</h2>'+
+                        '<h3 class="custom-h3">TOTAL SET WAVES</h3> <h2 class="custom-h2 bignum">'+waves/5+'</h2>'+
+                        '<h3 class="custom-h3">TOTAL TRICKS</h3> <h2 class="custom-h2 bignum">'+tricks+'</h2>'+
                       '</div>'+
                       '<div class="span10 row-fluid">'+
                         '<div class="span10 row-fluid" style="margin-left: 100px;">'+
@@ -47,7 +47,7 @@ function initializeSlider(tabContainer, sessionContainer) {
                     '</div>'+
                   '</div>';
 
-        tabText = '<h4>'+dates[i]+'</h4><h5>Cape Cod</h5>';
+        tabText = '<h4 class="custom-h4">'+dates[i]+'</h4><h5 class="custom-h5">Cape Cod</h5>';
         tab = '<div class="span2 tab" id="'+tabID+'">'+tabText+'</div>';
         $('#'+sessionContainer).append(session);
         $('#'+tabContainer).append(tab);
