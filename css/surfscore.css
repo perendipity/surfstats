@@ -175,7 +175,7 @@ body{
 .sidebar-img:hover{
     padding: 15px;
     margin: 0px;
-    background-color: red;
+    background-color: #ed1c24;
 }
 
 .nav-list > li > a {
@@ -231,8 +231,7 @@ small {
 .profile-container {
     margin: 30px;
 }
-<<<<<<< HEAD
-=======
+
 
 
 /* NAVBAR */
@@ -284,4 +283,3 @@ small {
   border-right-color: #222222;
   border-left-color: #111111;
 }
->>>>>>> 8b9e782102b5f92d4443a1a6c436df70eae2ccd1
