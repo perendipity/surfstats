@@ -8,10 +8,10 @@
   <div id="myCarousel" class="carousel slide">
     <div class="carousel-inner">
       <div class="item active">
-        <img class="pull-less-right-pic" style="min-width:0%;" src="img/kooks.png">
+        <img class="pull-less-right-pic" style="min-width:0%;max-height:300px;max-width:300px;" src="img/kooks.png">
       </div>
       <div class="item">
-        <img class="pull-right-pic" style="min-width:0%;" src="img/kahuna-kapu.png">
+        <img class="pull-right-pic" style="min-width:0%;max-height:300px;max-width:554;" src="img/kahuna-kapu.png">
       </div>
     </div>
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
