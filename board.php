@@ -11,8 +11,8 @@ include('./includes/sidebar.inc.php');
     <div class="container board-transparent">
       <div class="profile-container row-fluid ">
         <div class="span12 row-fluid">
-          <div class="span2"><div class="red-circle">9.8</div></div>
-          <div class="span10"><h3>NEW ENGLAND</h3><h1>MARCO MORAWEC</h1></div>
+          <div class="span2"><div class="red-circle surfscore">9.8</div></div>
+          <div class="span10"><h3 class="location">NEW ENGLAND</h3><h1 class="user-name">MARCO MORAWEC</h1></div>
           <!-- <p>Surfer/Hacker from Cambridge. Member for 1 day.</p> -->
         </div>
        <!--  <div class="profile-pic span3">
@@ -27,18 +27,18 @@ include('./includes/sidebar.inc.php');
         </div> -->
       </div>
       <div class="lifetime-container">
-        <h1>LIFETIME</h1>
+        <h1 class="custom-h1">LIFETIME</h1>
         <div class="lifetime-total row-fluid">
-          <div class="span3"><h3>TOTAL WAVES</h3><h2 class="bignum">2073</h2></div>
-          <div class="span3"><h3>TOTAL TRICKS</h3><h2 class="bignum">7653</h2></div>
-          <div class="span3"><h3>TOTAL WATERTOWN</h3><h2 class="bignum">142 HRS</h2></div>
-          <div class="span3"><h3>TOTAL SET WAVES</h3><h2 class="bignum">367</h2></div>
+          <div class="span3"><h3 class="custom-h3">TOTAL WAVES</h3><h2 class="bignum custom-h2">2073</h2></div>
+          <div class="span3"><h3 class="custom-h3">TOTAL TRICKS</h3><h2 class="bignum custom-h2">7653</h2></div>
+          <div class="span3"><h3 class="custom-h3">TOTAL WATERTOWN</h3><h2 class="bignum custom-h2">142 HRS</h2></div>
+          <div class="span3"><h3 class="custom-h3">TOTAL SET WAVES</h3><h2 class="bignum custom-h2">367</h2></div>
         </div>
         <div class="lifetime-average row-fluid" id="test1">
-          <div class="span3"><h3>AVG WAVES</h3><h2 class="bignum">47</h2></div>
-          <div class="span3"><h3>AVG TRICKS</h3><h2 class="bignum">113</h2></div>
-          <div class="span3"><h3>AVG WATERTOWN</h3><h2 class="bignum">2.3 HRS</h2></div>
-          <div class="span3"><h3>AVG SET WAVES</h3><h2 class="bignum">6</h2></div>
+          <div class="span3"><h3 class="custom-h3">AVG WAVES</h3><h2 class="bignum custom-h2">47</h2></div>
+          <div class="span3"><h3 class="custom-h3">AVG TRICKS</h3><h2 class="bignum custom-h2">113</h2></div>
+          <div class="span3"><h3 class="custom-h3">AVG WATERTOWN</h3><h2 class="bignum custom-h2">2.3 HRS</h2></div>
+          <div class="span3"><h3 class="custom-h3">AVG SET WAVES</h3><h2 class="bignum custom-h2">6</h2></div>
         </div>
       </div>
 
