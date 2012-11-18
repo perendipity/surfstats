@@ -41,11 +41,10 @@ include('./includes/sidebar.inc.php');
           <div class="span3"><h3 class="custom-h3">AVG SET WAVES</h3><h2 class="bignum custom-h2">6</h2></div>
         </div>
       </div>
-		<!-- Horizontal divider -->
-		<ul class="nav nav-list">
+		  <!-- Horizontal divider -->
+		  <ul class="nav nav-list" style="margin-top:50px">
     		<li class="divider"></li>
     	</ul> <!-- End of Horizontal divider -->
-
 
       <div class="drilldown-container" id="drilldown-container">
         <h1 class="span12 custom-h1" style="text-align: center">RECENT SESSIONS</h1>
