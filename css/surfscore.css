@@ -79,14 +79,14 @@ h6 {
 
 /* TABLES */
 table.tablesorter {
-    background-color: #CDCDCD;
+    background-color: #FFFFFF;
     margin:10px 0pt 15px;
     width: 100%;
     text-align: left;
 }
 table.tablesorter thead tr th, table.tablesorter tfoot tr th {
   /*  background-color: #e6EEEE;*/
-    border: 1px solid #FFF;
+    border: 1px solid ;
     font-size: 14pt;
     padding: 4px;
 }
@@ -102,11 +102,10 @@ table.tablesorter tbody td {
 }
 table.tablesorter tbody tr.odd td {
   
-  
 }
 
 table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
-    background-color: #8dbdd8;
+    background-color: #ED1C24;
 }
 
 .tab {
