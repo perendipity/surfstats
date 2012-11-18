@@ -1,17 +1,14 @@
-<?php include('./includes/header.inc.php'); ?>
 
 
-  <body>
 
 <?php
-
+include('./includes/header.inc.php');
 include('./includes/navbar.inc.php');
-
 include('./includes/sidebar.inc.php');
 
 ?>
 
-
+  <body>
     <div class="container">
       <div class="hero-unit row-fluid" id="test">
         <div class="span6">
@@ -91,5 +88,9 @@ $(document).ready(function() {
   $('#myModal').modal('show')});
 });
 
+$(document).ready(function() {
+  $(".sidebar-img").hover(function(e) {
+  console.log(e);
+});
 
 </script>
