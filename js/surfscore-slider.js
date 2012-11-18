@@ -22,7 +22,7 @@ function initializeSlider(tabContainer, sessionContainer) {
                   '<h4>Tricks: '+tricks+'</h4>'+
                 '</div>'+
                 '<div class="session-charts span10 row-fluid">'+
-                  '<h3 class="span10">Charts</h3>'+
+                  '<h3 class="span10 session-title">Charts</h3>'+
                   '<div class="span5"><img class="img-rounded" src="http://placehold.it/300x200" alt=""></div>'+
                   '<div class="span5"><img class="img-rounded" src="http://placehold.it/300x200" alt=""></div>'+
                   '<div class="span5"><img class="img-rounded" src="http://placehold.it/300x200" alt=""></div>'+
@@ -32,14 +32,14 @@ function initializeSlider(tabContainer, sessionContainer) {
             '</div>';
         
 
-        tabText = 'tab'+(i+1);
+        tabText = '<h3>23rd Friday </h3>'+(i+1);
         tab = '<div class="span2 tab" id="'+tabID+'">'+tabText+'</div>';
         $('#'+sessionContainer).append(session);
         $('#'+tabContainer).append(tab);
         
         $('#'+tabID).click(function(){
-          $(this).siblings().css('background-color','#ffffff');
-          $(this).css('background-color','#ff0000');
+          $(this).siblings().css({'border-bottom':'none', 'background-color':'inherit'});
+          $(this).css({'border-bottom':'10px solid red', 'background-color':'white'});
           $(".session").css({'display':'none'});
           currentID = $(this).attr('id').substring(3);
           $('#session'+currentID).css({'display':'inherit'});
@@ -88,10 +88,7 @@ function initializeSlider(tabContainer, sessionContainer) {
       }
     })
 
-    //activateTabs(['1','2','3','4']);
-
-   
-
+    $('#tab0').css({'margin-left': '2.564102564102564%'});
 
 }
 
