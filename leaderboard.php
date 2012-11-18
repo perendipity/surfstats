@@ -30,7 +30,7 @@ include('./includes/navbar.inc.php');
                         <i class="icon-chevron-up pull-right"> </i>
                         <i class="icon-chevron-down pull-right"> </i>
                       </th>
-                      <th class="tableheader">Country
+                      <th class="tableheader">Location
                         <i class="icon-chevron-up pull-right"> </i>
                         <i class="icon-chevron-down pull-right"> </i>                     
                       </th>
@@ -50,21 +50,21 @@ include('./includes/navbar.inc.php');
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Bethany Warburton</td>
-                      <td>USA</td>
+                      <td>Jenny Smith</td>
+                      <td>Cambridge</td>
                       <td>8.7</td>
                       <td>6783</td>
                       <td>132</td>
                     <tr>
-                      <td>Sven Alsvik</td>
-                      <td>Sweden</td>
+                      <td>John Johnson</td>
+                      <td>Boston</td>
                       <td>5.3</td>
                       <td>5463</td>
                       <td>164</td>
                     </tr>
                     <tr>
-                      <td>Natalia Olsen</td>
-                      <td>USA</td>
+                      <td>Danny Clark</td>
+                      <td>Cambridge</td>
                       <td>5.7</td>
                       <td>200</td>
                       <td>65</td>
@@ -91,7 +91,7 @@ include('./includes/navbar.inc.php');
                         <i class="icon-chevron-up pull-right"> </i>
                         <i class="icon-chevron-down pull-right"> </i>
                       </th>
-                      <th class="tableheader">Country
+                      <th class="tableheader">Location
                         <i class="icon-chevron-up pull-right"> </i>
                         <i class="icon-chevron-down pull-right"> </i>                     
                       </th>
@@ -112,20 +112,40 @@ include('./includes/navbar.inc.php');
                   <tbody>
                     <tr>
                       <td>Bethany Warburton</td>
-                      <td>USA</td>
+                      <td>Hawaii</td>
                       <td>8.7</td>
                       <td>6783</td>
                       <td>132</td>
                     <tr>
-                      <td>Sven Alsvik</td>
-                      <td>Sweden</td>
+                      <td>Albert Jacobs</td>
+                      <td>Florida</td>
                       <td>5.3</td>
                       <td>5463</td>
                       <td>164</td>
                     </tr>
                     <tr>
-                      <td>Natalia Olsen</td>
-                      <td>USA</td>
+                      <td>Harry Taft</td>
+                      <td>California</td>
+                      <td>5.7</td>
+                      <td>200</td>
+                      <td>65</td>
+                    </tr>
+                    <tr>
+                      <td>Jenny Smith</td>
+                      <td>Cambridge</td>
+                      <td>8.7</td>
+                      <td>6783</td>
+                      <td>132</td>
+                    <tr>
+                      <td>John Johnson</td>
+                      <td>Boston</td>
+                      <td>5.3</td>
+                      <td>5463</td>
+                      <td>164</td>
+                    </tr>
+                    <tr>
+                      <td>Danny Clark</td>
+                      <td>Cambridge</td>
                       <td>5.7</td>
                       <td>200</td>
                       <td>65</td>
@@ -152,7 +172,7 @@ include('./includes/navbar.inc.php');
                         <i class="icon-chevron-up pull-right"> </i>
                         <i class="icon-chevron-down pull-right"> </i>
                       </th>
-                      <th class="tableheader">Country
+                      <th class="tableheader">Location
                         <i class="icon-chevron-up pull-right"> </i>
                         <i class="icon-chevron-down pull-right"> </i>                     
                       </th>
@@ -172,8 +192,8 @@ include('./includes/navbar.inc.php');
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Bethany Warburton</td>
-                      <td>USA</td>
+                      <td>Juan Alvarez</td>
+                      <td>Brazil</td>
                       <td>8.7</td>
                       <td>6783</td>
                       <td>132</td>
@@ -186,7 +206,47 @@ include('./includes/navbar.inc.php');
                     </tr>
                     <tr>
                       <td>Natalia Olsen</td>
-                      <td>USA</td>
+                      <td>South Africa</td>
+                      <td>5.7</td>
+                      <td>200</td>
+                      <td>65</td>
+                    </tr>
+                    <tr>
+                      <td>Bethany Warburton</td>
+                      <td>Hawaii</td>
+                      <td>8.7</td>
+                      <td>6783</td>
+                      <td>132</td>
+                    <tr>
+                      <td>Albert Jacobs</td>
+                      <td>Florida</td>
+                      <td>5.3</td>
+                      <td>5463</td>
+                      <td>164</td>
+                    </tr>
+                    <tr>
+                      <td>Harry Taft</td>
+                      <td>California</td>
+                      <td>5.7</td>
+                      <td>200</td>
+                      <td>65</td>
+                    </tr>
+                    <tr>
+                      <td>Jenny Smith</td>
+                      <td>Cambridge</td>
+                      <td>8.7</td>
+                      <td>6783</td>
+                      <td>132</td>
+                    <tr>
+                      <td>John Johnson</td>
+                      <td>Boston</td>
+                      <td>5.3</td>
+                      <td>5463</td>
+                      <td>164</td>
+                    </tr>
+                    <tr>
+                      <td>Danny Clark</td>
+                      <td>Cambridge</td>
                       <td>5.7</td>
                       <td>200</td>
                       <td>65</td>
