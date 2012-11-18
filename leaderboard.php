@@ -20,13 +20,9 @@ include('./includes/navbar.inc.php');
                 Friends
               </a>
             </div>
-<<<<<<< HEAD
+
             <div id="friends" class="accordion-body collapse in" style="background-color:#FFFAFA;">
               <div class="accordion-inner">              
-=======
-            <div id="friends" class="accordion-body collapse in">
-              <div class="accordion-inner">
->>>>>>> 18799258b28c810a56de7204df876322bf81f6c9
                 <table class="table tablesorter table-striped">
                   <thead>
                     <tr>
