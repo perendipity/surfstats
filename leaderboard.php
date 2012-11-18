@@ -8,7 +8,7 @@ include('./includes/navbar.inc.php');
  
 
     <div class="well narrow-well">
-      <h1 class="custom-h1" align="center">LEADERBOARD</h1>
+      <h1 class="custom-h1" align="center">How do you stack up?</h1>
 
       <div class="container" style="margin-top:20px;">
         <!-- Accordion contains different leaderboards -->
