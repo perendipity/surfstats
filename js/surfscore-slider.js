@@ -39,10 +39,6 @@ function initializeSlider(tabContainer, sessionContainer) {
                           '<div class="span3"><div class="red-circle">'+rad3+'</div></div>'+
                           '<div class="span7"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
                         '</div>'+
-                        /*'<div class="span10 row-fluid" style="margin-left: 100px;">'+
-                          '<div class="span3"><div class="red-circle">'+rad4+'</div></div>'+
-                          '<div class="span7"><img class="stat-img" src="img/surfstats2.png" alt=""></div>'+
-                        '</div>'+ */
                       '</div>'+
                     '</div>'+
                   '</div>';

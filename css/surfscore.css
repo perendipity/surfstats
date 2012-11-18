@@ -221,6 +221,7 @@ small {
 
 .lifetime-container {
     text-align: center;
+	margin-top: -40px;	
 }
 
 .bignum {
@@ -358,6 +359,7 @@ small {
 .stat-img {
     height:330px !important;
     width:330px !important;
+    
 }
 
 .nav > li > a:hover {
