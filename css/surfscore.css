@@ -134,10 +134,10 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
 }
 
 .session-slider {
-  /*margin-left:15% !important;*/
+  width: 90% !important;
   border-top:thick double white;
   border-bottom:thick double white;
-  margin: auto !important;
+  /*margin: auto !important;*/
 }
 
 .session-title {
@@ -268,4 +268,9 @@ small {
 .navbar-inverse .divider-vertical {
   border-right-color: #222222;
   border-left-color: #111111;
+}
+
+.stat-img {
+    height:330px !important;
+    width:330px !important;
 }

@@ -58,6 +58,29 @@ include('./includes/sidebar.inc.php');
           <div class="sessions" id="sessions"></div>
         </div>
       </div>
+
+<!-- 
+<div class="row-fluid">
+  <div class="span1 offset1">
+    <h3>Stats</h3>
+    <h4>AVG RADICAL: '+radical+'</h4>
+    <h4>TOTAL WAVES: '+waves+'</h4>
+    <h4>TOTAL SET WAVES: '+waves/5+'</h4>
+    <h4>TOTAL TRICKS: '+tricks+'</h4>
+  </div>
+  <div class="span10 row-fluid">
+    <div class="span10 row-fluid"> 
+      <div class="span5 stat-img"><img src="img/surfstats1.png" alt=""></div>
+      <div class="span5 stat-img"><img src="img/surfstats1.png" alt=""></div>
+    </div>
+    <div class="span10 row-fluid"> 
+      <div class="span5 stat-img"><img src="img/surfstats1.png" alt=""></div>
+      <div class="span5 stat-img"><img src="img/surfstats1.png" alt=""></div>
+    </div>
+  </div>
+</div>
+
+ -->
     </div> <!-- /container -->
 
 
