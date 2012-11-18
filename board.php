@@ -1,17 +1,13 @@
-<?php include('./includes/header.inc.php'); ?>
-
-
-  <body>
-
 <?php
 
+include('./includes/header.inc.php');
 include('./includes/navbar.inc.php');
 
 include('./includes/sidebar.inc.php');
-
 ?>
 
-
+  <body>
+    <div class="container">
     <div class="container board-transparent">
       <div class="profile-container row-fluid ">
         <div class="span12 row-fluid">
@@ -64,4 +60,16 @@ include('./includes/sidebar.inc.php');
 <!-- Start of the footer -->
 <?php include('./includes/footer.inc.php'); ?>
 <script src="js/surfscore-slider.js"></script>
+<script>
+
+$(document).ready(function() {
+  $(".span5").click(function(e) {
+  console.log(e);
+  $('#myModal').modal('show')});
+});
+
+$(document).ready(function() {
+  $(".sidebar-img").hover(function(e) {
+  console.log(e);
+});
 
