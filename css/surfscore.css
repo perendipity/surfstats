@@ -172,7 +172,9 @@ body{
     padding: 15px;
 }
 .pull-right-pic{
-    width: 200px;
+    float: right;
+    margin-bottom: 60px;
+    margin-right: 300px;
 }
 
 .board-transparent {

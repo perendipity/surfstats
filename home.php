@@ -10,9 +10,7 @@
     <div class="carousel-inner">
       <div class="item active">
         <div class="container">
-          <div class="carousel-caption">
-            <img class="pull-right-pic" src="img/kooks.png">
-          </div>
+          <img class="pull-right-pic" style="min-width:0%;" src="img/kooks.png">
         </div>
       </div>
     </div>
