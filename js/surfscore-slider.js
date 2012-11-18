@@ -14,23 +14,54 @@ function initializeSlider(tabContainer, sessionContainer) {
         waves = 1 + Math.floor(Math.random() * 100);
         tricks = 1 + Math.floor(Math.random() * 100);
         session = '<div class="session '+activeFlag+'" id="'+sessionID+'">'+
+                    '<div class="row-fluid">'+
+                      '<div class="span1 offset1">'+
+                        '<h2>Stats</h2>'+
+                        '<h3>AVG RADICAL</h3> <h2 class="bignum">'+radical+'</h2>'+
+                        '<h3>TOTAL WAVES</h3> <h2 class="bignum">'+waves+'</h2>'+
+                        '<h3>TOTAL SET WAVES</h3> <h2 class="bignum">'+waves/5+'</h2>'+
+                        '<h3>TOTAL TRICKS</h3> <h2 class="bignum">'+tricks+'</h2>'+
+                      '</div>'+
+                      '<div class="span10 row-fluid">'+
+                        '<div class="span10 row-fluid">'+
+                          '<div class="span5"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
+                          '<div class="span5"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
+                        '</div>'+
+                        '<div class="span10 row-fluid">'+
+                          '<div class="span5"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
+                          '<div class="span5"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
+                        '</div>'+
+                      '</div>'+
+                    '</div>'+
+                  '</div>';
+              
+
+
+
+
+
               // '<h2 class="span12 session-title">Session #'+(i+1)+'</h2>'+
-              '<div class="row-fluid">'+
-                '<div class="session-stats span1 offset1">'+
-                  '<h3>Stats</h3>'+
-                  '<h4>Radical: '+radical+'</h4>'+
-                  '<h4>Waves: '+waves+'</h4>'+
-                  '<h4>Tricks: '+tricks+'</h4>'+
-                '</div>'+
-                '<div class="session-charts span10 row-fluid">'+
-                  '<h3 class="span10 session-title">Charts</h3>'+
-                  '<div class="span5"><img class="img-rounded" src="http://placehold.it/300x200" alt=""></div>'+
-                  '<div class="span5"><img class="img-rounded" src="http://placehold.it/300x200" alt=""></div>'+
-                  '<div class="span5"><img class="img-rounded" src="http://placehold.it/300x200" alt=""></div>'+
-                  '<div class="span5"><img class="img-rounded" src="http://placehold.it/300x200" alt=""></div>'+
-                '</div>'+
-              '</div>'+
-            '</div>';
+              // '<div class="row-fluid">'+
+              //   '<div class="session-stats span1 offset1">'+
+              //     '<h3>Stats</h3>'+
+              //     '<h4>AVG RADICAL: '+radical+'</h4>'+
+              //     '<h4>TOTAL WAVES: '+waves+'</h4>'+
+              //     '<h4>TOTAL SET WAVES: '+waves/5+'</h4>'+
+              //     '<h4>TOTAL TRICKS: '+tricks+'</h4>'+
+              //   '</div>'+
+              //   '<div class="session-charts span10 row-fluid">'+
+              //     '<h3 class="span10 session-title">Charts</h3>'+
+              //     '<div class="span10 row-fluid>'+
+              //       '<div class="span5 stat-img"><img src="img/surfstats1.png" alt=""></div>'+
+              //       '<div class="span5 stat-img"><img src="img/surfstats2.png" alt=""></div>'+
+              //     '</div>'+
+              //     '<div class="span10 row-fluid>'+
+              //       '<div class="span5 stat-img"><img src="img/surfstats1.png" alt=""></div>'+
+              //       '<div class="span5 stat-img"><img src="img/surfstats2.png" alt=""></div>'+
+              //     '</div>'+
+              //   '</div>'+
+              // '</div>'+
+            
 
 
         tabText = '<h4>'+dates[i]+'</h4><h5>Cape Cod</h5>';
@@ -68,7 +99,7 @@ function initializeSlider(tabContainer, sessionContainer) {
           $('#tab'+nextID).show();
         }
         activeTabs = nextIDs;
-
+        $('#tab'+activeTabs[0]).click();
       }
 
     })
@@ -85,6 +116,7 @@ function initializeSlider(tabContainer, sessionContainer) {
           $('#tab'+nextID).show();
         }
         activeTabs = nextIDs;
+        $('#tab'+activeTabs[0]).click();
       }
     })
 
