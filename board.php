@@ -61,9 +61,9 @@ include('./includes/sidebar.inc.php');
     $('#myModal').modal('show')});
   });
 
- $(".sidebar-img").hover(function(e) {
-    e.innerHTML = 'test';
-  });
+ $(".sidebar-img").hover(function() {
+  // it comes here whenever the sidenav bar is hovered upon
+});
 
 </script>
 
