@@ -189,7 +189,7 @@ small {
 
 .bignum {
     font-size: 50px;
-    color: #000052;
+    color: #000029;
 }
 
 .red-circle {
@@ -202,4 +202,8 @@ small {
   font-size: 80px;
   color: white;
   line-height: 140px;
+}
+
+.profile-container {
+    margin: 30px;
 }
