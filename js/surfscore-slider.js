@@ -88,6 +88,7 @@ function initializeSlider(tabContainer, sessionContainer) {
     })
 
     $('#tab0').css({'margin-left': '2.564102564102564%'});
+    $('#tab0').click();
 
 }
 
