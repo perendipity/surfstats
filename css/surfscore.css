@@ -144,7 +144,7 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
     opacity:0.6;
     min-height: 20px;
     padding: 35px;
-    margin-top: 100px;
+    margin-top: -90px;
     margin-bottom: 20px;
     background-color: #ffffff;
     border: 1px solid #e3e3e3;
