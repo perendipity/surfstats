@@ -62,10 +62,14 @@
     <div class="featurette" style="margin-top:50px;">
       <img class="featurette-image pull-right" style="width:50%" src="img/logo-large.png">
       <h2 class="featurette-heading">Rule the beach. <span class="muted">Compete with friends for glory.</span></h2>
-      <p class="lead">Naturally everyone should hear all about your exploits as your skills grow. How do you compare to the pros?</p>
+      <p class="lead">Naturally everyone should hear all about your exploits as your
+        skills grow. How do you compare to the pros?</p>
+      <a class="btn btn-large"
+         style="color:rgb(250,250,250);background-color:#ED1C24;background-image:none;margin-top:40px;min-width:250px;" 
+         href="board.php">
+        Try it out NOW! 
+      </a>
     </div>
-
    </div> <!-- well-clear -->
-
-<?php include('./includes/footer.inc.php'); ?>
+   <?php include('./includes/footer.inc.php'); ?>
 </html>
