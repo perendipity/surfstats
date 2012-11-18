@@ -8,8 +8,6 @@ include('./includes/sidebar.inc.php');
 
   <body>
     <div class="container">
-      <div class="hero-unit row-fluid board-transparent">
-
     <div class="container board-transparent">
       <div class="profile-container row-fluid ">
         <div class="span12 row-fluid">
