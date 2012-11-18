@@ -129,8 +129,8 @@
           height: 500px;
       }
       .carousel img {
-          height: 350px;
           min-width: 100%;
+          height: 500px;
       }
       
       .carousel-caption {
@@ -220,7 +220,7 @@
           }
           .carousel img {
               width: auto;
-              height: 300px;
+              height: 500px;
           }
           
           .featurette {
@@ -285,6 +285,7 @@
       
     </style>
 	<link href='http://fonts.googleapis.com/css?family=Exo:500,100,400' rel='stylesheet' type='text/css'>    
+    <link href="css/nav.css" rel="stylesheet">
     <link href="css/surfscore.css" rel="stylesheet">
     
     <link href="css/bootstrap-responsive.css" rel="stylesheet">

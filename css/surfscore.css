@@ -130,10 +130,10 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
 }
 
 .session-slider {
-  /*margin-left:15% !important;*/
+  width: 90% !important;
   border-top:thick double white;
   border-bottom:thick double white;
-  margin: auto !important;
+  /*margin: auto !important;*/
 }
 
 .session-title {
@@ -228,7 +228,6 @@ small {
   line-height: 140px;
 }
 
-
 .profile-container {
     margin: 30px;
 }
@@ -292,6 +291,7 @@ small {
   background-color: #ffffff;
   background-color: #1b1b1b;
   background-image: -moz-linear-gradient(top, #ffffff, #ffffff);
+
 #sidebar{
     padding: 15px;
 }
@@ -341,3 +341,16 @@ small {
     background-color: #000000 !important;
     text-align: left;
 }
+
+.stat-img {
+    height:330px !important;
+    width:330px !important;
+}
+
+
+
+.nav > li > a:hover {
+text-decoration: none;
+background-color: transparent !important;
+}
+
