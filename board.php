@@ -13,7 +13,7 @@ include('./includes/sidebar.inc.php');
 
 
     <div class="container">
-      <div class="hero-unit row-fluid" id="test">
+      <div class="hero-unit row-fluid board-transparent">
         <div class="span6">
           <h1>Marco's Surfstats</h1>
           <p>Surfer/Hacker from Cambridge. Member for 1 day.</p>
@@ -34,7 +34,7 @@ include('./includes/sidebar.inc.php');
         </ul>
         </div>
       </div>
-      <div class="lifetime-container well">
+      <div class="lifetime-container well board-transparent">
         <h1>Lifetime</h1>
         <h2>Totals</h2>
         <div class="lifetime-total row-fluid">
@@ -52,7 +52,7 @@ include('./includes/sidebar.inc.php');
         </div>
       </div>
 
-      <div class="drilldown-container well">
+      <div class="drilldown-container well board-transparent">
         <h1 class="span12">Drilldown - Recent Sessions</h1>
           <div class="row-fluid session-slider span12" id="session-slider">
             <div class="row-fluid" style="margin-left:8%;">
