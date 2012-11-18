@@ -23,54 +23,25 @@ function initializeSlider(tabContainer, sessionContainer) {
                         '<h3>TOTAL TRICKS</h3> <h2 class="bignum">'+tricks+'</h2>'+
                       '</div>'+
                       '<div class="span10 row-fluid">'+
-                        '<div class="span10 row-fluid">'+
-                          '<div class="span2"><div class="red-circle">9.8</div></div>'+
-                          '<div class="span8"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
+                        '<div class="span10 row-fluid" style="margin-left: 100px;">'+
+                          '<div class="span3"><div class="red-circle">9.8</div></div>'+
+                          '<div class="span7"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
                         '</div>'+
-                        '<div class="span10 row-fluid">'+
-                          '<div class="span2"><div class="red-circle">9.8</div></div>'+
-                          '<div class="span8"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
+                        '<div class="span10 row-fluid" style="margin-left: 100px;">'+
+                          '<div class="span3"><div class="red-circle">9.8</div></div>'+
+                          '<div class="span7"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
                         '</div>'+
-                        '<div class="span10 row-fluid">'+
-                          '<div class="span2"><div class="red-circle">9.8</div></div>'+
-                          '<div class="span8"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
+                        '<div class="span10 row-fluid" style="margin-left: 100px;">'+
+                          '<div class="span3"><div class="red-circle">9.8</div></div>'+
+                          '<div class="span7"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
                         '</div>'+
-                        '<div class="span10 row-fluid">'+
-                          '<div class="span2"><div class="red-circle">9.8</div></div>'+
-                          '<div class="span8"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
+                        '<div class="span10 row-fluid" style="margin-left: 100px;">'+
+                          '<div class="span3"><div class="red-circle">9.8</div></div>'+
+                          '<div class="span7"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
                         '</div>'+ 
                       '</div>'+
                     '</div>'+
                   '</div>';
-              
-
-
-
-
-
-              // '<h2 class="span12 session-title">Session #'+(i+1)+'</h2>'+
-              // '<div class="row-fluid">'+
-              //   '<div class="session-stats span1 offset1">'+
-              //     '<h3>Stats</h3>'+
-              //     '<h4>AVG RADICAL: '+radical+'</h4>'+
-              //     '<h4>TOTAL WAVES: '+waves+'</h4>'+
-              //     '<h4>TOTAL SET WAVES: '+waves/5+'</h4>'+
-              //     '<h4>TOTAL TRICKS: '+tricks+'</h4>'+
-              //   '</div>'+
-              //   '<div class="session-charts span10 row-fluid">'+
-              //     '<h3 class="span10 session-title">Charts</h3>'+
-              //     '<div class="span10 row-fluid>'+
-              //       '<div class="span5 stat-img"><img src="img/surfstats1.png" alt=""></div>'+
-              //       '<div class="span5 stat-img"><img src="img/surfstats2.png" alt=""></div>'+
-              //     '</div>'+
-              //     '<div class="span10 row-fluid>'+
-              //       '<div class="span5 stat-img"><img src="img/surfstats1.png" alt=""></div>'+
-              //       '<div class="span5 stat-img"><img src="img/surfstats2.png" alt=""></div>'+
-              //     '</div>'+
-              //   '</div>'+
-              // '</div>'+
-            
-
 
         tabText = '<h4>'+dates[i]+'</h4><h5>Cape Cod</h5>';
         tab = '<div class="span2 tab" id="'+tabID+'">'+tabText+'</div>';
