@@ -10,14 +10,14 @@ include('./includes/navbar.inc.php');
     <div class="well narrow-well">
       <h1 class="custom-h1" align="center">How do you stack up...</h1>
 
-      <div class="container" style="margin-top:20px;">
+
         <!-- Accordion contains different leaderboards -->
         <div class="accordion" id="leaderboard-charts">
           <div class="accordion-group">
             <div class="accordion-heading">
               <a class="accordion-toggle" data-toggle="collapse"
                  data-parent="#leaderboard-charts" href="#friends"
-                 style="text-align:center;padding:0px;color:#000000;">
+                 style="text-align:center;padding:1px;color:#000000;">
                <h2 class="custom-h2">against your friends?</h2>
               </a>
             </div>
@@ -84,7 +84,7 @@ include('./includes/navbar.inc.php');
             </div>
             <div id="national" class="accordion-body collapse">
               <div class="accordion-inner">
-                <table class="table tablesorter table-striped">
+                <table id="table2" class="table tablesorter table-striped">
                   <thead>
                     <tr>
                       <th class="tableheader">Name
@@ -107,7 +107,6 @@ include('./includes/navbar.inc.php');
                         <i class="icon-chevron-up pull-right"> </i>
                         <i class="icon-chevron-down pull-right"> </i>
                       </th>
-                   
                     </tr>
                   </thead>
                   <tbody>
@@ -140,14 +139,13 @@ include('./includes/navbar.inc.php');
             <div class="accordion-heading">
               <a class="accordion-toggle" data-toggle="collapse"
                  data-parent="#leaderboard-charts" href="#international"
-                 style="text-align:center;"
                  style="text-align:center;padding:1px;color:#000000;">
                 <h2 class="custom-h2">against the world?</h2>
               </a>
             </div>
             <div id="international" class="accordion-body collapse">
               <div class="accordion-inner">
-                <table class="table tablesorter table-striped">
+                <table id="table3" class="table tablesorter table-striped">
                   <thead>
                     <tr>
                      <th class="tableheader">Name
@@ -196,7 +194,7 @@ include('./includes/navbar.inc.php');
                   </tbody>
                 </table>
               </div>
-            </div>
+
           </div>
         </div>
       </div>
@@ -207,6 +205,8 @@ include('./includes/navbar.inc.php');
     $(document).ready(function() {
       // call the tablesorter plugin
       $("#table").tablesorter({sortList: [[1,1]],});
+      $("#table2").tablesorter({sortList: [[1,1]],});
+      $("#table3").tablesorter({sortList: [[1,1]],});
       $(".tableheader").click(function() { $(this).siblings().css({'border-bottom':'none', 'background-color':'inherit'});
                                     $(this).css({'border-bottom':'10px solid red', 'background-color':'white'}); }
                             )
