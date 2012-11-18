@@ -57,13 +57,11 @@ include('./includes/sidebar.inc.php');
 
   $(document).ready(function() {
     $(".span5").click(function(e) {
-    console.log(e);
     $('#myModal').modal('show')});
   });
 
  $(".sidebar-img").hover(function(e) {
     e.innerHTML = 'test';
-    console.log(e);
   });
 
 </script>
