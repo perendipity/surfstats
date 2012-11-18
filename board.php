@@ -2,6 +2,8 @@
 
 include('./includes/header.inc.php');
 include('./includes/navbar.inc.php');
+include('./includes/navbar.inc.php');
+
 include('./includes/sidebar.inc.php');
 ?>
 
@@ -57,19 +59,6 @@ include('./includes/sidebar.inc.php');
       </div>
     </div> <!-- /container -->
 
-<!-- Button to trigger modal -->
-<a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
-
-<!-- Modal -->
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel">Modal header</h3>
-  </div>
-  <div class="modal-body">
-    <p>One fine body…</p>
-  </div>
-</div>
 
 <!-- Start of the footer -->
 <?php include('./includes/footer.inc.php'); ?>
@@ -87,4 +76,3 @@ $(document).ready(function() {
   console.log(e);
 });
 
-</script>
