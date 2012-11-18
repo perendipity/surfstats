@@ -13,6 +13,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
+          <img class="logo pull-left" style="padding: 2px 4px 2px 2px;" href="home.php" src="./img/logonav_small.png" class="pull-left">
           <a class="brand" href="./home.php">Surfscore</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
