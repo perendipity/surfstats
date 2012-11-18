@@ -68,11 +68,7 @@ function initializeSlider(tabContainer, sessionContainer) {
           $('#tab'+nextID).show();
         }
         activeTabs = nextIDs;
-<<<<<<< HEAD
 
-
-=======
->>>>>>> 2252a7ecb6593713c88c1526762f4a5d6213ff25
       }
 
     })
