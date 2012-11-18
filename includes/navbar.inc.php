@@ -19,11 +19,11 @@
             <ul class="nav">
             <ul class="nav">
               <li <?php if ($currentPage == 'home.php') {
-                 echo 'class="active"'; } ?>><a href="home.php">Home</a></li>
+                 echo 'class="active"'; } ?>><a href="home.php">home</a></li>
               <li <?php if ($currentPage == 'board.php') {
-                 echo 'class="active"'; } ?>><a href="board.php">Dashboard</a></li>
+                 echo 'class="active"'; } ?>><a href="board.php">dashboard</a></li>
               <li <?php if ($currentPage == 'leaderboard.php') {
-                 echo 'class="active"'; } ?>><a href="leaderboard.php">Leaderboard</a></li>
+                 echo 'class="active"'; } ?>><a href="leaderboard.php">leaderboard</a></li>
           </div><!--/.nav-collapse -->
         </div><!-- /.navbar-inner -->
       </div><!-- /.navbar -->
