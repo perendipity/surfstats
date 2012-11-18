@@ -13,18 +13,7 @@ include('./includes/sidebar.inc.php');
         <div class="span12 row-fluid">
           <div class="span2"><div class="red-circle surfscore">9.8</div></div>
           <div class="span10"><h3 class="location">NEW ENGLAND</h3><h1 class="user-name">MARCO MORAWEC</h1></div>
-          <!-- <p>Surfer/Hacker from Cambridge. Member for 1 day.</p> -->
         </div>
-       <!--  <div class="profile-pic span3">
-          profile pic
-          <ul class="thumbnails">
-            <li class="span4">
-              <a href="#" class="thumbnail">
-                <img class="img-rounded" src="http://placehold.it/300x200" alt="">
-              </a>
-            </li>
-          </ul>
-        </div> -->
       </div>
       <div class="lifetime-container" id="lifetime-container">
         <h1 class="custom-h1">LIFETIME</h1>
@@ -41,15 +30,11 @@ include('./includes/sidebar.inc.php');
           <div class="span3"><h3 class="custom-h3">AVG SET WAVES</h3><h2 class="bignum custom-h2">6</h2></div>
         </div>
       </div>
-		<!-- Horizontal divider -->
-		<ul class="nav nav-list">
+		  <!-- Horizontal divider -->
+		  <ul class="nav nav-list">
     		<li class="divider"></li>
     	</ul> <!-- End of Horizontal divider -->
       
-
-
-      <div class="drilldown-container">
-        <h1 class="span12 custom-h1">Drilldown - Recent Sessions</h1>
       <div class="drilldown-container" id="drilldown-container">
         <h1 class="span12 custom-h1" style="text-align: center">RECENT SESSIONS</h1>
           <div class="row-fluid session-slider span12" id="session-slider">
