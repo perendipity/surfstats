@@ -62,14 +62,25 @@ include('./includes/sidebar.inc.php');
 <script src="js/surfscore-slider.js"></script>
 <script>
 
-$(document).ready(function() {
-  $(".span5").click(function(e) {
-  console.log(e);
-  $('#myModal').modal('show')});
-});
 
-$(document).ready(function() {
-  $(".sidebar-img").hover(function(e) {
-  console.log(e);
-});
+
+</script>
+
+
+<script type="text/javascript">
+
+  $(document).ready(function() {
+    $(".span5").click(function(e) {
+    console.log(e);
+    $('#myModal').modal('show')});
+  });
+
+ $(".sidebar-img").hover(function(e) {
+    e.innerHTML = 'test';
+    console.log(e);
+  });
+
+</script>
+
+
 
