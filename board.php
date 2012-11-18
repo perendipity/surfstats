@@ -13,17 +13,13 @@ include('./includes/sidebar.inc.php');
 
 
     <div class="container">
-      <div class="hero-unit row-fluid" id="test">
-        <div class="span6">
-          <h1>Marco's Surfstats</h1>
-          <p>Surfer/Hacker from Cambridge. Member for 1 day.</p>
-          <p>
-            <a class="btn btn-primary btn-large">
-              Surfscore: 9.8
-            </a>
-          </p>
+      <div class="hero-unit row-fluid board-transparent">
+        <div class="span12 row-fluid">
+          <div class="span2"><div class="red-circle">9.8</div></div>
+          <div class="span10"><h3>CAMBRIDGE, MA</h3><h1>MARCO MORAWEC</h1></div>
+          <!-- <p>Surfer/Hacker from Cambridge. Member for 1 day.</p> -->
         </div>
-        <div class="profile-pic span6">
+       <!--  <div class="profile-pic span3">
           profile pic
           <ul class="thumbnails">
             <li class="span4">
@@ -31,28 +27,26 @@ include('./includes/sidebar.inc.php');
                 <img class="img-rounded" src="http://placehold.it/300x200" alt="">
               </a>
             </li>
-        </ul>
-        </div>
+          </ul>
+        </div> -->
       </div>
-      <div class="lifetime-container well">
-        <h1>Lifetime</h1>
-        <h2>Totals</h2>
+      <div class="lifetime-container well board-transparent">
+        <h1>LIFETIME</h1>
         <div class="lifetime-total row-fluid">
-          <div class="span3"><h4>Waves</h4><h3>2073</h3></div>
-          <div class="span3"><h4>Tricks</h4><h3>7653</h3></div>
-          <div class="span3"><h4>Hours</h4><h3>142</h3></div>
-          <div class="span3"><h4>Set Waves</h4><h3>367</h3></div>
+          <div class="span3"><h3>TOTAL WAVES</h3><h2 class="bignum">2073</h2></div>
+          <div class="span3"><h3>TOTAL TRICKS</h3><h2 class="bignum">7653</h2></div>
+          <div class="span3"><h3>TOTAL HOURS</h3><h2 class="bignum">142</h2></div>
+          <div class="span3"><h3>TOTAL SET WAVES</h3><h2 class="bignum">367</h2></div>
         </div>
-        <h2>Averages</h2>
         <div class="lifetime-average row-fluid" id="test1">
-          <div class="span3"><h4>Waves</h4><h3>47</h3></div>
-          <div class="span3"><h4>Tricks</h4><h3>113</h3></div>
-          <div class="span3"><h4>Hours</h4><h3>2.3</h3></div>
-          <div class="span3"><h4>Set Waves</h4><h3>6</h3></div>
+          <div class="span3"><h3>AVG WAVES</h3><h2 class="bignum">47</h2></div>
+          <div class="span3"><h3>AVG TRICKS</h3><h2 class="bignum">113</h2></div>
+          <div class="span3"><h3>AVG HOURS</h3><h2 class="bignum">2.3</h2></div>
+          <div class="span3"><h3>AVG SET WAVES</h3><h2 class="bignum">6</h2></div>
         </div>
       </div>
 
-      <div class="drilldown-container well">
+      <div class="drilldown-container well board-transparent">
         <h1 class="span12">Drilldown - Recent Sessions</h1>
           <div class="row-fluid session-slider span12" id="session-slider">
             <div class="row-fluid" style="margin-left:8%;">
