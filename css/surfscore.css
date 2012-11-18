@@ -193,3 +193,15 @@ small {
     font-size: 50px;
     color: #000052;
 }
+
+.red-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px; 
+  background-color:red;
+  text-align: center;
+  padding: auto;
+  font-size: 80px;
+  color: white;
+  line-height: 140px;
+}

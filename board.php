@@ -14,16 +14,12 @@ include('./includes/sidebar.inc.php');
 
     <div class="container">
       <div class="hero-unit row-fluid board-transparent">
-        <div class="span6">
-          <h1>Marco's Surfstats</h1>
-          <p>Surfer/Hacker from Cambridge. Member for 1 day.</p>
-          <p>
-            <a class="btn btn-primary btn-large">
-              Surfscore: 9.8
-            </a>
-          </p>
+        <div class="span12 row-fluid">
+          <div class="span2"><div class="red-circle">9.8</div></div>
+          <div class="span10"><h3>CAMBRIDGE, MA</h3><h1>MARCO MORAWEC</h1></div>
+          <!-- <p>Surfer/Hacker from Cambridge. Member for 1 day.</p> -->
         </div>
-        <div class="profile-pic span6">
+       <!--  <div class="profile-pic span3">
           profile pic
           <ul class="thumbnails">
             <li class="span4">
@@ -31,8 +27,8 @@ include('./includes/sidebar.inc.php');
                 <img class="img-rounded" src="http://placehold.it/300x200" alt="">
               </a>
             </li>
-        </ul>
-        </div>
+          </ul>
+        </div> -->
       </div>
       <div class="lifetime-container well board-transparent">
         <h1>LIFETIME</h1>
