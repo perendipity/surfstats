@@ -103,7 +103,7 @@ table.tablesorter tbody tr.odd td {
 }
 
 table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
-    background-color: #ED1C24;
+
 }
 
 .tab {
@@ -351,7 +351,7 @@ small {
 }
 
 .accordion-header{
-    background-color: #000000 !important;
+    background-color: #FFFFFF !important;
     text-align: left;
 }
 
