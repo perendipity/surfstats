@@ -45,6 +45,7 @@ include('./includes/sidebar.inc.php');
 		  <ul class="nav nav-list" style="margin-top:50px">
     		<li class="divider"></li>
     	</ul> <!-- End of Horizontal divider -->
+
       <div class="drilldown-container" id="drilldown-container">
         <h1 class="span12 custom-h1" style="text-align: center">RECENT SESSIONS</h1>
           <div class="row-fluid session-slider span12" id="session-slider">
@@ -59,6 +60,22 @@ include('./includes/sidebar.inc.php');
       </div>
     </div> <!-- /container -->
 
+<a id="modalbutton" href="#myModal" role="button" class="btn" data-toggle="modal" style="visibility: hidden">Launch demo modal</a>
+
+<!-- Modal -->
+<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3 id="myModalLabel">Modal header</h3>
+  </div>
+  <div class="modal-body">
+    <p>One fine body…</p>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+    <button class="btn btn-primary">Save changes</button>
+  </div>
+</div>
 
 <!-- Start of the footer -->
 <?php include('./includes/footer.inc.php'); ?>
@@ -66,9 +83,10 @@ include('./includes/sidebar.inc.php');
 <script type="text/javascript">
 
   $(document).ready(function() {
-    $(".span5").click(function(e) {
-    console.log(e);
-    $('#myModal').modal('show')});
+    $(".graph").click(function(e) {
+      //console.log(e.innerHTML);
+      //$('#myModal').modal('show');
+    });
   });
 
  $(".sidebar-img").hover(function(e) {
