@@ -1,42 +1,56 @@
 /*!
  * Surfscore CSS
- * Designed and built with all the love Peter, Cody, Nishan, Alec and Marco.
+ * Designed and built with all the love by Peter, Cody, Nishan, Alec and Marco.
  */
  
  
- 
-h1 {
-  font-size: 38.5px;
+.surfscore{
+	font-family: Exo, Helvetica, san-serif;
+	font-weight: 500;
+  	font-size: 60px;
 }
 
-h2 {
-  font-size: 31.5px;
+.location {
+  font-family: Exo, Helvetica, san-serif;
+  font-weight: 100;
+  font-size: 24px;
 }
 
-h3 {
-  font-size: 24.5px;
+.user-name {
+  font-family: Exo, Helvetica, san-serif;
+  font-weight: 100;
+  font-size: 72px;
 }
 
-h4 {
-  font-size: 17.5px;
+h1 .custom {
+  font-family: Exo, Helvetica, san-serif;
+  font-weight: 500;
+  font-size: 48px;
 }
 
-h5 {
+h2 .custom{
+  font-family: Exo, Helvetica, san-serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+h3 .custom{
+  font-family: Exo, Helvetica, san-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+h4 .custom{
+  font-family: Exo, Helvetica, san-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h5 .custom{
+  font-family: Exo, Helvetica, san-serif;
+  font-weight: 500;
   font-size: 14px;
 }
 
-h6 {
-  font-size: 11.9px;
-}
 
-/*
-SURFSCORE : Helvetica Neue LT Std, 67 Medium Condensed, 72pt
-LOCATION : Helvetica Neue LT Std, 47 Light Condensed Oblique, 24pt
-NAME : Helvetica Neue LT Std, 27 Ultra Light, 72pt
-
-HEADER 5 : Helvetica Neue LT Std, 67 Medium Condensed, 48pt
-HEADER 4 : Helvetica Neue LT Std, 57 Condensed, 36pt
-HEADER 3 : Helvetica Neue LT Std, 57 Condensed, 24pt
-HEADER 2 : Helvetica Neue LT Std, 57 Condensed, 18pt
-HEADER 1 : Helvetica Neue LT Std, 67 Medium Condensed, 14pt
 */

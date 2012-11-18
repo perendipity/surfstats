@@ -15,11 +15,13 @@ include('./includes/sidebar.inc.php');
     <div class="container">
       <div class="hero-unit row-fluid" id="test">
         <div class="span6">
-          <h1>Marco's Surfstats</h1>
-          <p>Surfer/Hacker from Cambridge. Member for 1 day.</p>
+          <h1 class="user-name">Marco's Surfstats</h1>
+          <div class="location">
+          	<p>Surfer/Hacker from Cambridge. Member for 1 day.</p>
+          </div>	
           <p>
-            <a class="btn btn-primary btn-large">
-              Surfscore: 9.8
+            <a class="btn btn-primary btn-large surfscore">
+              9.8
             </a>
           </p>
         </div>
