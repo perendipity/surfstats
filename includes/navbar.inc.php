@@ -11,12 +11,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Surfscore</a>
+          <a class="brand" href="./home.php">Surfscore</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#dashboard">Dashboard</a></li>
-              <li><a href="#leaderboard">Leaderboard</a></li>
+              <li class="active"><a href="./home.php">Home</a></li>
+              <li><a href="./board.php">Dashboard</a></li>
+              <li><a href="./leaderboard.php">Leaderboard</a></li>
           </div><!--/.nav-collapse -->
         </div><!-- /.navbar-inner -->
       </div><!-- /.navbar -->
