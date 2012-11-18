@@ -1,12 +1,6 @@
 <?php
-<<<<<<< HEAD
 include('./includes/header.inc.php');
 include('./includes/navbar.inc.php');
-=======
-
-include('./includes/navbar1.inc.php');
-
->>>>>>> 41a61b518212534e907f4eae9b86bb572953716f
 include('./includes/sidebar.inc.php');
 ?>
 
