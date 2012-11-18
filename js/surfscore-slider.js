@@ -26,16 +26,16 @@ function initializeSlider(tabContainer, sessionContainer) {
                         '<h3 class="custom-h3" style="border-top: 10px solid grey;">TOTAL SET WAVES</h3> <h2 class="custom-h2 bignum">'+waves/5+'</h2>'+
                         '<h3 class="custom-h3" style="border-top: 10px solid grey;">TOTAL TRICKS</h3> <h2 class="custom-h2 bignum">'+tricks+'</h2>'+
                       '</div>'+
-                      '<div class="span10 row-fluid">'+
+                      '<div class="span10 row-fluid graph">'+
                         '<div class="span10 row-fluid">'+
                           '<div class="span3" style="margin-left: 50px;"><h2 class="custom-h2" style="text-align:center;">Radical!</h2><div class="red-circle">'+rad1+'</div></div>'+
                           '<div class="span7" style="margin-left: 50px;"><h2 class="custom-h2" style="text-align:center;">Ride Path</h2><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
                         '</div>'+
-                        '<div class="span10 row-fluid" style="margin-top: 50px;">'+
+                        '<div class="span10 row-fluid graph" style="margin-top: 50px;">'+
                           '<div class="span3" style="margin-left: 30px;"><div class="red-circle">'+rad2+'</div></div>'+
                           '<div class="span7" style="margin-left: 50px;"><img class="stat-img" src="img/surfstats2.png" alt=""></div>'+
                         '</div>'+
-                        '<div class="span10 row-fluid" style="margin-top: 50px;">'+
+                        '<div class="span10 row-fluid graph" style="margin-top: 50px;">'+
                           '<div class="span3" style="margin-left: 30px;"><div class="red-circle">'+rad3+'</div></div>'+
                           '<div class="span7" style="margin-left: 50px;"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
                         '</div>'+

@@ -2,7 +2,7 @@
 .navbar .brand {
   display: block;
   float: left;
-  padding: 14px 20px 15px ;
+  padding: 16px 20px 15px ;
   margin-left: -20px;
   color: #777777;
   text-shadow: 0 1px 0 #ffffff;
@@ -22,6 +22,8 @@
   display: block;
   float: left;
   margin: 0 10px 0 0;
+  font-size: 22px;
+  padding-top: 3px;
 }
 
 .navbar .nav.pull-right {
