@@ -172,3 +172,13 @@ body{
     margin-bottom: 100px;
     margin-right: 300px;
 }
+
+.narrow-well{
+    margin-top: 20px;
+    min-height: 80px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background:rgba(255,255,255, 0.8);
+    border: 1px solid #e3e3e3;
+
+}
