@@ -79,14 +79,14 @@ h6 {
 
 /* TABLES */
 table.tablesorter {
-    background-color: #CDCDCD;
+    background-color: #FFFFFF;
     margin:10px 0pt 15px;
     width: 100%;
     text-align: left;
 }
 table.tablesorter thead tr th, table.tablesorter tfoot tr th {
   /*  background-color: #e6EEEE;*/
-    border: 1px solid #FFF;
+    border: 1px solid ;
     font-size: 14pt;
     padding: 4px;
 }
@@ -101,12 +101,10 @@ table.tablesorter tbody td {
     vertical-align: top;
 }
 table.tablesorter tbody tr.odd td {
-
-
 }
 
 table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
-    background-color: #8dbdd8;
+    background-color: #ED1C24;
 }
 
 .tab {
@@ -218,7 +216,7 @@ small {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  background-color:red;
+  background-color:#ED1C24;
   text-align: center;
   padding: auto;
   font-size: 80px;
@@ -235,7 +233,7 @@ small {
 
 .navbar .brand:hover {
   text-decoration: none;
-  color: red;
+  color: #ED1C24;
 }
 
 
@@ -270,7 +268,7 @@ small {
 
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-  color: red;
+  color: #ED1C24;
   text-decoration: none;
   background-color: transparent;
 }
@@ -281,7 +279,7 @@ small {
   color: #555555;
   text-decoration: none;
   background-color: white;
-  border-bottom: 10px solid red;
+  border-bottom: 10px solid #ED1C24;
 }
 
 
@@ -307,12 +305,12 @@ small {
 
 .navbar-inverse .brand:hover,
 .navbar-inverse .nav > li > a:hover {
-  color: red;
+  color: #ED1C24;
 }
 
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
-  color: red;
+  color: #ED1C24;
   background-color: transparent;
 }
 
