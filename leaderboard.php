@@ -15,8 +15,9 @@ include('./includes/sidebar.inc.php');
         <div class="accordion" id="leaderboard-charts">
           <div class="accordion-group">
             <div class="accordion-heading">
-              <a class="accordion-toggle" data-toggle="collapse"
-                 data-parent="#leaderboard-charts" href="#friends" style="text-align:center;">
+              <a class="accordion-toggle accordion-header" data-toggle="collapse"
+                 data-parent="#leaderboard-charts" href="#friends"
+                 style="text-align:center;">
                 Friends
               </a>
             </div>

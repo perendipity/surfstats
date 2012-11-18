@@ -51,8 +51,6 @@ h5 .custom{
     font-size: 14px;
 }
 
-
-
 h1 {
     font-size: 38.5px;
 }
@@ -87,7 +85,7 @@ table.tablesorter {
 table.tablesorter thead tr th, table.tablesorter tfoot tr th {
   /*  background-color: #e6EEEE;*/
     border: 1px solid ;
-    font-size: 14pt;
+    /*font-size: 14pt;*/
     padding: 4px;
 }
 table.tablesorter thead tr .header {
@@ -179,10 +177,16 @@ body{
 .nav-list > li > a {
 padding: 0px 15px;
 }
+.pull-less-right-pic{
+    float: right;
+    margin-bottom: 100px;
+    margin-right: 320px;
+}
+
 .pull-right-pic{
     float: right;
     margin-bottom: 100px;
-    margin-right: 210px;
+    margin-right: 190px;
 }
 
 .narrow-well{
@@ -321,16 +325,21 @@ small {
 }
 
 .navbar-inverse .navbar-link {
-  color: #999999;
+    color: #999999;
 }
 
 .navbar-inverse .navbar-link:hover {
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .navbar-inverse .divider-vertical {
   border-right-color: #222222;
   border-left-color: #111111;
+}
+
+.accordion-header{
+    background-color: #000000 !important;
+    text-align: left;
 }
 
 .stat-img {
