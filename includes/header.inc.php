@@ -70,8 +70,8 @@
       .navbar-wrapper {
           position: relative;
           z-index: 10;
-          margin-top: 20px;
-          margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+          margin-top: -50px;
+          margin-bottom: 0px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
       }
       
       /* Remove border and change up box shadow for more contrast */
