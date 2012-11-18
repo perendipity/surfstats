@@ -31,21 +31,25 @@ include('./includes/sidebar.inc.php');
         <div class="lifetime-total row-fluid">
           <div class="span3"><h3 class="custom-h3">TOTAL WAVES</h3><h2 class="bignum custom-h2">2073</h2></div>
           <div class="span3"><h3 class="custom-h3">TOTAL TRICKS</h3><h2 class="bignum custom-h2">7653</h2></div>
-          <div class="span3"><h3 class="custom-h3">TOTAL WATERTOWN</h3><h2 class="bignum custom-h2">142 HRS</h2></div>
+          <div class="span3"><h3 class="custom-h3">TOTAL WATERTIME</h3><h2 class="bignum custom-h2">142 HRS</h2></div>
           <div class="span3"><h3 class="custom-h3">TOTAL SET WAVES</h3><h2 class="bignum custom-h2">367</h2></div>
         </div>
         <div class="lifetime-average row-fluid" id="test1">
           <div class="span3"><h3 class="custom-h3">AVG WAVES</h3><h2 class="bignum custom-h2">47</h2></div>
           <div class="span3"><h3 class="custom-h3">AVG TRICKS</h3><h2 class="bignum custom-h2">113</h2></div>
-          <div class="span3"><h3 class="custom-h3">AVG WATERTOWN</h3><h2 class="bignum custom-h2">2.3 HRS</h2></div>
+          <div class="span3"><h3 class="custom-h3">AVG WATERTIME</h3><h2 class="bignum custom-h2">2.3 HRS</h2></div>
           <div class="span3"><h3 class="custom-h3">AVG SET WAVES</h3><h2 class="bignum custom-h2">6</h2></div>
         </div>
       </div>
-		  <!-- Horizontal divider -->
-		  <ul class="nav nav-list" style="margin-top:50px">
+		<!-- Horizontal divider -->
+		<ul class="nav nav-list">
     		<li class="divider"></li>
     	</ul> <!-- End of Horizontal divider -->
+      
 
+
+      <div class="drilldown-container">
+        <h1 class="span12 custom-h1">Drilldown - Recent Sessions</h1>
       <div class="drilldown-container" id="drilldown-container">
         <h1 class="span12 custom-h1" style="text-align: center">RECENT SESSIONS</h1>
           <div class="row-fluid session-slider span12" id="session-slider">
@@ -60,22 +64,6 @@ include('./includes/sidebar.inc.php');
       </div>
     </div> <!-- /container -->
 
-<a id="modalbutton" href="#myModal" role="button" class="btn" data-toggle="modal" style="visibility: hidden">Launch demo modal</a>
-
-<!-- Modal -->
-<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-header">
-    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
-    <h3 id="myModalLabel">Modal header</h3>
-  </div>
-  <div class="modal-body">
-    <p>One fine body…</p>
-  </div>
-  <div class="modal-footer">
-    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
-    <button class="btn btn-primary">Save changes</button>
-  </div>
-</div>
 
 <!-- Start of the footer -->
 <?php include('./includes/footer.inc.php'); ?>
@@ -83,10 +71,9 @@ include('./includes/sidebar.inc.php');
 <script type="text/javascript">
 
   $(document).ready(function() {
-    $(".graph").click(function(e) {
-      //console.log(e.innerHTML);
-      //$('#myModal').modal('show');
-    });
+    $(".span5").click(function(e) {
+    console.log(e);
+    $('#myModal').modal('show')});
   });
 
  $(".sidebar-img").hover(function(e) {
