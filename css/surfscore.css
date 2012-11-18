@@ -77,26 +77,28 @@ h6 {
 
 /* TABLES */
 table.tablesorter {
-    background-color: #FFFFFF;
+    background-color: white;
     margin:10px 0pt 15px;
     width: 100%;
-    text-align: left;
+
+    border: 2px solid;
 }
 table.tablesorter thead tr th, table.tablesorter tfoot tr th {
-  /*  background-color: #e6EEEE;*/
-    border: 1px solid ;
-    /*font-size: 14pt;*/
+    border: 2px solid;
     padding: 4px;
 }
 table.tablesorter thead tr .header {
     background-repeat: no-repeat;
     background-position: center right;
     cursor: pointer;
+    text-align: center;
+
 }
 table.tablesorter tbody td {
     padding: 4px;
-    background-color: #FFF;
+    background-color: #white;
     vertical-align: top;
+    text-align: center;
 }
 table.tablesorter tbody tr.odd td {
 }
@@ -108,6 +110,7 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
 .tab {
     text-align: center;
     margin: 0px;
+    cursor: pointer; cursor: hand;
 }
 
 .active {
@@ -126,18 +129,26 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
   padding-top: 5px;
   color: white !important;
   width: 35px !important;
+  cursor: pointer; cursor: hand;
   /*margin-left: 10px !important;*/
 }
 
 .session-slider {
-  width: 90% !important;
-  border-top:thick double white;
-  border-bottom:thick double white;
+    margin-top:50px;
+    margin-bottom:50px;
+    width: 90% !important;
+    border-top:thick double white;
+    border-bottom:thick double white;
   /*margin: auto !important;*/
 }
 
 .session-title {
   text-align: center;
+}
+
+.sessions {
+    margin-top:50px;
+    margin-bottom:50px;
 }
 
 body{
@@ -150,7 +161,7 @@ body{
     text-align:center;
     min-height: 20px;
     padding: 35px;
-    margin-top: -90px;
+    margin-top: -180px;
     margin-bottom: 20px;
     background:rgba(255,255,255, 0.8);
     border: 1px solid #e3e3e3;
@@ -218,6 +229,7 @@ small {
 }
 
 .red-circle {
+  font-family: Exo, Helvetica, san-serif;
   border-radius: 50%;
   width: 150px;
   height: 150px;
@@ -340,7 +352,6 @@ small {
 }
 
 .accordion-header{
-    background-color: #000000 !important;
     text-align: left;
 }
 
