@@ -85,7 +85,7 @@ table.tablesorter {
 }
 table.tablesorter thead tr th, table.tablesorter tfoot tr th {
     
-    border: px solid;
+    border: 0px solid;
     padding: 4px;
 }
 table.tablesorter thead tr .header {
