@@ -4214,7 +4214,7 @@ input[type="submit"].btn.btn-mini {
   height: auto;
   overflow: visible;
 }
-
+/*
 .navbar .brand {
   display: block;
   float: left;
@@ -4225,7 +4225,7 @@ input[type="submit"].btn.btn-mini {
   color: #777777;
   text-shadow: 0 1px 0 #ffffff;
 }
-/*
+
 .navbar .brand:hover {
   text-decoration: none;
 } */

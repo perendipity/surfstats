@@ -27,7 +27,7 @@ h1 .custom {
     font-size: 48px;
 }
 
-h2 .custom{
+h2. custom{
     font-family: Exo, Helvetica, san-serif;
     font-weight: 400;
     font-size: 36px;
@@ -101,8 +101,8 @@ table.tablesorter tbody td {
     vertical-align: top;
 }
 table.tablesorter tbody tr.odd td {
-
-
+  
+  
 }
 
 table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
@@ -166,26 +166,15 @@ body{
     box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
 }
 
-.sidebar-img{
+#sidebar{
     padding: 15px;
-    margin: 0px;
-    background-color: black;
-}
-
-.sidebar-img:hover{
-    padding: 15px;
-    margin: 0px;
-    background-color: #ed1c24;
-}
-
-.nav-list > li > a {
-padding: 0px 15px;
 }
 .pull-right-pic{
     float: right;
     margin-bottom: 100px;
-    margin-right: 210px;
+    margin-right: 300px;
 }
+
 
 .narrow-well{
     margin-top: 20px;
@@ -217,7 +206,7 @@ small {
 .red-circle {
   border-radius: 50%;
   width: 150px;
-  height: 150px;
+  height: 150px; 
   background-color:red;
   text-align: center;
   padding: auto;
@@ -226,13 +215,22 @@ small {
   line-height: 140px;
 }
 
-
 .profile-container {
     margin: 30px;
 }
 
 /* NAVBAR */
-
+.navbar .brand {
+  display: block;
+  float: left;
+  padding: 14px 20px 10px;
+  margin-left: -20px;
+  color: #777777;
+  text-shadow: 0 1px 0 #ffffff;
+    font-family: Exo, Helvetica, san-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
 .navbar .brand:hover {
   text-decoration: none;
   color: red;
