@@ -24,13 +24,21 @@ function initializeSlider(tabContainer, sessionContainer) {
                       '</div>'+
                       '<div class="span10 row-fluid">'+
                         '<div class="span10 row-fluid">'+
-                          '<div class="span5"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
-                          '<div class="span5"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
+                          '<div class="span2"><div class="red-circle">9.8</div></div>'+
+                          '<div class="span8"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
                         '</div>'+
                         '<div class="span10 row-fluid">'+
-                          '<div class="span5"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
-                          '<div class="span5"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
+                          '<div class="span2"><div class="red-circle">9.8</div></div>'+
+                          '<div class="span8"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
                         '</div>'+
+                        '<div class="span10 row-fluid">'+
+                          '<div class="span2"><div class="red-circle">9.8</div></div>'+
+                          '<div class="span8"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
+                        '</div>'+
+                        '<div class="span10 row-fluid">'+
+                          '<div class="span2"><div class="red-circle">9.8</div></div>'+
+                          '<div class="span8"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
+                        '</div>'+ 
                       '</div>'+
                     '</div>'+
                   '</div>';
