@@ -25,6 +25,8 @@
                  echo 'class="active"'; } ?>><a href="leaderboard.php">leaderboard</a></li>
               <li <?php if ($currentPage == 'registration.php') {
                 echo 'class="active"'; } ?>><a href="registration.php">register</a></li>
+              <li <?php if ($currentPage == 'dontbeakook.tumblr.com') {
+                echo 'class="active"'; } ?>><a href="http://www.dontbeakook.tumblr.com">blog</a></li>
             </ul>
             <div class="nav pull-right" style="margin-top:12px;">Marco Morawec <img border="0" style="height:20px;width:20px;"
                                        src="./img/avatardot.png"></div>
