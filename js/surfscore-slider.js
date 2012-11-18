@@ -13,6 +13,10 @@ function initializeSlider(tabContainer, sessionContainer) {
         radical = 1 + Math.floor(Math.random() * 100);
         waves = 1 + Math.floor(Math.random() * 100);
         tricks = 1 + Math.floor(Math.random() * 100);
+        rad1 = (1 + Math.floor(Math.random() * 100))/10;
+        rad2 = (1 + Math.floor(Math.random() * 100))/10;
+        rad3 = (1 + Math.floor(Math.random() * 100))/10;
+        rad4 = (1 + Math.floor(Math.random() * 100))/10;
         session = '<div class="session '+activeFlag+'" id="'+sessionID+'">'+
                     '<div class="row-fluid">'+
                       '<div class="span1 offset1">'+
@@ -24,21 +28,21 @@ function initializeSlider(tabContainer, sessionContainer) {
                       '</div>'+
                       '<div class="span10 row-fluid">'+
                         '<div class="span10 row-fluid" style="margin-left: 100px;">'+
-                          '<div class="span3"><div class="red-circle">9.8</div></div>'+
+                          '<div class="span3"><div class="red-circle">'+rad1+'</div></div>'+
                           '<div class="span7"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
                         '</div>'+
                         '<div class="span10 row-fluid" style="margin-left: 100px;">'+
-                          '<div class="span3"><div class="red-circle">9.8</div></div>'+
+                          '<div class="span3"><div class="red-circle">'+rad2+'</div></div>'+
                           '<div class="span7"><img class="stat-img" src="img/surfstats2.png" alt=""></div>'+
                         '</div>'+
                         '<div class="span10 row-fluid" style="margin-left: 100px;">'+
-                          '<div class="span3"><div class="red-circle">9.8</div></div>'+
+                          '<div class="span3"><div class="red-circle">'+rad3+'</div></div>'+
                           '<div class="span7"><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
                         '</div>'+
-                        '<div class="span10 row-fluid" style="margin-left: 100px;">'+
-                          '<div class="span3"><div class="red-circle">9.8</div></div>'+
+                        /*'<div class="span10 row-fluid" style="margin-left: 100px;">'+
+                          '<div class="span3"><div class="red-circle">'+rad4+'</div></div>'+
                           '<div class="span7"><img class="stat-img" src="img/surfstats2.png" alt=""></div>'+
-                        '</div>'+ 
+                        '</div>'+ */
                       '</div>'+
                     '</div>'+
                   '</div>';

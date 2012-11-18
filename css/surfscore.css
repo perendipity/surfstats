@@ -108,6 +108,7 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
 .tab {
     text-align: center;
     margin: 0px;
+    cursor: pointer; cursor: hand;
 }
 
 .active {
@@ -126,6 +127,7 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
   padding-top: 5px;
   color: white !important;
   width: 35px !important;
+  cursor: pointer; cursor: hand;
   /*margin-left: 10px !important;*/
 }
 
