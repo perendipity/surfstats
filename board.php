@@ -48,53 +48,23 @@ include('./includes/sidebar.inc.php');
       
 
       <div class="drilldown-container">
-        <h1 class="span12" style="text-align: center">RECENT SESSIONS</h1>
+        <h1 class="span12 custom-h1" style="text-align: center">RECENT SESSIONS</h1>
           <div class="row-fluid session-slider span12" id="session-slider">
             <div class="row-fluid" style="margin-left:8%;">
-              <h5 class="span2 arrow" id="slide-left" style="text-align: center;">&lt;</h5>
+              <h5 class="span2 arrow custom-h5" id="slide-left" style="text-align: center;">&lt;</h5>
               <div id="slider-tab-container"></div>
-              <h5 class="span2 arrow" id="slide-right" style="text-align: center">&gt;</h5>
+              <h5 class="span2 arrow custom-h5" id="slide-right" style="text-align: center">&gt;</h5>
             </div>
           </div>
           <div class="sessions" id="sessions"></div>
         </div>
       </div>
-
-<!--
-<div class="row-fluid">
-  <div class="span1 offset1">
-    <h3>Stats</h3>
-    <h4>AVG RADICAL: '+radical+'</h4>
-    <h4>TOTAL WAVES: '+waves+'</h4>
-    <h4>TOTAL SET WAVES: '+waves/5+'</h4>
-    <h4>TOTAL TRICKS: '+tricks+'</h4>
-  </div>
-  <div class="span10 row-fluid">
-    <div class="span10 row-fluid">
-      <div class="span5 stat-img"><img src="img/surfstats1.png" alt=""></div>
-      <div class="span5 stat-img"><img src="img/surfstats1.png" alt=""></div>
-    </div>
-    <div class="span10 row-fluid">
-      <div class="span5 stat-img"><img src="img/surfstats1.png" alt=""></div>
-      <div class="span5 stat-img"><img src="img/surfstats1.png" alt=""></div>
-    </div>
-  </div>
-</div>
-
- -->
     </div> <!-- /container -->
 
 
 <!-- Start of the footer -->
 <?php include('./includes/footer.inc.php'); ?>
 <script src="js/surfscore-slider.js"></script>
-<script>
-
-
-
-</script>
-
-
 <script type="text/javascript">
 
   $(document).ready(function() {
