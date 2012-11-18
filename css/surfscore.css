@@ -77,28 +77,26 @@ h6 {
 
 /* TABLES */
 table.tablesorter {
-    background-color: white;
+    background-color: #FFFFFF;
     margin:10px 0pt 15px;
     width: 100%;
-
-    border: 2px solid;
+    text-align: left;
 }
 table.tablesorter thead tr th, table.tablesorter tfoot tr th {
-    border: 2px solid;
+  /*  background-color: #e6EEEE;*/
+    border: 1px solid ;
+    /*font-size: 14pt;*/
     padding: 4px;
 }
 table.tablesorter thead tr .header {
     background-repeat: no-repeat;
     background-position: center right;
     cursor: pointer;
-    text-align: center;
-
 }
 table.tablesorter tbody td {
     padding: 4px;
-    background-color: #white;
+    background-color: #FFF;
     vertical-align: top;
-    text-align: center;
 }
 table.tablesorter tbody tr.odd td {
 }
@@ -161,7 +159,7 @@ body{
     text-align:center;
     min-height: 20px;
     padding: 35px;
-    margin-top: -180px;
+    margin-top: -90px;
     margin-bottom: 20px;
     background:rgba(255,255,255, 0.8);
     border: 1px solid #e3e3e3;
@@ -351,6 +349,7 @@ small {
 }
 
 .accordion-header{
+    background-color: #000000 !important;
     text-align: left;
 }
 
@@ -365,6 +364,3 @@ background-color: transparent !important;
 }
 
 
-#modalbutton {
-color:transparent;
-}

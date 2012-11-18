@@ -61,7 +61,7 @@ include('./includes/sidebar.inc.php');
       </div>
     </div> <!-- /container -->
 
-<a id="modalbutton" href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
+<a id="modalbutton" href="#myModal" role="button" class="btn" data-toggle="modal" style="visibility: hidden">Launch demo modal</a>
 
 <!-- Modal -->
 <div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -85,8 +85,8 @@ include('./includes/sidebar.inc.php');
 
   $(document).ready(function() {
     $(".graph").click(function(e) {
-      console.log(e);
-      $('#myModal').modal('show');
+      //console.log(e.innerHTML);
+      //$('#myModal').modal('show');
     });
   });
 
