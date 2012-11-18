@@ -13,6 +13,16 @@
           <img class="pull-right-pic" style="min-width:0%;" src="img/kooks.png">
         </div>
       </div>
+      <div class="item">
+        <div class="container">
+          <img class="pull-right-pic" style="min-width:0%;" src="img/banner2.png">
+        </div>
+      </div>
+      <div class="item">
+        <div class="container">
+          <img class="pull-right-pic" style="min-width:0%;" src="img/banner3.png">
+        </div>
+      </div>
     </div>
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
     <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
@@ -73,8 +83,6 @@
     </footer>
     
   </div><!-- /.container -->
-  
-  
   
   <!-- Le javascript
        ================================================== -->
