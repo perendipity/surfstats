@@ -25,8 +25,8 @@
           <div class="accordion-inner">
             <table id="table" class="table tablesorter table-striped">
               <thead>
-                <tr>
-                  <th id="th1" class="tableheader">Name
+                 <tr>
+                  <th id="th3" class="tableheader">Name
                     <i class="icon-chevron-up pull-right"> </i>
                     <i class="icon-chevron-down pull-right"> </i>
                   </th>
@@ -34,7 +34,7 @@
                     <i class="icon-chevron-up pull-right"> </i>
                     <i class="icon-chevron-down pull-right"> </i>
                   </th>
-                  <th class="tableheader">Radicality
+                  <th class="tableheader">Rad Score
                     <i class="icon-chevron-up pull-right"> </i>
                     <i class="icon-chevron-down pull-right"> </i>
                   </th>
@@ -42,7 +42,7 @@
                     <i class="icon-chevron-up pull-right"> </i>
                     <i class="icon-chevron-down pull-right"> </i>
                   </th>
-                  <th class="tableheader">Nachos
+                  <th class="tableheader">Wipeouts
                     <i class="icon-chevron-up pull-right"> </i>
                     <i class="icon-chevron-down pull-right"> </i>
                   </th>
@@ -142,7 +142,7 @@
             <table id="table2" class="table tablesorter table-striped">
               <thead>
                 <tr>
-                  <th id="th2" class="tableheader">Name
+                  <th id="th3" class="tableheader">Name
                     <i class="icon-chevron-up pull-right"> </i>
                     <i class="icon-chevron-down pull-right"> </i>
                   </th>
@@ -150,7 +150,7 @@
                     <i class="icon-chevron-up pull-right"> </i>
                     <i class="icon-chevron-down pull-right"> </i>
                   </th>
-                  <th class="tableheader">Radicality
+                  <th class="tableheader">Rad Score
                     <i class="icon-chevron-up pull-right"> </i>
                     <i class="icon-chevron-down pull-right"> </i>
                   </th>
@@ -158,7 +158,7 @@
                     <i class="icon-chevron-up pull-right"> </i>
                     <i class="icon-chevron-down pull-right"> </i>
                   </th>
-                  <th class="tableheader">Nachos
+                  <th class="tableheader">Wipeouts
                     <i class="icon-chevron-up pull-right"> </i>
                     <i class="icon-chevron-down pull-right"> </i>
                   </th>
