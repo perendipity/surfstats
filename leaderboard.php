@@ -50,6 +50,13 @@ include('./includes/navbar.inc.php');
                   </thead>
                   <tbody>
                     <tr>
+                      <td>Nick Shikuma</td>
+                      <td>Hawaii</td>
+                      <td>9.7</td>
+                      <td>8743</td>
+                      <td>756</td>
+                    <tr>
+                    <tr>
                       <td>Jenny Smith</td>
                       <td>Cambridge</td>
                       <td>8.7</td>
@@ -79,7 +86,7 @@ include('./includes/navbar.inc.php');
               <a class="accordion-toggle" data-toggle="collapse"
                  data-parent="#leaderboard-charts" href="#national"
                  style="text-align:center;padding:1px;color:#000000;">
-               <h2 class="custom-h2">against your country?</h2>
+               <h2 class="custom-h2">across the country?</h2>
               </a>
             </div>
             <div id="national" class="accordion-body collapse">
@@ -110,6 +117,13 @@ include('./includes/navbar.inc.php');
                     </tr>
                   </thead>
                   <tbody>
+                    <tr>
+                      <td>Nick Shikuma</td>
+                      <td>Hawaii</td>
+                      <td>9.7</td>
+                      <td>8743</td>
+                      <td>756</td>
+                    <tr>
                     <tr>
                       <td>Bethany Warburton</td>
                       <td>Hawaii</td>
@@ -160,7 +174,7 @@ include('./includes/navbar.inc.php');
               <a class="accordion-toggle" data-toggle="collapse"
                  data-parent="#leaderboard-charts" href="#international"
                  style="text-align:center;padding:1px;color:#000000;">
-                <h2 class="custom-h2">against the world?</h2>
+                <h2 class="custom-h2">around the world?</h2>
               </a>
             </div>
             <div id="international" class="accordion-body collapse">
@@ -191,6 +205,13 @@ include('./includes/navbar.inc.php');
                     </tr>
                   </thead>
                   <tbody>
+                    <tr>
+                      <td>Nick Shikuma</td>
+                      <td>Hawaii</td>
+                      <td>9.7</td>
+                      <td>8743</td>
+                      <td>756</td>
+                    <tr>
                     <tr>
                       <td>Juan Alvarez</td>
                       <td>Brazil</td>
@@ -264,12 +285,12 @@ include('./includes/navbar.inc.php');
   <script type="text/javascript" id="js">
     $(document).ready(function() {
       $('#table').bind('click', function() {
-      $('#th1').siblings().css({'border-bottom':'none', 'background-color':'inherit'});
-      $('#th1').css({'border-bottom':'10px solid red', 'background-color':'white'});
-      $('#th2').siblings().css({'border-bottom':'none', 'background-color':'inherit'});
-      $('#th2').css({'border-bottom':'10px solid red', 'background-color':'white'});
-      $('#th3').siblings().css({'border-bottom':'none', 'background-color':'inherit'});
-      $('#th3').css({'border-bottom':'10px solid red', 'background-color':'white'});
+        $('#th1').siblings().css({'border-bottom':'none', 'background-color':'inherit'});
+        $('#th1').css({'border-bottom':'10px solid red', 'background-color':'white'});
+        $('#th2').siblings().css({'border-bottom':'none', 'background-color':'inherit'});
+        $('#th2').css({'border-bottom':'10px solid red', 'background-color':'white'});
+        $('#th3').siblings().css({'border-bottom':'none', 'background-color':'inherit'});
+        $('#th3').css({'border-bottom':'10px solid red', 'background-color':'white'});
       });
       $('#table').trigger('click');
       // call the tablesorter plugin
