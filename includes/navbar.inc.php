@@ -13,10 +13,9 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <img class="logo pull-left" style="padding: 2px 4px 2px 2px;" href="home.php" src="./img/logonav_small.png" class="pull-left">
+          <img class="logo pull-left" style="padding: 2px 4px 2px 2px;" href="home.php" src="./img/logonav_small.png">
           <a class="brand" href="./home.php">surfscore</a>
-          <div class="nav-collapse collapse">
-            <ul class="nav">
+          <div class="nav-collapse">
             <ul class="nav">
               <li <?php if ($currentPage == 'home.php') {
                  echo 'class="active"'; } ?>><a href="home.php">home</a></li>
@@ -24,11 +23,16 @@
                  echo 'class="active"'; } ?>><a href="board.php">dashboard</a></li>
               <li <?php if ($currentPage == 'leaderboard.php') {
                  echo 'class="active"'; } ?>><a href="leaderboard.php">leaderboard</a></li>
-              <li><a><div id="user-info" style="margin-left: 387px">Marco Morawec <img border="0" style="height: 20px; width: 20px" src="./img/avatardot.png"></div></a></li>
+              <li <?php if ($currentPage == 'registration.php') {
+                echo 'class="active"'; } ?>><a href="registration.php">register</a></li>
+            </ul>
+            <div class="nav pull-right" style="margin-top:12px;">Marco Morawec <img border="0" style="height:20px;width:20px;"
+                                       src="./img/avatardot.png"></div>
+            
           </div><!--/.nav-collapse -->
         </div><!-- /.navbar-inner -->
       </div><!-- /.navbar -->
 
     </div><!-- /.container -->
-            <ul class="nav">
+            
 
