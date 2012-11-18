@@ -5,7 +5,7 @@
 include('./includes/navbar.inc.php');
 ?>
 <!-- Header to the Leaderboards page -->
- 
+
 
     <div class="well narrow-well">
       <h1 class="custom-h1" align="center">How do you stack up...</h1>
@@ -26,17 +26,17 @@ include('./includes/navbar.inc.php');
                 <table id="table" class="table tablesorter table-striped">
                   <thead>
                     <tr>
-                      <th class="tableheader">Name
+                      <th id="th1" class="tableheader">Name
                         <i class="icon-chevron-up pull-right"> </i>
                         <i class="icon-chevron-down pull-right"> </i>
                       </th>
                       <th class="tableheader">Location
                         <i class="icon-chevron-up pull-right"> </i>
-                        <i class="icon-chevron-down pull-right"> </i>                     
+                        <i class="icon-chevron-down pull-right"> </i>
                       </th>
                       <th class="tableheader">Radicality
                         <i class="icon-chevron-up pull-right"> </i>
-                        <i class="icon-chevron-down pull-right"> </i>                   
+                        <i class="icon-chevron-down pull-right"> </i>
                       </th>
                       <th class="tableheader">Waves Caught
                         <i class="icon-chevron-up pull-right"> </i>
@@ -87,17 +87,17 @@ include('./includes/navbar.inc.php');
                 <table id="table2" class="table tablesorter table-striped">
                   <thead>
                     <tr>
-                      <th class="tableheader">Name
+                      <th id="th2" class="tableheader">Name
                         <i class="icon-chevron-up pull-right"> </i>
                         <i class="icon-chevron-down pull-right"> </i>
                       </th>
                       <th class="tableheader">Location
                         <i class="icon-chevron-up pull-right"> </i>
-                        <i class="icon-chevron-down pull-right"> </i>                     
+                        <i class="icon-chevron-down pull-right"> </i>
                       </th>
                       <th class="tableheader">Radicality
                         <i class="icon-chevron-up pull-right"> </i>
-                        <i class="icon-chevron-down pull-right"> </i>                   
+                        <i class="icon-chevron-down pull-right"> </i>
                       </th>
                       <th class="tableheader">Waves Caught
                         <i class="icon-chevron-up pull-right"> </i>
@@ -168,17 +168,17 @@ include('./includes/navbar.inc.php');
                 <table id="table3" class="table tablesorter table-striped">
                   <thead>
                     <tr>
-                     <th class="tableheader">Name
+                     <th id="th3" class="tableheader">Name
                         <i class="icon-chevron-up pull-right"> </i>
                         <i class="icon-chevron-down pull-right"> </i>
                       </th>
                       <th class="tableheader">Location
                         <i class="icon-chevron-up pull-right"> </i>
-                        <i class="icon-chevron-down pull-right"> </i>                     
+                        <i class="icon-chevron-down pull-right"> </i>
                       </th>
                       <th class="tableheader">Radicality
                         <i class="icon-chevron-up pull-right"> </i>
-                        <i class="icon-chevron-down pull-right"> </i>                   
+                        <i class="icon-chevron-down pull-right"> </i>
                       </th>
                       <th class="tableheader">Waves Caught
                         <i class="icon-chevron-up pull-right"> </i>
@@ -263,13 +263,25 @@ include('./includes/navbar.inc.php');
   <?php include('./includes/footer.inc.php'); ?>
   <script type="text/javascript" id="js">
     $(document).ready(function() {
+      $('#table').bind('click', function() {
+      $('#th1').siblings().css({'border-bottom':'none', 'background-color':'inherit'});
+      $('#th1').css({'border-bottom':'10px solid red', 'background-color':'white'});
+      $('#th2').siblings().css({'border-bottom':'none', 'background-color':'inherit'});
+      $('#th2').css({'border-bottom':'10px solid red', 'background-color':'white'});
+      $('#th3').siblings().css({'border-bottom':'none', 'background-color':'inherit'});
+      $('#th3').css({'border-bottom':'10px solid red', 'background-color':'white'});
+      });
+      $('#table').trigger('click');
       // call the tablesorter plugin
       $("#table").tablesorter({sortList: [[1,1]],});
       $("#table2").tablesorter({sortList: [[1,1]],});
       $("#table3").tablesorter({sortList: [[1,1]],});
-      $(".tableheader").click(function() { $(this).siblings().css({'border-bottom':'none', 'background-color':'inherit'});
-                                    $(this).css({'border-bottom':'10px solid red', 'background-color':'white'}); }
+      $(".tableheader").click(function() {
+                      console.log(this);
+      $(this).siblings().css({'border-bottom':'none', 'background-color':'inherit'});
+      $(this).css({'border-bottom':'10px solid red', 'background-color':'white'}); }
                             )
+
     });
   </script>
 </html>
