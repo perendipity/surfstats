@@ -47,10 +47,9 @@ include('./includes/sidebar.inc.php');
     	</ul> <!-- End of Horizontal divider -->
       
 
-<<<<<<< HEAD
+
       <div class="drilldown-container">
         <h1 class="span12 custom-h1">Drilldown - Recent Sessions</h1>
-=======
       <div class="drilldown-container" id="drilldown-container">
         <h1 class="span12 custom-h1" style="text-align: center">RECENT SESSIONS</h1>
           <div class="row-fluid session-slider span12" id="session-slider">
