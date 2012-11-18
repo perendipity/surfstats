@@ -123,12 +123,13 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
 }
 
 .arrow {
-  font-size: 70px;
+  font-size: 24px;
   background: black;
-  height: 55px;
-  padding-top: 15px;
+  height: 35px;
+  margin-top: 30px;
+  padding-top: 5px;
   color: white !important;
-  width: 55px !important;
+  width: 35px !important;
   /*margin-left: 10px !important;*/
 }
 
@@ -136,6 +137,7 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
   /*margin-left:15% !important;*/
   border-top:thick double white;
   border-bottom:thick double white;
+  margin: auto !important;
 }
 
 .session-title {
@@ -154,7 +156,7 @@ body{
     padding: 35px;
     margin-top: -90px;
     margin-bottom: 20px;
-    background:rgba(255,255,255, 0.4);
+    background:rgba(255,255,255, 0.8);
     border: 1px solid #e3e3e3;
     -webkit-border-radius: 4px;
     -moz-border-radius: 4px;
@@ -183,4 +185,44 @@ padding: 0px 15px;
     float: right;
     margin-bottom: 100px;
     margin-right: 300px;
+}
+
+
+.narrow-well{
+    margin-top: 20px;
+    min-height: 80px;
+    margin-right: 100px;
+    margin-left: 100px;
+    background:rgba(255,255,255, 0.8);
+    border: 1px solid #e3e3e3;
+
+}
+
+.board-transparent {
+    background:rgba(255,255,255, 0.8);
+}
+
+small {
+    vertical-align:super;
+}
+
+.lifetime-container {
+    text-align: center;
+}
+
+.bignum {
+    font-size: 50px;
+    color: #000052;
+}
+
+.red-circle {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px; 
+  background-color:red;
+  text-align: center;
+  padding: auto;
+  font-size: 80px;
+  color: white;
+  line-height: 140px;
 }
