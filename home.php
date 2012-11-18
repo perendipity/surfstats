@@ -46,22 +46,23 @@
       </div> <!-- row -->
 
       <div class="featurette" style="margin-top:50px;">
-        <img class="featurette-image pull-right"
-             src="img/examples/browser-icon-chrome.png">
-        <h2 class="featurette-heading">First featurette headling. <span class="muted">It'll blow your mind.</span></h2>
-      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+        <img class="featurette-image pull-right" style="width:50%"
+             src="img/kahuna.png">
+        <h2 class="featurette-heading">Your progress, tracked. <span class="muted">Improve instantly.</span></h2>
+      <p class="lead">Like many action sports, surfing is not only hard to learn but <i>harder</i> to master. Why pay hundreds of dollars for mediocre 
+        feedback when you can focus on the waves and rest assured all your killer moves are being analyzed.</p>
     </div>
 
     <div class="featurette" style="margin-top:50px;">
-      <img class="featurette-image pull-left" src="img/examples/browser-icon-firefox.png">
-      <h2 class="featurette-heading">Oh yeah, it's that good. <span class="muted">See for yourself.</span></h2>
-      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <img class="featurette-image pull-left" style="width:50%" src="img/kapu.png">
+      <h2 class="featurette-heading">Your board is an extension of your body. <span class="muted">Get to know yourself better.</span></h2>
+      <p class="lead">By incorporating basic movement data with weather conditions, we can form a clear picture of your skills and experiences.</p>
     </div>
 
     <div class="featurette" style="margin-top:50px;">
-      <img class="featurette-image pull-right" src="img/examples/browser-icon-safari.png">
-      <h2 class="featurette-heading">And lastly, this one. <span class="muted">Checkmate.</span></h2>
-      <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+      <img class="featurette-image pull-right" style="width:50%" src="img/logo-large.png">
+      <h2 class="featurette-heading">Rule the beach. <span class="muted">Compete with friends for glory.</span></h2>
+      <p class="lead">Naturally everyone should hear all about your exploits as your skills grow. How do you compare to the pros?</p>
     </div>
 
    </div> <!-- well-clear -->

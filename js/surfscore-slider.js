@@ -29,7 +29,7 @@ function initializeSlider(tabContainer, sessionContainer) {
                       '<div class="span10 row-fluid graph">'+
                         '<div class="span10 row-fluid">'+
                           '<div class="span3" style="margin-left: 50px;"><h2 class="custom-h2" style="text-align:center;">Radical!</h2><div class="red-circle">'+rad1+'</div></div>'+
-                          '<div class="span7" style="margin-left: 50px;"><h2 class="custom-h2" style="text-align:center;">Ride Path</h2><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
+                          '<div class="span7" style="margin-left: 50px;"><h2 class="custom-h2" style="text-align:center;">Top Ride Paths</h2><img class="stat-img" src="img/surfstats1.png" alt=""></div>'+
                         '</div>'+
                         '<div class="span10 row-fluid graph" style="margin-top: 50px;">'+
                           '<div class="span3" style="margin-left: 30px;"><div class="red-circle">'+rad2+'</div></div>'+
