@@ -129,8 +129,8 @@
           height: 500px;
       }
       .carousel img {
+          height: 300px;
           min-width: 100%;
-          height: 500px;
       }
       
       .carousel-caption {
@@ -220,7 +220,7 @@
           }
           .carousel img {
               width: auto;
-              height: 500px;
+              height: 300px;
           }
           
           .featurette {
