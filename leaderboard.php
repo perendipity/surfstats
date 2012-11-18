@@ -8,13 +8,13 @@ include('./includes/sidebar.inc.php');
 <!-- Header to the Leaderboards page -->
     <h1 align="center">Leaderboards</h1>
 
-    
-    <div class="container">
+    <div class="container" style="margin-top:50px;">
       <!-- Accordion contains different leaderboards -->
       <div class="accordion" id="leaderboard-charts">
         <div class="accordion-group">
           <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#leaderboard-charts" href="#friends">
+            <a class="accordion-toggle" data-toggle="collapse"
+               data-parent="#leaderboard-charts" href="#friends" style="text-align:center;">
               Friends
             </a>
           </div>
@@ -88,7 +88,8 @@ include('./includes/sidebar.inc.php');
         </div>
         <div class="accordion-group">
           <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#leaderboard-charts" href="#national">
+            <a class="accordion-toggle" data-toggle="collapse"
+               data-parent="#leaderboard-charts" href="#national" style="text-align:center;">
               National
             </a>
           </div>
@@ -141,7 +142,8 @@ include('./includes/sidebar.inc.php');
         </div>
         <div class="accordion-group">
           <div class="accordion-heading">
-            <a class="accordion-toggle" data-toggle="collapse" data-parent="#leaderboard-charts" href="#international">
+            <a class="accordion-toggle" data-toggle="collapse"
+               data-parent="#leaderboard-charts" href="#international" style="text-align:center;">
               International
             </a>
           </div>

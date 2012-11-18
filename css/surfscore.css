@@ -79,15 +79,13 @@ h6 {
 
 /* TABLES */
 table.tablesorter {
-    font-family:arial;
     background-color: #CDCDCD;
     margin:10px 0pt 15px;
-    font-size: 8pt;
     width: 100%;
     text-align: left;
 }
 table.tablesorter thead tr th, table.tablesorter tfoot tr th {
-    background-color: #e6EEEE;
+  /*  background-color: #e6EEEE;*/
     border: 1px solid #FFF;
     font-size: 14pt;
     padding: 4px;
@@ -98,13 +96,13 @@ table.tablesorter thead tr .header {
     cursor: pointer;
 }
 table.tablesorter tbody td {
-    color: #3D3D3D;
     padding: 4px;
     background-color: #FFF;
     vertical-align: top;
 }
 table.tablesorter tbody tr.odd td {
-    background-color:#F0F0F6;
+  
+  
 }
 
 table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
@@ -183,6 +181,6 @@ padding: 0px 15px;
 }
 .pull-right-pic{
     float: right;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     margin-right: 300px;
 }
