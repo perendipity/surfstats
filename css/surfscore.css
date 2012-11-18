@@ -337,3 +337,11 @@ small {
     height:330px !important;
     width:330px !important;
 }
+
+
+
+.nav > li > a:hover {
+text-decoration: none;
+background-color: transparent !important;
+}
+
