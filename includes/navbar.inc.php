@@ -6,12 +6,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </a>
-          <a class="brand" href="#">Surfscore</a>
+          <a class="brand" href="#">surfscore</a>
           <div class="nav-collapse collapse">
             <ul class="nav">
-              <li class="active"><a href="#">Home</a></li>
-              <li><a href="#dashboard">Dashboard</a></li>
-              <li><a href="#leaderboard">Leaderboard</a></li>
+              <li class="active"><a href="#">home</a></li>
+              <li><a href="#dashboard">myboard</a></li>
+              <li><a href="#leaderboard">leaderboard</a></li>
+              <li><a href="#blog">blog</a></li>
               <!--<li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                 <ul class="dropdown-menu">
