@@ -11,27 +11,7 @@
       <div class="item active">
         <div class="container">
           <div class="carousel-caption">
-            <h1>Header</h1>
-            <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <a class="btn btn-large btn-primary" href="#">Sign up today</a>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <a class="btn btn-large btn-primary" href="#">Learn more</a>
-          </div>
-        </div>
-      </div>
-      <div class="item">
-        <div class="container">
-          <div class="carousel-caption">
-            <h1>One more for good measure.</h1>
-            <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-            <a class="btn btn-large btn-primary" href="#">Browse gallery</a>
+            <img class="pull-right-pic" src="img/kooks.png">
           </div>
         </div>
       </div>
@@ -47,30 +27,30 @@
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
   <div class="container marketing">
-   <div class="well-clear" style="opacity:0.6;"> 
+   <div class="well-clear"> 
       <!-- Three columns of text below the carousel -->
       <div class="row">
           <div class="span3">
-            <img class="img-circle" src="http://placehold.it/140x140">
+            <img class="img-circle" src="img/lifetime.png" width="200" height="200">
             <h2>Catch Waves.</h2>
             <p>Grab your board, head to the beach and hit the waves. Surfscore will take
               care of the rest.</p>
             <p><a class="btn" href="#">View details &raquo;</a></p>
           </div>
           <div class="span3 offset1">
-            <img class="img-circle" src="http://placehold.it/140x140">
-            <h2>Get Your Surfscore.</h2>
+            <img class="img-circle" src="img/drilldown.png" width="200" height="200">
+            <h2>Get Your Scores.</h2>
             <p>Drill down on your session to get stats and info. Chill out with friends and
               compare scores.</p>
             <p><a class="btn" href="#">View details &raquo;</a></p>
-          </div><!-- /.span4 -->
+          </div>
           <div class="span3 offset1">
-            <img class="img-circle" src="http://placehold.it/140x140">
+            <img class="img-circle" src="img/moments.png" width="200" height="200">
             <h2>Be More Radical.</h2>
             <p>More waves. More tricks. Let Surfscore help you become a better surfer.</p>
             <p><a class="btn" href="#">View details &raquo;</a></p>
-          </div><!-- /.span4 -->
-        </div><!-- /.row -->
+          </div>
+        </div>
       </div>
     
     <!-- START THE FEATURETTES -->

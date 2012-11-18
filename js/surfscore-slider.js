@@ -31,13 +31,13 @@ function initializeSlider(tabContainer, sessionContainer) {
                 '</div>'+
               '</div>'+
             '</div>';
-        
+
 
         tabText = '<h3>'+dates[i]+'</h3><h5>#'+(i+1)+'</h5>';
         tab = '<div class="span2 tab" id="'+tabID+'">'+tabText+'</div>';
         $('#'+sessionContainer).append(session);
         $('#'+tabContainer).append(tab);
-        
+
         $('#'+tabID).click(function(){
           $(this).siblings().css({'border-bottom':'none', 'background-color':'inherit'});
           $(this).css({'border-bottom':'10px solid red', 'background-color':'white'});
@@ -68,8 +68,9 @@ function initializeSlider(tabContainer, sessionContainer) {
           $('#tab'+nextID).show();
         }
         activeTabs = nextIDs;
+
       }
-      
+
     })
 
     $('#slide-right').click(function() {
@@ -88,12 +89,13 @@ function initializeSlider(tabContainer, sessionContainer) {
     })
 
     $('#tab0').css({'margin-left': '2.564102564102564%'});
+    $('#tab0').click();
 
 }
 
 function activateTabs(tabList) {
     // deactivate all tabs
-    
+
 }
 
 $(document).ready(function() {
