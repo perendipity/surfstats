@@ -147,6 +147,7 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
 body{
     background:url("../img/surf-home-background.jpeg") no-repeat;
     background-position:top;
+    background-attachment: fixed;
 }
 
 .well-clear{
@@ -168,6 +169,6 @@ body{
 #sidebar{
     padding: 15px;
 }
-.pull-right{
+.pull-right-pic{
     margin-right: -500px;
 }
