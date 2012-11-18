@@ -129,7 +129,7 @@
           height: 500px;
       }
       .carousel img {
-          height: 300px;
+          height: 350px;
           min-width: 100%;
       }
       
