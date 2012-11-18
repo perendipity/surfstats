@@ -224,7 +224,6 @@ small {
   line-height: 140px;
 }
 
-
 .profile-container {
     margin: 30px;
 }
@@ -340,7 +339,9 @@ small {
 }
 
 
+
 .nav > li > a:hover {
 text-decoration: none;
 background-color: transparent !important;
 }
+
