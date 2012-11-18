@@ -3,13 +3,12 @@
   <?php
     include('./includes/navbar.inc.php');
     include('./includes/sidebar.inc.php');
-    
-     ?>
+  ?>
+  <div class="home">
   <!-- Carousel ================================================== -->
   <div id="myCarousel" class="carousel slide">
     <div class="carousel-inner">
       <div class="item active">
-        <img src="img/examples/slide-01.jpg" alt="">
         <div class="container">
           <div class="carousel-caption">
             <h1>Header</h1>
@@ -19,7 +18,6 @@
         </div>
       </div>
       <div class="item">
-        <img src="img/examples/slide-02.jpg" alt="">
         <div class="container">
           <div class="carousel-caption">
             <h1>Another example headline.</h1>
@@ -29,7 +27,6 @@
         </div>
       </div>
       <div class="item">
-        <img src="img/examples/slide-03.jpg" alt="">
         <div class="container">
           <div class="carousel-caption">
             <h1>One more for good measure.</h1>
@@ -48,33 +45,33 @@
   <!-- Marketing messaging and featurettes
        ================================================== -->
   <!-- Wrap the rest of the page in another container to center all the content. -->
-  
+
   <div class="container marketing">
-    
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="span4">
-        <img class="img-circle" src="http://placehold.it/140x140">
-        <h2>Catch Waves.</h2>
-        <p>Grab your board, head to the beach and hit the waves. Surfscore will take
-          care of the rest.</p>
-        <p><a class="btn" href="#">View details &raquo;</a></p>
-      </div><!-- /.span4 -->
-      <div class="span4">
-        <img class="img-circle" src="http://placehold.it/140x140">
-        <h2>Get Your Surfscore.</h2>
-        <p>Drill down on your session to get stats and info. Chill out with friends and
-          compare scores.</p>
-        <p><a class="btn" href="#">View details &raquo;</a></p>
-      </div><!-- /.span4 -->
-      <div class="span4">
-        <img class="img-circle" src="http://placehold.it/140x140">
-        <h2>Be More Radical.</h2>
-        <p>More waves. More tricks. Let Surfscore help you become a better surfer.</p>
-        <p><a class="btn" href="#">View details &raquo;</a></p>
-      </div><!-- /.span4 -->
-    </div><!-- /.row -->
-    
+    <div class="well-clear">
+      <!-- Three columns of text below the carousel -->
+      <div class="row">
+        <div class="span3">
+          <img class="img-circle" src="http://placehold.it/140x140">
+          <h2>Catch Waves.</h2>
+          <p>Grab your board, head to the beach and hit the waves. Surfscore will take
+            care of the rest.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div><!-- /.span4 -->
+        <div class="span3 offset1">
+          <img class="img-circle" src="http://placehold.it/140x140">
+          <h2>Get Your Surfscore.</h2>
+          <p>Drill down on your session to get stats and info. Chill out with friends and
+            compare scores.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div><!-- /.span4 -->
+        <div class="span3 offset1">
+          <img class="img-circle" src="http://placehold.it/140x140">
+          <h2>Be More Radical.</h2>
+          <p>More waves. More tricks. Let Surfscore help you become a better surfer.</p>
+          <p><a class="btn" href="#">View details &raquo;</a></p>
+        </div><!-- /.span4 -->
+      </div><!-- /.row -->
+    </div>  
     
     <!-- START THE FEATURETTES -->
     
@@ -103,8 +100,8 @@
     </div>
     
     <hr class="featurette-divider">
-    
-    <!-- /END THE FEATURETTES -->
+  </div>    
+     <!-- /END THE FEATURETTES -->
     
     
     <!-- FOOTER -->
