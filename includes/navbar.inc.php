@@ -24,6 +24,7 @@
                  echo 'class="active"'; } ?>><a href="board.php">dashboard</a></li>
               <li <?php if ($currentPage == 'leaderboard.php') {
                  echo 'class="active"'; } ?>><a href="leaderboard.php">leaderboard</a></li>
+              <li><a><div id="user-info" style="margin-left: 387px">Marco Morawec <i class="icon-leaf"></i></div></a></li>
           </div><!--/.nav-collapse -->
         </div><!-- /.navbar-inner -->
       </div><!-- /.navbar -->
