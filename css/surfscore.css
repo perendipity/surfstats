@@ -216,7 +216,7 @@ small {
   border-radius: 50%;
   width: 150px;
   height: 150px;
-  background-color:red;
+  background-color:#ED1C24;
   text-align: center;
   padding: auto;
   font-size: 80px;
@@ -233,7 +233,7 @@ small {
 
 .navbar .brand:hover {
   text-decoration: none;
-  color: red;
+  color: #ED1C24;
 }
 
 
@@ -268,7 +268,7 @@ small {
 
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-  color: red;
+  color: #ED1C24;
   text-decoration: none;
   background-color: transparent;
 }
@@ -279,7 +279,7 @@ small {
   color: #555555;
   text-decoration: none;
   background-color: white;
-  border-bottom: 10px solid red;
+  border-bottom: 10px solid #ED1C24;
 }
 
 
@@ -304,12 +304,12 @@ small {
 
 .navbar-inverse .brand:hover,
 .navbar-inverse .nav > li > a:hover {
-  color: red;
+  color: #ED1C24;
 }
 
 .navbar-inverse .nav > li > a:focus,
 .navbar-inverse .nav > li > a:hover {
-  color: red;
+  color: #ED1C24;
   background-color: transparent;
 }
 
