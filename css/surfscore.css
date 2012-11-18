@@ -77,14 +77,12 @@ h6 {
 
 /* TABLES */
 table.tablesorter {
-    background-color: white;
+    background-color: #white;
     margin:10px 0pt 15px;
     width: 100%;
-    border-radius: 50%;
-    border: 0px solid;
+    text-align: left;
 }
 table.tablesorter thead tr th, table.tablesorter tfoot tr th {
-    
     border: 0px solid;
     padding: 4px;
 }
@@ -97,7 +95,7 @@ table.tablesorter thead tr .header {
 }
 table.tablesorter tbody td {
     padding: 4px;
-    background-color: #white;
+    background-color: #FFF;
     vertical-align: top;
     text-align: center;
 }
@@ -162,7 +160,7 @@ body{
     text-align:center;
     min-height: 20px;
     padding: 35px;
-    margin-top: -180px;
+    margin-top: -90px;
     margin-bottom: 20px;
     background:rgba(255,255,255, 0.8);
     border: 1px solid #e3e3e3;
@@ -221,7 +219,7 @@ small {
 
 .lifetime-container {
     text-align: center;
-	margin-top: -40px;	
+	margin-top: -40px;
 }
 
 .bignum {
@@ -353,13 +351,14 @@ small {
 }
 
 .accordion-header{
+    background-color: #000000 !important;
     text-align: left;
 }
 
 .stat-img {
     height:330px !important;
     width:330px !important;
-    
+
 }
 
 .nav > li > a:hover {
