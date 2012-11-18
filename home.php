@@ -11,7 +11,7 @@
       <div class="item active">
         <div class="container">
           <div class="carousel-caption">
-            <img class="pull-right" src="img/kooks.png">
+            <img class="pull-right-pic" src="img/kooks.png">
           </div>
         </div>
       </div>
