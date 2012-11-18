@@ -35,20 +35,18 @@ include('./includes/sidebar.inc.php');
         </div>
       </div>
       <div class="lifetime-container well board-transparent">
-        <h1>Lifetime</h1>
-        <h2>Totals</h2>
+        <h1>LIFETIME</h1>
         <div class="lifetime-total row-fluid">
-          <div class="span3"><h4>Waves</h4><h3>2073</h3></div>
-          <div class="span3"><h4>Tricks</h4><h3>7653</h3></div>
-          <div class="span3"><h4>Hours</h4><h3>142</h3></div>
-          <div class="span3"><h4>Set Waves</h4><h3>367</h3></div>
+          <div class="span3"><h3>TOTAL WAVES</h3><h2 class="bignum">2073</h2></div>
+          <div class="span3"><h3>TOTAL TRICKS</h3><h2 class="bignum">7653</h2></div>
+          <div class="span3"><h3>TOTAL HOURS</h3><h2 class="bignum">142</h2></div>
+          <div class="span3"><h3>TOTAL SET WAVES</h3><h2 class="bignum">367</h2></div>
         </div>
-        <h2>Averages</h2>
         <div class="lifetime-average row-fluid" id="test1">
-          <div class="span3"><h4>Waves</h4><h3>47</h3></div>
-          <div class="span3"><h4>Tricks</h4><h3>113</h3></div>
-          <div class="span3"><h4>Hours</h4><h3>2.3</h3></div>
-          <div class="span3"><h4>Set Waves</h4><h3>6</h3></div>
+          <div class="span3"><h3>AVG WAVES</h3><h2 class="bignum">47</h2></div>
+          <div class="span3"><h3>AVG TRICKS</h3><h2 class="bignum">113</h2></div>
+          <div class="span3"><h3>AVG HOURS</h3><h2 class="bignum">2.3</h2></div>
+          <div class="span3"><h3>AVG SET WAVES</h3><h2 class="bignum">6</h2></div>
         </div>
       </div>
 

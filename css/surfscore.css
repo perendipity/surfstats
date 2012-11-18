@@ -139,7 +139,7 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
   /*margin-left:15% !important;*/
   border-top:thick double white;
   border-bottom:thick double white;
-  margin: 0%;
+  margin: auto !important;
 }
 
 .session-title {
@@ -181,4 +181,13 @@ body{
 
 small {
     vertical-align:super;
+}
+
+.lifetime-container {
+    text-align: center;
+}
+
+.bignum {
+    font-size: 50px;
+    color: #000052;
 }
