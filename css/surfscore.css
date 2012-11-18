@@ -51,8 +51,6 @@ h5 .custom{
     font-size: 14px;
 }
 
-
-
 h1 {
     font-size: 38.5px;
 }
@@ -179,10 +177,16 @@ body{
 .nav-list > li > a {
 padding: 0px 15px;
 }
+.pull-less-right-pic{
+    float: right;
+    margin-bottom: 100px;
+    margin-right: 320px;
+}
+
 .pull-right-pic{
     float: right;
     margin-bottom: 100px;
-    margin-right: 210px;
+    margin-right: 190px;
 }
 
 .narrow-well{

@@ -9,19 +9,10 @@
   <div id="myCarousel" class="carousel slide">
     <div class="carousel-inner">
       <div class="item active">
-        <div class="container">
-          <img class="pull-right-pic" style="min-width:0%;" src="img/kooks.png">
-        </div>
+        <img class="pull-less-right-pic" style="min-width:0%;" src="img/kooks.png" style="margin-right:410px;">
       </div>
       <div class="item">
-        <div class="container">
-          <img class="pull-right-pic" style="min-width:0%;" src="img/banner2.png">
-        </div>
-      </div>
-      <div class="item">
-        <div class="container">
-          <img class="pull-right-pic" style="min-width:0%;" src="img/banner3.png">
-        </div>
+        <img class="pull-right-pic" style="min-width:0%;" src="img/kahuna-kapu.png">
       </div>
     </div>
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
