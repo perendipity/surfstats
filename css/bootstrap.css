@@ -3783,6 +3783,7 @@ input[type="submit"].btn.btn-mini {
 
 .nav > li > a:hover {
   text-decoration: none;
+  background-color: #eeeeee;
 }
 
 .nav > .pull-right {
@@ -3838,8 +3839,9 @@ input[type="submit"].btn.btn-mini {
   height: 1px;
   margin: 9px 1px;
   *margin: -5px 0 5px;
+  margin-bottom: 60px;
   overflow: hidden;
-  background-color: #e5e5e5;
+  background-color: black;
   border-bottom: 1px solid #ffffff;
 }
 
@@ -4168,7 +4170,7 @@ input[type="submit"].btn.btn-mini {
   *position: relative;
   *z-index: 2;
   margin-bottom: 20px;
-  overflow: visible;
+  overflow: visible;  
   color: #777777;
 }
 
@@ -4436,7 +4438,7 @@ input[type="submit"].btn.btn-mini {
   -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
      -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
           box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
-}
+} 
 */
 
 .navbar .btn-navbar {
@@ -4596,7 +4598,7 @@ input[type="submit"].btn.btn-mini {
   background-repeat: repeat-x;
   border-color: #252525;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff222222', endColorstr='#ff111111', GradientType=0);
-}
+} 
 
 .navbar-inverse .brand,
 .navbar-inverse .nav > li > a {
