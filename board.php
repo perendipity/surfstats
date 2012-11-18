@@ -53,12 +53,12 @@ include('./includes/sidebar.inc.php');
       </div>
 
       <div class="drilldown-container well">
-        <h1 class="span12">Drilldown</h1>
+        <h1 class="span12">Drilldown - Recent Sessions</h1>
           <div class="row-fluid session-slider span12" id="session-slider">
-            <div class="row-fluid">
-              <div class="span1 offset1 arrow" id="slide-left">&lt;</div>
+            <div class="row-fluid" style="margin-left:8%;">
+              <h5 class="span2 arrow" id="slide-left" style="text-align: center;">&lt;</h5>
               <div id="slider-tab-container"></div>
-              <div class="span2 arrow" id="slide-right">&gt;</div>
+              <h5 class="span2 arrow" id="slide-right" style="text-align: center">&gt;</h5>
             </div>
           </div>
           <div class="sessions" id="sessions"></div>
