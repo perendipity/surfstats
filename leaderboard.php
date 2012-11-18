@@ -21,7 +21,7 @@ include('./includes/sidebar.inc.php');
                 Friends
               </a>
             </div>
-            <div id="friends" class="accordion-body collapse in">
+            <div id="friends" class="accordion-body collapse in" style="background-color:#FFFAFA;">
               <div class="accordion-inner">              
                 <table class="table tablesorter table-striped">
                   <thead>
@@ -58,7 +58,7 @@ include('./includes/sidebar.inc.php');
                   </thead>
                   <tbody>
                     <tr>
-                      <th>Bethany Warburton</th>
+                      <td>Bethany Warburton</td>
                       <td>9.9</td>
                       <td>8.7</td>
                       <td>6783</td>
