@@ -23,7 +23,7 @@ include('./includes/navbar.inc.php');
             </div>
             <div id="friends" class="accordion-body collapse">
               <div class="accordion-inner">
-                <table class="table tablesorter table-striped">
+                <table id="table" class="table tablesorter table-striped">
                   <thead>
                     <tr>
                       <th class="tableheader">Name
@@ -65,7 +65,7 @@ include('./includes/navbar.inc.php');
                     <tr>
                       <td>Natalia Olsen</td>
                       <td>USA</td>
-                      <td>5,7</td>
+                      <td>5.7</td>
                       <td>200</td>
                       <td>65</td>
                     </tr>
@@ -127,7 +127,7 @@ include('./includes/navbar.inc.php');
                     <tr>
                       <td>Natalia Olsen</td>
                       <td>USA</td>
-                      <td>5,7</td>
+                      <td>5.7</td>
                       <td>200</td>
                       <td>65</td>
                     </tr>
@@ -189,7 +189,7 @@ include('./includes/navbar.inc.php');
                     <tr>
                       <td>Natalia Olsen</td>
                       <td>USA</td>
-                      <td>5,7</td>
+                      <td>5.7</td>
                       <td>200</td>
                       <td>65</td>
                     </tr>
@@ -206,7 +206,7 @@ include('./includes/navbar.inc.php');
   <script type="text/javascript" id="js">
     $(document).ready(function() {
       // call the tablesorter plugin
-      $("table").tablesorter({sortList: [[1,1]],});
+      $("#table").tablesorter({sortList: [[1,1]],});
       $(".tableheader").click(function() { $(this).siblings().css({'border-bottom':'none', 'background-color':'inherit'});
                                     $(this).css({'border-bottom':'10px solid red', 'background-color':'white'}); }
                             )
