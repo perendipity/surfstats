@@ -144,8 +144,9 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
   text-align: center;
 }
 
-.home {
+body {
     background:url("../img/surf-home-background.jpeg") no-repeat;
+    background-position:top;
 }
 
 .well-clear{

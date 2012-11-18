@@ -1,5 +1,6 @@
 var activeTabs;
-
+var dates = ['27th Sunday','2nd Saturday', '8th Monday', '16th Tuesday', '19th Friday', '20th Saturday',
+             '21st Sunday', '23rd Tuesday', '26th Friday', '27th Saturday', '28th Sunday', '2nd Friday']
 function initializeSlider(tabContainer, sessionContainer) {
     //first we generate the session html
     numSessions = 12;
@@ -32,7 +33,7 @@ function initializeSlider(tabContainer, sessionContainer) {
             '</div>';
 
 
-        tabText = '<h3>23rd Friday </h3>'+(i+1);
+        tabText = '<h3>'+dates[i]+'</h3><h5>#'+(i+1)+'</h5>';
         tab = '<div class="span2 tab" id="'+tabID+'">'+tabText+'</div>';
         $('#'+sessionContainer).append(session);
         $('#'+tabContainer).append(tab);
@@ -67,8 +68,11 @@ function initializeSlider(tabContainer, sessionContainer) {
           $('#tab'+nextID).show();
         }
         activeTabs = nextIDs;
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 2252a7ecb6593713c88c1526762f4a5d6213ff25
       }
 
     })
