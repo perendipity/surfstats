@@ -47,31 +47,31 @@
   <!-- Wrap the rest of the page in another container to center all the content. -->
 
   <div class="container marketing">
-    <div class="well-clear">
+   <div class="well-clear" style="opacity:0.6;"> 
       <!-- Three columns of text below the carousel -->
       <div class="row">
-        <div class="span3">
-          <img class="img-circle" src="http://placehold.it/140x140">
-          <h2>Catch Waves.</h2>
-          <p>Grab your board, head to the beach and hit the waves. Surfscore will take
-            care of the rest.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div><!-- /.span4 -->
-        <div class="span3 offset1">
-          <img class="img-circle" src="http://placehold.it/140x140">
-          <h2>Get Your Surfscore.</h2>
-          <p>Drill down on your session to get stats and info. Chill out with friends and
-            compare scores.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div><!-- /.span4 -->
-        <div class="span3 offset1">
-          <img class="img-circle" src="http://placehold.it/140x140">
-          <h2>Be More Radical.</h2>
-          <p>More waves. More tricks. Let Surfscore help you become a better surfer.</p>
-          <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div><!-- /.span4 -->
-      </div><!-- /.row -->
-    </div>  
+          <div class="span3">
+            <img class="img-circle" src="http://placehold.it/140x140">
+            <h2>Catch Waves.</h2>
+            <p>Grab your board, head to the beach and hit the waves. Surfscore will take
+              care of the rest.</p>
+            <p><a class="btn" href="#">View details &raquo;</a></p>
+          </div>
+          <div class="span3 offset1">
+            <img class="img-circle" src="http://placehold.it/140x140">
+            <h2>Get Your Surfscore.</h2>
+            <p>Drill down on your session to get stats and info. Chill out with friends and
+              compare scores.</p>
+            <p><a class="btn" href="#">View details &raquo;</a></p>
+          </div><!-- /.span4 -->
+          <div class="span3 offset1">
+            <img class="img-circle" src="http://placehold.it/140x140">
+            <h2>Be More Radical.</h2>
+            <p>More waves. More tricks. Let Surfscore help you become a better surfer.</p>
+            <p><a class="btn" href="#">View details &raquo;</a></p>
+          </div><!-- /.span4 -->
+        </div><!-- /.row -->
+      </div>
     
     <!-- START THE FEATURETTES -->
     
