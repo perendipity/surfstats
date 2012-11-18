@@ -9,7 +9,7 @@
   <div id="myCarousel" class="carousel slide">
     <div class="carousel-inner">
       <div class="item active">
-        <img class="pull-less-right-pic" style="min-width:0%;" src="img/kooks.png" style="margin-right:410px;">
+        <img class="pull-less-right-pic" style="min-width:0%;" src="img/kooks.png">
       </div>
       <div class="item">
         <img class="pull-right-pic" style="min-width:0%;" src="img/kahuna-kapu.png">

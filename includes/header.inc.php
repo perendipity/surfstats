@@ -130,7 +130,7 @@
       }
       .carousel img {
           min-width: 100%;
-          height: 500px;
+          height: 300px;
       }
       
       .carousel-caption {

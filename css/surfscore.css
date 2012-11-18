@@ -300,11 +300,6 @@ small {
 .navbar-inverse .nav > li > a {
   color: black;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-.pull-right-pic{
-    float: right;
-    margin-bottom: 60px;
-    margin-right: 300px;
-}
 
 .navbar-inverse .brand:hover,
 .navbar-inverse .nav > li > a:hover {
