@@ -9,14 +9,17 @@ function initializeSlider(tabContainer, sessionContainer) {
         sessionID = 'session'+i;
         if (i < 1) activeFlag = 'active';
         else activeFlag = 'inactive';
+        radical = 1 + Math.floor(Math.random() * 100);
+        waves = 1 + Math.floor(Math.random() * 100);
+        tricks = 1 + Math.floor(Math.random() * 100);
         session = '<div class="session '+activeFlag+'" id="'+sessionID+'">'+
               '<h2 class="span12 session-title">Session #'+(i+1)+'</h2>'+
               '<div class="row-fluid">'+
                 '<div class="session-stats span1 offset1">'+
                   '<h3>Stats</h3>'+
-                  '<p>Radical: 7.9</p>'+
-                  '<p>27 waves</p>'+
-                  '<p>89 tricks</p>'+
+                  '<h4>Radical: '+radical+'</h4>'+
+                  '<h4>Waves: '+waves+'</h4>'+
+                  '<h4>Tricks: '+tricks+'</h4>'+
                 '</div>'+
                 '<div class="session-charts span10 row-fluid">'+
                   '<h3 class="span10">Charts</h3>'+

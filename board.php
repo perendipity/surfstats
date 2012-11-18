@@ -56,9 +56,9 @@ include('./includes/sidebar.inc.php');
         <h1 class="span12">Drilldown</h1>
           <div class="row-fluid session-slider span12" id="session-slider">
             <div class="row-fluid">
-              <div class="span2 slide-left" id="slide-left">Left Arrow</div>
+              <div class="span1 offset1 arrow" id="slide-left">&lt;</div>
               <div id="slider-tab-container"></div>
-              <div class="span2 slide-right" id="slide-right">Right Arrow</div>
+              <div class="span2 arrow" id="slide-right">&gt;</div>
             </div>
           </div>
           <div class="sessions" id="sessions"></div>
