@@ -48,7 +48,7 @@ include('./includes/sidebar.inc.php');
       
 
       <div class="drilldown-container">
-        <h1 class="span12">Drilldown - Recent Sessions</h1>
+        <h1 class="span12 custom-h1">Drilldown - Recent Sessions</h1>
           <div class="row-fluid session-slider span12" id="session-slider">
             <div class="row-fluid" style="margin-left:8%;">
               <h5 class="span2 arrow" id="slide-left" style="text-align: center;">&lt;</h5>
@@ -60,7 +60,7 @@ include('./includes/sidebar.inc.php');
         </div>
       </div>
 
-<!--
+<!-- 
 <div class="row-fluid">
   <div class="span1 offset1">
     <h3>Stats</h3>
@@ -70,11 +70,11 @@ include('./includes/sidebar.inc.php');
     <h4>TOTAL TRICKS: '+tricks+'</h4>
   </div>
   <div class="span10 row-fluid">
-    <div class="span10 row-fluid">
+    <div class="span10 row-fluid"> 
       <div class="span5 stat-img"><img src="img/surfstats1.png" alt=""></div>
       <div class="span5 stat-img"><img src="img/surfstats1.png" alt=""></div>
     </div>
-    <div class="span10 row-fluid">
+    <div class="span10 row-fluid"> 
       <div class="span5 stat-img"><img src="img/surfstats1.png" alt=""></div>
       <div class="span5 stat-img"><img src="img/surfstats1.png" alt=""></div>
     </div>
