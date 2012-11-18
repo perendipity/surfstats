@@ -1,7 +1,55 @@
 /*!
  * Surfscore CSS
- * Designed and built with all the love Peter, Cody, Nishan, Alec and Marco.
+ * Designed and built with all the love by Peter, Cody, Nishan, Alec and Marco.
  */
+ 
+.surfscore{
+	font-family: Exo, Helvetica, san-serif;
+	font-weight: 500;
+  	font-size: 60px;
+}
+
+.location {
+  font-family: Exo, Helvetica, san-serif;
+  font-weight: 100;
+  font-size: 24px;
+}
+
+.user-name {
+  font-family: Exo, Helvetica, san-serif;
+  font-weight: 100;
+  font-size: 72px;
+}
+
+h1 .custom {
+  font-family: Exo, Helvetica, san-serif;
+  font-weight: 500;
+  font-size: 48px;
+}
+
+h2 .custom{
+  font-family: Exo, Helvetica, san-serif;
+  font-weight: 400;
+  font-size: 36px;
+}
+
+h3 .custom{
+  font-family: Exo, Helvetica, san-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+h4 .custom{
+  font-family: Exo, Helvetica, san-serif;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+h5 .custom{
+  font-family: Exo, Helvetica, san-serif;
+  font-weight: 500;
+  font-size: 14px;
+}
 
 
 
@@ -63,11 +111,11 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
     background-color: #8dbdd8;
 }
 
-
 .tab {
     border-style:solid;
     border-width:2px;
     text-align: center;
+    margin-left: 5px;
 }
 
 .active {
@@ -78,15 +126,12 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
     display: none;
 }
 
-
-/*
-  SURFSCORE : Helvetica Neue LT Std, 67 Medium Condensed, 72pt
-  LOCATION : Helvetica Neue LT Std, 47 Light Condensed Oblique, 24pt
-  NAME : Helvetica Neue LT Std, 27 Ultra Light, 72pt
-
-HEADER 5 : Helvetica Neue LT Std, 67 Medium Condensed, 48pt
-HEADER 4 : Helvetica Neue LT Std, 57 Condensed, 36pt
-HEADER 3 : Helvetica Neue LT Std, 57 Condensed, 24pt
-HEADER 2 : Helvetica Neue LT Std, 57 Condensed, 18pt
-HEADER 1 : Helvetica Neue LT Std, 67 Medium Condensed, 14pt
-*/
+.arrow {
+  font-size: 70px;
+  background: red;
+  height: 45px;
+  padding: 15px;
+  text-align: left;
+  width: 55px !important;
+  margin: 0px !important;
+}
