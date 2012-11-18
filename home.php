@@ -3,13 +3,11 @@
   <?php
     include('./includes/navbar.inc.php');
     include('./includes/sidebar.inc.php');
-    
-     ?>
+  ?>
   <!-- Carousel ================================================== -->
   <div id="myCarousel" class="carousel slide">
     <div class="carousel-inner">
       <div class="item active">
-        <img src="img/examples/slide-01.jpg" alt="">
         <div class="container">
           <div class="carousel-caption">
             <h1>Header</h1>
@@ -19,7 +17,6 @@
         </div>
       </div>
       <div class="item">
-        <img src="img/examples/slide-02.jpg" alt="">
         <div class="container">
           <div class="carousel-caption">
             <h1>Another example headline.</h1>
@@ -29,7 +26,6 @@
         </div>
       </div>
       <div class="item">
-        <img src="img/examples/slide-03.jpg" alt="">
         <div class="container">
           <div class="carousel-caption">
             <h1>One more for good measure.</h1>
