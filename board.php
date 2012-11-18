@@ -17,7 +17,7 @@ include('./includes/sidebar.inc.php');
       </div>
       <br/>
       <div class="lifetime-container" id="lifetime-container">
-        <h1 class="custom-h1" style="text-align: left; margin-left:60px; font-variant:small-caps">LIFETIME</h1>
+        <h1 class="custom-h1" style="text-align: center; margin-left:80px; font-variant:small-caps">LIFETIME</h1>
         <div class="lifetime-total row-fluid">
           <div class="span3"><h3 class="custom-h3">TOTAL WAVES</h3><h2 class="bignum custom-h2">2073</h2></div>
           <div class="span3"><h3 class="custom-h3">TOTAL TRICKS</h3><h2 class="bignum custom-h2">7653</h2></div>
@@ -37,7 +37,7 @@ include('./includes/sidebar.inc.php');
     	</ul> <!-- End of Horizontal divider -->
 
       <div class="drilldown-container" id="drilldown-container" style="padding:0px;margin-left:5%;">
-        <h1 class="span12 custom-h1" style="text-align:left;">RECENT SESSIONS</h1>
+        <h1 class="span12 custom-h1" style="text-align:center;">RECENT SESSIONS</h1>
           <div class="row-fluid session-slider span12" id="session-slider">
             <div class="row-fluid" style="margin-left:10%;">
               <h5 class="span2 arrow custom-h5" id="slide-left" style="text-align: center;">&lt;</h5>
