@@ -17,6 +17,8 @@ function initializeSlider(tabContainer, sessionContainer) {
         rad2 = (1 + Math.floor(Math.random() * 100))/10;
         rad3 = (1 + Math.floor(Math.random() * 100))/10;
         rad4 = (1 + Math.floor(Math.random() * 100))/10;
+        image_gen = (1 + Math.floor(Math.random() * 4));
+        console.log(image_gen);
         session = '<div class="session '+activeFlag+'" id="'+sessionID+'">'+
                     '<div class="row-fluid">'+
                       '<div class="span1 offset1">'+
