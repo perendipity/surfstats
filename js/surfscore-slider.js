@@ -30,13 +30,13 @@ function initializeSlider(tabContainer, sessionContainer) {
                 '</div>'+
               '</div>'+
             '</div>';
-        
+
 
         tabText = '<h3>23rd Friday </h3>'+(i+1);
         tab = '<div class="span2 tab" id="'+tabID+'">'+tabText+'</div>';
         $('#'+sessionContainer).append(session);
         $('#'+tabContainer).append(tab);
-        
+
         $('#'+tabID).click(function(){
           $(this).siblings().css({'border-bottom':'none', 'background-color':'inherit'});
           $(this).css({'border-bottom':'10px solid red', 'background-color':'white'});
@@ -67,10 +67,10 @@ function initializeSlider(tabContainer, sessionContainer) {
           $('#tab'+nextID).show();
         }
         activeTabs = nextIDs;
-        
+
 
       }
-      
+
     })
 
     $('#slide-right').click(function() {
@@ -94,7 +94,7 @@ function initializeSlider(tabContainer, sessionContainer) {
 
 function activateTabs(tabList) {
     // deactivate all tabs
-    
+
 }
 
 $(document).ready(function() {

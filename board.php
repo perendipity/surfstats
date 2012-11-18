@@ -83,4 +83,13 @@ include('./includes/sidebar.inc.php');
 <!-- Start of the footer -->
 <?php include('./includes/footer.inc.php'); ?>
 <script src="js/surfscore-slider.js"></script>
+<script>
 
+$(document).ready(function() {
+  $(".span5").click(function(e) {
+  console.log(e);
+  $('#myModal').modal('show')});
+});
+
+
+</script>
