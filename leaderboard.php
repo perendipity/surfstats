@@ -3,13 +3,12 @@
 
 <?php
 include('./includes/navbar.inc.php');
-include('./includes/sidebar.inc.php');
 ?>
 <!-- Header to the Leaderboards page -->
     <h1 align="center">Leaderboards</h1>
 
     <div class="well narrow-well">
-      
+
       <div class="container" style="margin-top:20px;">
         <!-- Accordion contains different leaderboards -->
         <div class="accordion" id="leaderboard-charts">
@@ -21,38 +20,43 @@ include('./includes/sidebar.inc.php');
                 Friends
               </a>
             </div>
+<<<<<<< HEAD
             <div id="friends" class="accordion-body collapse in" style="background-color:#FFFAFA;">
               <div class="accordion-inner">              
+=======
+            <div id="friends" class="accordion-body collapse in">
+              <div class="accordion-inner">
+>>>>>>> 18799258b28c810a56de7204df876322bf81f6c9
                 <table class="table tablesorter table-striped">
                   <thead>
                     <tr>
-                      <th>Name 
-                        <i class="icon-chevron-down pull-right"> </i> 
-                        <i class="icon-chevron-up pull-right"> </i> 
+                      <th>Name
+                        <i class="icon-chevron-down pull-right"> </i>
+                        <i class="icon-chevron-up pull-right"> </i>
                       </th>
                       <th>Best Sesh
-                        <i class="icon-chevron-down pull-right"> </i> 
-                        <i class="icon-chevron-up pull-right"> </i> 
+                        <i class="icon-chevron-down pull-right"> </i>
+                        <i class="icon-chevron-up pull-right"> </i>
                       </th>
                       <th>Average Sesh
-                        <i class="icon-chevron-down pull-right"> </i> 
-                        <i class="icon-chevron-up pull-right"> </i> 
+                        <i class="icon-chevron-down pull-right"> </i>
+                        <i class="icon-chevron-up pull-right"> </i>
                       </th>
                       <th>Waves
-                        <i class="icon-chevron-down pull-right"> </i> 
-                        <i class="icon-chevron-up pull-right"> </i> 
+                        <i class="icon-chevron-down pull-right"> </i>
+                        <i class="icon-chevron-up pull-right"> </i>
                       </th>
                       <th>Tricks
-                        <i class="icon-chevron-down pull-right"> </i> 
+                        <i class="icon-chevron-down pull-right"> </i>
                         <i class="icon-chevron-up pull-right"> </i>
                       </th>
                       <th>Set Waves
-                        <i class="icon-chevron-down pull-right"> </i> 
-                        <i class="icon-chevron-up pull-right"> </i> 
+                        <i class="icon-chevron-down pull-right"> </i>
+                        <i class="icon-chevron-up pull-right"> </i>
                       </th>
-                      <th>Water Time   
-                        <i class="icon-chevron-down pull-right"> </i> 
-                        <i class="icon-chevron-up pull-right"> </i> 
+                      <th>Water Time
+                        <i class="icon-chevron-down pull-right"> </i>
+                        <i class="icon-chevron-up pull-right"> </i>
                       </th>
                     </tr>
                   </thead>
@@ -203,9 +207,9 @@ include('./includes/sidebar.inc.php');
   </body>
   <?php include('./includes/footer.inc.php'); ?>
   <script type="text/javascript" id="js">
-    $(document).ready(function() { 
-      // call the tablesorter plugin 
-      $("table").tablesorter({sortList: [[1,1]],}); 
-    }); 
+    $(document).ready(function() {
+      // call the tablesorter plugin
+      $("table").tablesorter({sortList: [[1,1]],});
+    });
   </script>
 </html>
