@@ -182,5 +182,7 @@ body{
 padding: 0px 15px;
 }
 .pull-right-pic{
-    margin-right: -500px;
+    float: right;
+    margin-bottom: 60px;
+    margin-right: 300px;
 }
