@@ -4225,10 +4225,10 @@ input[type="submit"].btn.btn-mini {
   color: #777777;
   text-shadow: 0 1px 0 #ffffff;
 }
-
+/*
 .navbar .brand:hover {
   text-decoration: none;
-}
+} */
 
 .navbar-text {
   margin-bottom: 0;
@@ -4391,7 +4391,7 @@ input[type="submit"].btn.btn-mini {
      -moz-box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
           box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
 }
-
+/*
 .navbar .nav {
   position: relative;
   left: 0;
@@ -4437,7 +4437,8 @@ input[type="submit"].btn.btn-mini {
   -webkit-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
      -moz-box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
           box-shadow: inset 0 3px 8px rgba(0, 0, 0, 0.125);
-}
+} 
+*/
 
 .navbar .btn-navbar {
   display: none;
