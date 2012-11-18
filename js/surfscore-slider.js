@@ -46,27 +46,43 @@ function initializeSlider(tabContainer, sessionContainer) {
         }
     }
 
-    activeTabs = ['1','2','3','4'];
+    activeTabs = [0,1,2,3];
 
  // now we need arrows that start out with no slide left, and slide right 4
         // sliding means activating the next 4 tabs and clearing the active session
         // and keeping track of the numbers (aka which are the next 4 to the right and left)
 
     $('#slide-left').click(function() {
-      $('.tab').hide();
-      var nextIDs = new Array();
-      for (var i = 0; i < activeTabs.length; i++) {
-        nextID = numSessions - activeTabs[i]; // 12-1 = 11, 12-2 =10
-        nextIDs.push(nextID)
-        console.log('would show '+nextID)
-        //$('#tab'+nextID).show();
+      console.log('clicked');
+      if (activeTabs[3]-4>0) {
+        console.log('can go left');
+        $('.tab').hide();
+        var nextIDs = new Array();
+        for (var i = 0; i < activeTabs.length; i++) {
+          nextID = activeTabs[i] - 4;
+          nextIDs.push(nextID)
+          $('#tab'+nextID).show();
+        }
+        activeTabs = nextIDs;
+        
+
       }
-      activeTabs = nextIDs;
+      
     })
 
     $('#slide-right').click(function() {
-      alert('will slide');
-      //change click handler on left, and itself
+      console.log('clicked');
+      if (activeTabs[3]+4<13) {
+        console.log('can go right');
+        $('.tab').hide();
+        var nextIDs = new Array();
+        for (var i = 0; i < activeTabs.length; i++) {
+          nextID = activeTabs[i] + 4;
+          nextIDs.push(nextID)
+          $('#tab'+nextID).show();
+        }
+        activeTabs = nextIDs;
+      }
     })
 
     //activateTabs(['1','2','3','4']);

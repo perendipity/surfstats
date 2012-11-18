@@ -52,7 +52,7 @@ include('./includes/sidebar.inc.php');
         </div>
       </div>
 
-      <div class="dashboard-container well">
+      <div class="drilldown-container well">
         <h1 class="span12">Drilldown</h1>
           <div class="row-fluid session-slider span12" id="session-slider">
             <div class="row-fluid">
