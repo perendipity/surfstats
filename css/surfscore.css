@@ -1,4 +1,4 @@
-/*!
+/*
  * Surfscore CSS
  * Designed and built with all the love by Peter, Cody, Nishan, Alec and Marco.
  */
@@ -21,31 +21,31 @@
     font-size: 72px;
 }
 
-h1 .custom {
+.custom-h1 {
     font-family: Exo, Helvetica, san-serif;
     font-weight: 500;
     font-size: 48px;
 }
 
-h2 .custom{
+.custom-h2 {
     font-family: Exo, Helvetica, san-serif;
     font-weight: 400;
     font-size: 36px;
 }
 
-h3 .custom{
+.custom-h3 {
     font-family: Exo, Helvetica, san-serif;
     font-weight: 400;
     font-size: 24px;
 }
 
-h4 .custom{
+.custom-h4{
     font-family: Exo, Helvetica, san-serif;
     font-weight: 400;
     font-size: 18px;
 }
 
-h5 .custom{
+.custom-h5{
     font-family: Exo, Helvetica, san-serif;
     font-weight: 500;
     font-size: 14px;
@@ -300,6 +300,11 @@ small {
 .navbar-inverse .nav > li > a {
   color: black;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+.pull-right-pic{
+    float: right;
+    margin-bottom: 60px;
+    margin-right: 300px;
+}
 
 .navbar-inverse .brand:hover,
 .navbar-inverse .nav > li > a:hover {
