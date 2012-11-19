@@ -7,7 +7,7 @@ include('./includes/sidebar.inc.php');
 ?>
 
   <body>
-    <div class="container">
+    <div class="container"> <!-- investigate this, looks like an error from a merge -->
     <div class="container board-transparent">
       <div class="profile-container row-fluid " id="profile-container">
         <div class="span12 row-fluid">

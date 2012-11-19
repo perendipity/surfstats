@@ -25,6 +25,8 @@
                  echo 'class="active"'; } ?>><a href="leaderboard.php">leaderboard</a></li>
               <li <?php if ($currentPage == 'registration.php') {
                 echo 'class="active"'; } ?>><a href="registration.php">register</a></li>
+              <li <?php if ($currentPage == 'team.php') {
+                echo 'class="active"'; } ?>><a href="team.php">team</a></li>
               <li <?php if ($currentPage == 'dontbeakook.tumblr.com') {
                 echo 'class="active"'; } ?>><a href="http://www.dontbeakook.tumblr.com">blog</a></li>
             </ul>
