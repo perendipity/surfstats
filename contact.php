@@ -30,7 +30,7 @@ Require('./includes/processmail.inc.php');
           		<h2 style="text-align:center;">Get in touch with us</h2>
 
 		<?php if(isset($mailSent) && $mailSent == true) { //If email is sent ?>
-			<div class=" span5 alert alert-success">
+			<div class=" span4 alert alert-success">
 				<strong>Awesome! We received your email and will be in touch!</strong>
 			</div>
 		<?php } ?>
@@ -76,7 +76,7 @@ Require('./includes/processmail.inc.php');
                       			<div class="span3"><p class="alert alert-error">Please enter your message</p></div>
                       		<?php } ?>
                       <div class="controls">                    
-                           <textarea name="comments" id="comments" class="span4 input-xlarge" rows="5">
+                           <textarea name="comments" id="comments" class="span4" rows="5">
                       		<?php if ($missing || $errors) {
                       			echo htmlentities($comments, ENT_COMPAT, 'UTF-8'); 
                       		} ?>
