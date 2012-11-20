@@ -315,7 +315,7 @@
       console.log(this);
       $(this).siblings().css({'border-bottom':'none', 'background-color':'inherit'});
       $(this).css({'border-bottom':'10px solid red', 'background-color':'white'}); }
-                           )
+                           );
     
   });
 </script>
