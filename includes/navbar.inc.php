@@ -7,7 +7,6 @@
 
       <div class="navbar navbar-inverse">
         <div class="navbar-inner">
-          <!-- Responsive Navbar Part 1: Button for triggering responsive navbar (not covered in tutorial). Include responsive CSS to utilize. -->
           <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -26,7 +25,7 @@
               <li <?php if ($currentPage == 'registration.php') {
                 echo 'class="active"'; } ?>><a href="registration.php">register</a></li>
               <li <?php if ($currentPage == 'team.php') {
-                echo 'class="active"'; } ?>><a href="team.php">team</a></li>
+                echo 'class="active"'; } ?>><a href="team.php">about</a></li>
               <li <?php if ($currentPage == 'dontbeakook.tumblr.com') {
                 echo 'class="active"'; } ?>><a href="http://www.dontbeakook.tumblr.com">blog</a></li>
             </ul>
