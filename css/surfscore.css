@@ -77,39 +77,37 @@ h6 {
 
 /* TABLES */
 table.tablesorter {
-    background-color: #white;
+    background-color: #FFFFFF;
     margin:10px 0pt 15px;
     width: 100%;
     text-align: left;
 }
 table.tablesorter thead tr th, table.tablesorter tfoot tr th {
-    border: 0px solid;
+  /*  background-color: #e6EEEE;*/
+    border: 1px solid ;
+    /*font-size: 14pt;*/
     padding: 4px;
 }
 table.tablesorter thead tr .header {
     background-repeat: no-repeat;
     background-position: center right;
     cursor: pointer;
-    text-align: center;
-    font-size: 18px;
 }
 table.tablesorter tbody td {
     padding: 4px;
     background-color: #FFF;
     vertical-align: top;
-    text-align: center;
 }
 table.tablesorter tbody tr.odd td {
 }
 
 table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
-
+    background-color: #ED1C24;
 }
 
 .tab {
     text-align: center;
     margin: 0px;
-    cursor: pointer; cursor: hand;
 }
 
 .active {
@@ -128,26 +126,18 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
   padding-top: 5px;
   color: white !important;
   width: 35px !important;
-  cursor: pointer; cursor: hand;
   /*margin-left: 10px !important;*/
 }
 
 .session-slider {
-    margin-top:50px;
-    margin-bottom:50px;
-    width: 90% !important;
-    border-top:thick double white;
-    border-bottom:thick double white;
+  width: 90% !important;
+  border-top:thick double white;
+  border-bottom:thick double white;
   /*margin: auto !important;*/
 }
 
 .session-title {
   text-align: center;
-}
-
-.sessions {
-    margin-top:50px;
-    margin-bottom:50px;
 }
 
 body{
@@ -211,6 +201,7 @@ padding: 0px 15px;
 
 .board-transparent {
     background:rgba(255,255,255, 0.8);
+    padding-bottom: 40px;
 }
 
 small {
@@ -219,7 +210,7 @@ small {
 
 .lifetime-container {
     text-align: center;
-	margin-top: -40px;
+	margin-top: -40px;	
 }
 
 .bignum {
@@ -228,7 +219,6 @@ small {
 }
 
 .red-circle {
-  font-family: Exo, Helvetica, san-serif;
   border-radius: 50%;
   width: 150px;
   height: 150px;
@@ -351,14 +341,13 @@ small {
 }
 
 .accordion-header{
-    background-color: #FFFFFF !important;
+    background-color: #000000 !important;
     text-align: left;
 }
 
 .stat-img {
     height:330px !important;
     width:330px !important;
-
 }
 
 .nav > li > a:hover {
@@ -366,17 +355,3 @@ text-decoration: none;
 background-color: transparent !important;
 }
 
-.totally{
-    color:red !important;
-}
-
-/*.teambox {
-  margin: 50px !important;
-}*/
-
-.teammember {
-  margin-bottom: 50px;
-  margin-left: 100px;
-}
-
-.img.center { display:block; margin-left: auto;margin-right: auto;}
