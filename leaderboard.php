@@ -21,7 +21,7 @@
             <h2 class="custom-h2">against your friends?</h2>
           </a>
         </div>
-        <div id="friends" class="accordion-body collapse in">
+        <div id="friends" class="accordion-body collapse">
           <div class="accordion-inner">
             <table id="table" class="table tablesorter table-striped">
               <thead>
@@ -160,7 +160,7 @@
                 </tr>
                 <tr>
                   <td>Danny Clark</td>
-                  <td>Cambridge</td>
+                  <td>Oregon</td>
                   <td>5.7</td>
                   <td>200</td>
                   <td>65</td>
@@ -206,20 +206,6 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>Marco Morawec</td>
-                  <td>New England</td>
-                  <td>9.8</td>
-                  <td>8861</td>
-                  <td>323</td>
-                </tr>
-                <tr>
-                  <td>Nick Shikuma</td>
-                  <td>Hawaii</td>
-                  <td>9.7</td>
-                  <td>8743</td>
-                  <td>756</td>
-                </tr>
                 <tr>
                   <td>Juan Alvarez</td>
                   <td>Brazil</td>

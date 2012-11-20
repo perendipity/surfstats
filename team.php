@@ -7,7 +7,7 @@
                 <div class="teammember span3" style="margin-bottom: 100px"> 
                     <h2 class="h2-custom">
                         Marco Morawec
-                        <a href="http://www.linkedin.com/in/marcomorawec">
+                        <a href="http://www.linkedin.com/in/marcomorawec" target="_blank">
                             <img style="margin-left:5px" src="./img/social/linkedin_icon.png">
                         </a>
                     </h2>
@@ -17,7 +17,7 @@
                 <div class="teammember span3" style="margin-bottom: 100px">
                     <h2 class="h2-custom">
                         Peter Nachbaur
-                        <a href="http://www.linkedin.com/pub/peter-nachbaur/44/505/252">
+                        <a href="http://www.linkedin.com/pub/peter-nachbaur/44/505/252" target="_blank">
                             <img style="margin-left:5px" src="./img/social/linkedin_icon.png">
                         </a>
                     </h2>
@@ -27,7 +27,7 @@
                 <div class="teammember span3" style="margin-bottom: 100px;">
                     <h2 class="h2-custom">
                         Alec Babala
-                        <a href="http://www.linkedin.com/pub/alec-babala/42/b10/150">
+                        <a href="http://www.linkedin.com/pub/alec-babala/42/b10/150" target="_blank">
                             <img style="margin-left:5px" src="./img/social/linkedin_icon.png">
                         </a>
                     </h2>
@@ -37,7 +37,7 @@
                 <div class="teammember span3" style="margin-bottom: 100px; margin-left:-35px">                
                     <h2 class="h2-custom">
                         Cody Canning
-                        <a href="http://www.linkedin.com/in/codycanning">
+                        <a href="http://www.linkedin.com/in/codycanning" target="_blank">
                             <img style="margin-left:5px" src="./img/social/linkedin_icon.png">
                         </a>
                     </h2>
@@ -48,7 +48,7 @@
                 <div class="teammember span12" style="margin-bottom: 100px">                
                     <h2 class="h2-custom">
                         Nishan Subedi
-                        <a href="http://www.linkedin.com/pub/nishan-subedi/28/aa9/b7">
+                        <a href="http://www.linkedin.com/pub/nishan-subedi/28/aa9/b7" target="_blank">
                             <img style="margin-left:5px" src="./img/social/linkedin_icon.png">
                         </a>
                     </h2>
