@@ -64,65 +64,11 @@
                   <td>756</td>
                 </tr>
                 <tr>
-                  <td>Juan Alvarez</td>
-                  <td>Brazil</td>
-                  <td>8.7</td>
-                  <td>6783</td>
-                  <td>132</td>
-                </tr>
-                <tr>
-                  <td>Sven Alsvik</td>
-                  <td>Sweden</td>
-                  <td>5.3</td>
-                  <td>5463</td>
-                  <td>164</td>
-                </tr>
-                <tr>
-                  <td>Natalia Olsen</td>
-                  <td>South Africa</td>
-                  <td>5.7</td>
-                  <td>200</td>
-                  <td>65</td>
-                </tr>
-                <tr>
                   <td>Bethany Warburton</td>
                   <td>Hawaii</td>
                   <td>8.7</td>
                   <td>6783</td>
                   <td>132</td>
-                <tr>
-                  <td>Albert Jacobs</td>
-                  <td>Florida</td>
-                  <td>5.3</td>
-                  <td>5463</td>
-                  <td>164</td>
-                </tr>
-                <tr>
-                  <td>Harry Taft</td>
-                  <td>California</td>
-                  <td>5.7</td>
-                  <td>200</td>
-                  <td>65</td>
-                </tr>
-                <tr>
-                  <td>Jenny Smith</td>
-                  <td>Cambridge</td>
-                  <td>8.7</td>
-                  <td>6783</td>
-                  <td>132</td>
-                <tr>
-                  <td>John Johnson</td>
-                  <td>Boston</td>
-                  <td>5.3</td>
-                  <td>5463</td>
-                  <td>164</td>
-                </tr>
-                <tr>
-                  <td>Danny Clark</td>
-                  <td>Cambridge</td>
-                  <td>5.7</td>
-                  <td>200</td>
-                  <td>65</td>
                 </tr>
               </tbody>
             </table>
@@ -178,27 +124,6 @@
                   <td>9.7</td>
                   <td>8743</td>
                   <td>756</td>
-                </tr>
-                <tr>
-                  <td>Juan Alvarez</td>
-                  <td>Brazil</td>
-                  <td>8.7</td>
-                  <td>6783</td>
-                  <td>132</td>
-                </tr>
-                <tr>
-                  <td>Sven Alsvik</td>
-                  <td>Sweden</td>
-                  <td>5.3</td>
-                  <td>5463</td>
-                  <td>164</td>
-                </tr>
-                <tr>
-                  <td>Natalia Olsen</td>
-                  <td>South Africa</td>
-                  <td>5.7</td>
-                  <td>200</td>
-                  <td>65</td>
                 </tr>
                 <tr>
                   <td>Bethany Warburton</td>
