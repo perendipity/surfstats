@@ -29,8 +29,7 @@
               <li <?php if ($currentPage == 'dontbeakook.tumblr.com') {
                 echo 'class="active"'; } ?>><a href="http://www.dontbeakook.tumblr.com">blog</a></li>
             </ul>
-            <div class="nav pull-right" style="margin-top:12px;">Marco Morawec <img border="0" style="height:20px;width:20px;"
-                                       src="./img/avatardot.png"></div>
+            <div class="nav pull-right"><a href="contact.php"><img border="0" href="./contact.php" src="./img/mail.png"></a></div>
             
           </div><!--/.nav-collapse -->
         </div><!-- /.navbar-inner -->
