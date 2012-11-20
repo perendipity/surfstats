@@ -26,7 +26,7 @@ Require('./includes/processmail.inc.php');
 
 
              <!-- Start of Contact Me Box --> 
-         <div class="span6 offset6 board-transparent">
+         <div class="span5 offset5 board-transparent">
           		<h2 style="text-align:center;">Get in touch with us</h2>
 
 		<?php if(isset($mailSent) && $mailSent == true) { //If email is sent ?>
