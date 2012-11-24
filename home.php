@@ -49,8 +49,7 @@
         <img class="featurette-image pull-right" style="width:50%"
              src="img/kahuna.png">
         <h2 class="featurette-heading">Your progress, tracked. <span class="muted">Improve instantly.</span></h2>
-      <p class="lead">Like many action sports, surfing is not only hard to learn but <i>harder</i> to master. Why pay hundreds of dollars for mediocre
-        feedback when you can focus on the waves and rest assured all your killer moves are being analyzed.</p>
+      <p class="lead">Surfing is hard to learn and even <i>harder</i> to master. Why pay hundreds of dollars for mediocre feedback when you could just go surfing, track all your radical moves on the fly and see what's really happening in the water.</p>
     </div>
 
     <div class="featurette" style="margin-top:50px;">
