@@ -3,7 +3,7 @@
       <div class="navbar navbar-inverse">
         <div class="navbar-inner">
     <footer>
-      <p>&copy; <?php echo date('Y'); ?> SurfScore, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      <p style="margin-top:10px;">&copy; <?php echo date('Y'); ?> SurfScore, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
     </footer>
 	</div>
 
