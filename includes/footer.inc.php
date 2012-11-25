@@ -1,8 +1,9 @@
  </br>  
-   <div class="container navbar-inner">
+    <div class="container">
+      <div class="navbar navbar-inverse">
+        <div class="navbar-inner">
     <footer>
-      <p class="pull-right"><a href="#">Back to top</a></p>
-      <p>&copy; 2012 SurfScore, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      <p>&copy; <?php echo date('Y'); ?> SurfScore, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
     </footer>
 	</div>
 
