@@ -45,16 +45,6 @@
                     <img style="margin-left: 45px;" src="./img/team/cody.jpg">
                 </div>
 
-                <div class="teammember span12" style="margin-bottom: 100px">                
-                    <h2 class="h2-custom">
-                        Nishan Subedi
-                        <a href="http://www.linkedin.com/pub/nishan-subedi/28/aa9/b7" target="_blank">
-                            <img style="margin-left:5px" src="./img/social/linkedin_icon.png">
-                        </a>
-                    </h2>
-                    <!-- <h3>Developer</h3> -->
-                    <img style="margin-left: 45px;" src="./img/team/nishan.jpg">
-                </div>
             </div>
         </div> <!-- /container -->
     </body>
