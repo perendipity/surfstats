@@ -40,8 +40,8 @@ include('./includes/sidebar.inc.php');
         <h1 class="span12 custom-h1" style="text-align:center;margin-left:-5%;">RECENT SESSIONS</h1>
           <div class="row-fluid session-slider span12" id="session-slider">
             <div class="row-fluid" style="margin-left:10%;">
-              <h5 class="span2 arrow custom-h5" id="slide-left" style="text-align: center;">&lt;</h5>
-              <div id="slider-tab-container"></div>
+              <h5 class="span2 arrow custom-h5" id="slide-left" style="text-align: center">&lt;</h5>
+              <div id="slider-tab-container" style="cursor:pointer;"></div>
               <h5 class="span2 arrow custom-h5" id="slide-right" style="text-align: center">&gt;</h5>
             </div>
           </div>
