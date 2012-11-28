@@ -141,7 +141,7 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
 }
 
 body{
-    background:url("../img/background1.jpg") no-repeat center;
+    background:url("../img/background.jpg") no-repeat center;
     background-position:top;
     background-attachment: fixed;
     background-size: cover;
