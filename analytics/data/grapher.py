@@ -5,6 +5,7 @@ import pandas as pd
 from pandas import concat, DataFrame
 import matplotlib.pyplot as plt
 from pylab import savefig
+from pylab import ylim
 
 def graph_session(session):
 
@@ -17,7 +18,7 @@ def graph_session(session):
 			trial = pd.read_table(session+'/'+experiment_type+'/'+trial_num, sep='; ', names=cnames, skiprows=1)
 			trial_container.append(trial)
 
-		print 'trail container len'
+		print 'trial container len: '+experiment_type
 		print len(trial_container)
 		trials = concat(trial_container, ignore_index=True)
 		trials['accX'].plot()
@@ -25,11 +26,12 @@ def graph_session(session):
 		trials['accZ'].plot()
 		plt.legend(['X', 'Y', 'Z'], loc='upper center', bbox_to_anchor=(0.5, -0.10),
           fancybox=True, shadow=True, ncol=3, title='Acceleration ('+experiment_type+')')
+		ylim([-20,20])
 		savefig('graphs/'+session+'_'+experiment_type+'_accXYZ.png', bbox_inches=0)
 		plt.close()
 		
 		#todo save the concatenated experiments to disk - should actually be separate so you aren't saving every time you graph
-		#trials.drop(axis=1, labels=cnames) #should empty object
+		trials.drop(axis=1, labels=cnames) #should empty object
 		
 		
 
