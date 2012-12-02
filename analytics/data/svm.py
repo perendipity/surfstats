@@ -87,7 +87,7 @@ def classify(samples, classes):
 	plt.show()
 
 def randrange(n, vmin, vmax):
-    return (vmax-vmin)*np.random.rand(n) + vmin
+        return (vmax-vmin)*np.random.rand(n) + vmin
 
 if __name__=="__main__":
 	parser = argparse.ArgumentParser()
