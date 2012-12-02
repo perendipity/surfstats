@@ -13,8 +13,8 @@ from mpl_toolkits.mplot3d import Axes3D
 
 def classify_experiment(pos_experiment_type, session):
     (samples, classes) = extract(pos_experiment_type, session)
-    print samples
-    print classes
+    ###print samples
+    ###print classes
     classify(samples, classes)
 
 def extract(pos_experiment_type, session):
@@ -48,7 +48,6 @@ def extract(pos_experiment_type, session):
     samples = [tuple(x) for x in trials.values]
     return (samples, classes)
 
-
 def classify(samples, classes):
     # create the classifer
     print 'creating clasifier'
@@ -60,37 +59,36 @@ def classify(samples, classes):
     xx = np.linspace(-5, 5)
     yy = a * xx - clf.intercept_[0] / w[1]
 
-    # plot separating hyperplanes and samples
-
-    #h0 = plt.plot(xx, yy, 'k-', label='no weights')
-    #pl.scatter(samples[:, 0], samples[:, 1],  c=y, cmap=pl.cm.Paired)
-    #plt.legend()
-    #plt.axis('tight')
-
-    print'plotting'
+    
+    ################## Plotting ####################
+    print 'plotting'
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
-    n = xs
-    sho100 = samples[0]
-    ys = samples[1]
-    zs = samples[2]
-    ax.scatter(xs, ys, zs, c='r', marker='o')
-    xs = samples[0]
-    ys = samples[1]
-    zs = samples[2]
-    ax.scatter(xs, ys, zs, c='b', marker='^')
+    
+    xs = extract_from_index(samples, 0)
+    ys = extract_from_index(samples, 1)
+    zs = extract_from_index(samples, 2)
+    
+    for i, cls in enumerate(classes):
+        if cls == 0:
+            c = 'b'
+        else:
+            c = 'r'
+        ax.scatter(xs[i], ys[i], zs[i], c=c)
 
     ax.set_xlabel('X Label')
     ax.set_ylabel('Y Label')
     ax.set_zlabel('Z Label')
-
+    
     plt.show()
 
-def randrange(n, vmin, vmax):
-    return (vmax-vmin)*np.random.rand(n) + vmin
+def extract_from_index(arr, i):
+    ans = []
+    for elem in arr:
+        ans.append(elem[i])
+    return ans
 
 if __name__=="__main__":
-
     parser = argparse.ArgumentParser()
     parser.add_argument("session", help="session folder containing the experiments and trials")
     parser.add_argument("pos_experiment_type", help="positive training set")
