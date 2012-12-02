@@ -6,6 +6,7 @@ from pandas import concat, DataFrame
 import matplotlib.pyplot as plt
 from pylab import savefig
 from pylab import ylim
+from mpl_toolkits.mplot3d import Axes3D
 
 def graph_session(session):
 
