@@ -1,6 +1,7 @@
 #! /usr/bin/python
 import argparse
 import os
+import sys
 import pandas as pd
 from pandas import concat, DataFrame
 import matplotlib.pyplot as plt
@@ -15,7 +16,8 @@ def classify_experiment(pos_experiment_type, session):
     (samples, classes) = extract(pos_experiment_type, session)
     ###print samples
     ###print classes
-    classify(samples, classes)
+    fit_svm(create_svm('ghh'), samples, classes)
+    visualize(samples,classes)
 
 def extract(pos_experiment_type, session):
     cnames = ['accX', 'accY', 'accZ', 'lux', 'magX', 'magY', 'magZ', 'orX', 'orY', 'orZ', 'prox', 'temp', 'level','volt', 's_start']
@@ -48,44 +50,66 @@ def extract(pos_experiment_type, session):
     samples = [tuple(x) for x in trials.values]
     return (samples, classes)
 
-def classify(samples, classes):
-    # create the classifer
-    print 'creating clasifier'
-    clf = svm.SVC(kernel='linear', C=1.0)
-    print 'fitting to classifier'
-    print clf.fit(samples, classes)
-    w = clf.coef_[0]
-    a = -w[0] / w[1]
-    xx = np.linspace(-5, 5)
-    yy = a * xx - clf.intercept_[0] / w[1]
+def create_svm(kf='linear', C=1.0, g=0.0, d=3):
+    """ Instantiate the SVM
 
+    kf -- kernel function (default 'linear')
+    C  -- soft margin (default 1.0)
+    g  -- gamma (default 0.0)
+    d  -- degree (default 3)
+
+    """
+    print 'instantiating ' + kf + ' kernel SVM ...'
+    while(True):
+        if kf == 'linear':
+            clf = svm.SVC(kernel='linear', C=C, gamma=g, degree=d)
+            break
+        elif kf == 'rbf':
+            clf = svm.SVC(kernel='rbf', C=C, gamma=g, degree=d)
+            break
+        elif kf == 'poly':
+            clf = svm.SVC(kernel='poly', C=C, gamma=g, degree=d)
+            break
+        else:
+            print "[!] incorrect kernel function specification; please re-enter: "
+            kf = sys.stdin.readline().rstrip()
+    return clf
+
+def fit_svm(clf, samples, classes):
+    """ Train the SVM on sample data with classifications
     
-    ################## Plotting ####################
+    clf     -- instantiated SVM
+    samples -- 2D array with dimensions n_samples by n_features  
+    classes -- array of length n_samples specifying class membership 
+
+    """
+    print 'fitting SVM ... '
+    clf.fit(samples, classes)
+   
+def visualize(samples, classes):    
     print 'plotting'
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
+    xs = extract_from_index(samples,classes,0)
+    ys = extract_from_index(samples,classes,1)
+    zs = extract_from_index(samples,classes,2)
     
-    xs = extract_from_index(samples, 0)
-    ys = extract_from_index(samples, 1)
-    zs = extract_from_index(samples, 2)
-    
-    for i, cls in enumerate(classes):
-        if cls == 0:
-            c = 'b'
-        else:
-            c = 'r'
+    for i, c in [(0,'r'),(1,'b')]:
         ax.scatter(xs[i], ys[i], zs[i], c=c)
 
-    ax.set_xlabel('X Label')
-    ax.set_ylabel('Y Label')
-    ax.set_zlabel('Z Label')
+    ax.set_xlabel('X')
+    ax.set_ylabel('Y')
+    ax.set_zlabel('Z')
     
     plt.show()
 
-def extract_from_index(arr, i):
-    ans = []
-    for elem in arr:
-        ans.append(elem[i])
+def extract_from_index(samples,classes,i):
+    ans = ([],[])
+    for j, samp in enumerate(samples):
+        if classes[j] == 1:
+            ans[0].append(samp[i])
+        else:
+            ans[1].append(samp[i])
     return ans
 
 if __name__=="__main__":
