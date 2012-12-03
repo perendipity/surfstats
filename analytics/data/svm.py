@@ -12,13 +12,19 @@ import pylab as pl
 from sklearn import svm, datasets
 from mpl_toolkits.mplot3d import Axes3D
 
-def classify_experiment(pos_experiment_type, session):
+def classify(pos_experiment_type, session, test_data):
     (samples, classes) = extract(pos_experiment_type, session)
     ###print samples
     ###print classes
-    fit_svm(create_svm('ghh'), samples, classes)
-    visualize(samples,classes)
+    
+    svm = create('linear')
+    svm = fit(svm, samples, classes)  
 
+    if test_data != None:
+        (tests, classes) = extract (test_data, session)
+        test(svm, tests)
+    
+    
 def extract(pos_experiment_type, session):
     cnames = ['accX', 'accY', 'accZ', 'lux', 'magX', 'magY', 'magZ', 'orX', 'orY', 'orZ', 'prox', 'temp', 'level','volt', 's_start']
     pos_container = []
@@ -50,11 +56,11 @@ def extract(pos_experiment_type, session):
     samples = [tuple(x) for x in trials.values]
     return (samples, classes)
 
-def create_svm(kf='linear', C=1.0, g=0.0, d=3):
+def create(kf='linear', C=1.0, g=0.0, d=3):
     """ Instantiate the SVM
 
     kf -- kernel function (default 'linear')
-    C  -- soft margin (default 1.0)
+    C  -- penalty of the error term (default 1.0)
     g  -- gamma (default 0.0)
     d  -- degree (default 3)
 
@@ -75,7 +81,7 @@ def create_svm(kf='linear', C=1.0, g=0.0, d=3):
             kf = sys.stdin.readline().rstrip()
     return clf
 
-def fit_svm(clf, samples, classes):
+def fit(clf, samples, classes):
     """ Train the SVM on sample data with classifications
     
     clf     -- instantiated SVM
@@ -84,8 +90,17 @@ def fit_svm(clf, samples, classes):
 
     """
     print 'fitting SVM ... '
-    clf.fit(samples, classes)
-   
+    return clf.fit(samples, classes)
+
+def test(svm, test):
+    print "this doesn't do anything useful yet! :-)"
+    for sample in test:
+        print svm.predict(sample)
+    print svm.support_vectors_
+    print svm.n_support_ 
+
+    
+
 def visualize(samples, classes):    
     print 'plotting'
     fig = plt.figure()
@@ -104,6 +119,13 @@ def visualize(samples, classes):
     plt.show()
 
 def extract_from_index(samples,classes,i):
+    """ Return an array consisting of the value at index i from each element of samples
+    
+    samples -- 2D array with dimensions n_samples by n_features  
+    classes -- array of length n_samples specifying class membership 
+    i       -- index
+    
+    """
     ans = ([],[])
     for j, samp in enumerate(samples):
         if classes[j] == 1:
@@ -116,7 +138,8 @@ if __name__=="__main__":
     parser = argparse.ArgumentParser()
     parser.add_argument("session", help="session folder containing the experiments and trials")
     parser.add_argument("pos_experiment_type", help="positive training set")
+    parser.add_argument("-predict", help="testing data set")
 	#parser.add_argument("--cnames", help="column names")
     args = parser.parse_args()
-    classify_experiment(args.pos_experiment_type, args.session)
+    classify(args.pos_experiment_type, args.session, args.predict)
 
