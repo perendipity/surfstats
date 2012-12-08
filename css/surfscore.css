@@ -1,6 +1,6 @@
 /*
  * Surfscore CSS
- * Designed and built with all the love by Peter, Cody, Nishan, Alec and Marco.
+ * Designed and built with all the love by Peter, Cody, Alec and Marco.
  */
 
 .surfscore{
@@ -237,6 +237,13 @@ small {
     margin: 30px;
 }
 
+.signup-box {
+  margin-top: 150px;
+  text-align:center;
+  color:white;	
+}
+
+
 /* NAVBAR */
 
 .navbar .brand:hover {
@@ -353,7 +360,8 @@ small {
 }
 
 .nav > li > a:hover {
-text-decoration: none;
-background-color: transparent !important;
+  text-decoration: none;
+  background-color: transparent !important;
 }
+
 

@@ -988,7 +988,7 @@ input[type="tel"],
 input[type="color"],
 .uneditable-input {
   display: inline-block;
-  height: 20px;
+  height: 40px;
   padding: 4px 6px;
   margin-bottom: 10px;
   font-size: 14px;
@@ -1577,7 +1577,7 @@ select:focus:required:invalid:focus {
 .input-prepend .uneditable-input,
 .input-append .dropdown-menu,
 .input-prepend .dropdown-menu {
-  font-size: 14px;
+  font-size: 24px;
 }
 
 .input-append input,
@@ -3049,8 +3049,8 @@ button.close {
   padding: 4px 12px;
   margin-bottom: 0;
   *margin-left: .3em;
-  font-size: 14px;
-  line-height: 20px;
+  font-size: 20px;
+  line-height: 40px;
   *line-height: 20px;
   color: #333333;
   text-align: center;

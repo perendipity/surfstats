@@ -284,7 +284,7 @@
       }
       
     </style>
-<link href='http://fonts.googleapis.com/css?family=Exo:500,100,400' rel='stylesheet' type='text/css'>    
+	<link href='http://fonts.googleapis.com/css?family=Exo:500,100,400' rel='stylesheet' type='text/css'>    
     <link href="css/nav.css" rel="stylesheet">
     <link href="css/surfscore.css" rel="stylesheet">
     
