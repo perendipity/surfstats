@@ -10,6 +10,7 @@
 
 <?php require_once './includes/ti.php' ?> 
 
+//Pull headers in from the 
 <?php include ('./includes/headers.inc.php') ?>
 
 
