@@ -1,5 +1,6 @@
 <?php include('./includes/header.inc.php'); ?>
 <?php include('./includes/navbar.inc.php'); ?>
+
     <body>
         <div class="row">
             <div class="span8 offset4">

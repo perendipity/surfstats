@@ -1,6 +1,4 @@
 <?php
-//Making sure we escape any apostrophes//
-$email = mysql_real_escape_string($_POST['email']);
 
 $con = mysql_connect("localhost","morawec_surf","surfScore!");
 if (!$con)
@@ -9,6 +7,9 @@ if (!$con)
   }
 
 mysql_select_db("morawec_email", $con);
+
+//Making sure we escape any apostrophes//
+$email = mysql_real_escape_string($_POST['email']);
 
 $sql="INSERT INTO email (emails, date)
 VALUES
