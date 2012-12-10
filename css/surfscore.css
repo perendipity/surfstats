@@ -2,24 +2,159 @@
 surfscore.me is built with all the love in the World by @MarcoMorawec, Peter, Cody and Alec
 **/
 
-.body {
-  background-image: url('./img/background/home.jpg');
-  font-color: #FFFFFF;
+.surfscore-brand{
+    font-family: Exo, Helvetica, san-serif;
+    font-weight: 500;
+    font-size: 60px;
+	color: #FFFFFF;
 }
 
+.location {
+    font-family: Exo, Helvetica, san-serif;
+    font-weight: 100;
+    font-size: 24px;
+}
+
+.user-name {
+    font-family: Exo, Helvetica, san-serif;
+    font-weight: 100;
+    font-size: 72px;
+}
+
+.custom-h1 {
+    font-family: Exo, Helvetica, san-serif;
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.custom-h2 {
+    font-family: Exo, Helvetica, san-serif;
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.custom-h3 {
+    font-family: Exo, Helvetica, san-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.custom-h4{
+    font-family: Exo, Helvetica, san-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.custom-h5{
+    font-family: Exo, Helvetica, san-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+
+
+.navbar .surfscore-brand {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
 
 .navbar .surfscore-brand {
   display: block;
   float: left;
   padding: 10px 20px 10px;
   margin-left: -20px;
-  font-size: 20px;
-  font-weight: 200;
-  color: #FFF;
   text-shadow: 0 1px 0 #ffffff;
 }
 
 .navbar .surfscore-brand:hover {
   text-decoration: none;
-  color: 
+  color: #FFFFFF;
+}
+
+.container-signup {
+  margin-top: 80px;
+  padding-bottom: 20px;
+	
+}
+
+/*BACKGROUND IMAGE all sections */
+
+.signup-section {
+  background-image: url('../img/background/signup-section.jpg');
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: top;
+  background-size: cover;
+  
+}
+
+.howitworks-section {
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: top;
+  background-size: cover;
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+
+.data-section {
+  background-image: url('../img/background/data-section.jpg');
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: top;
+  background-size: cover;
+  padding: 230px 0 70px 0;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.surfboard-section {
+  background-image: url('../img/background/data-section.jpg');
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: top;
+  background-size: cover;
+  padding: 230px 0 70px 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.leaderboard-section {
+  background-image: url('../img/background/data-section.jpg');
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: top;
+  background-size: cover;
+  padding: 230px 0 70px 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.news-section {
+  background-image: url('../img/background/data-section.jpg');
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: top;
+  background-size: cover;
+  padding: 230px 0 70px 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.team-section {
+  background-image: url('../img/background/team-section3s.png');
+  background-color: black;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: top;
+  background-size: cover;
+  padding: 50px 0 70px 0;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
