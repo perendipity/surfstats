@@ -73,7 +73,7 @@ surfscore.me is built with all the love in the World by @MarcoMorawec, Peter, Co
 
 .container-signup {
   margin-top: 80px;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 	
 }
 
@@ -112,7 +112,7 @@ surfscore.me is built with all the love in the World by @MarcoMorawec, Peter, Co
 }
 
 .surfboard-section {
-  background-image: url('../img/background/data-section.jpg');
+  background-image: url('../img/background/surfboard-section.jpg');
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
@@ -124,7 +124,7 @@ surfscore.me is built with all the love in the World by @MarcoMorawec, Peter, Co
 }
 
 .leaderboard-section {
-  background-image: url('../img/background/data-section.jpg');
+  background-image: url('../img/background/leaderboard-section.jpg');
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
@@ -136,7 +136,7 @@ surfscore.me is built with all the love in the World by @MarcoMorawec, Peter, Co
 }
 
 .news-section {
-  background-image: url('../img/background/data-section.jpg');
+  background-image: url('../img/background/news-section.jpg');
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;

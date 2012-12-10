@@ -108,7 +108,7 @@
 	<?php endblock() ?>
 
 	<?php startblock('data_image') ?> 
-		<img src="./img/surfscore/kooks.png" >  
+		<img src="./img/surfscore/surf_data.png" >  
 	<?php endblock() ?>
 
 	<?php startblock('data_sidebar') ?> 
@@ -208,7 +208,6 @@
 
 
 <!-- Start of Team page -->
-
 	<?php startblock('team_title') ?> 
 		The surfscore Team
 	<?php endblock() ?> 
@@ -220,7 +219,7 @@
 	 
 <!-- Marco -->
 	<?php startblock('team_marco_img') ?> 
-		<img src="./img/team/marco.jpg" >
+		<img src="./img/team/marco_bw.jpg" >
 	<?php endblock() ?> 
 	
 	<?php startblock('team_marco_h2') ?> 
@@ -235,7 +234,7 @@
 	
 <!-- Peter -->
 	<?php startblock('team_peter_img') ?> 
-		<img src="./img/team/peter.jpg" >
+		<img src="./img/team/peter_bw.jpg" >
 	<?php endblock() ?> 
 
 	<?php startblock('team_peter_h2') ?> 
@@ -251,7 +250,7 @@
 	
 <!-- Cody -->
 	<?php startblock('team_cody_img') ?> 
-		<img src="./img/team/cody.jpg" >
+		<img src="./img/team/cody_bw.jpg" >
 	<?php endblock() ?> 
 
 	<?php startblock('team_cody_h2') ?> 

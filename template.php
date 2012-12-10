@@ -58,7 +58,7 @@
 						<?php endblock() ?> 
 				</div> 	<!-- End of Middle Block -->
 			
-				<div class="span3 offset1"> <!-- Right Block -->		
+				<div class="span1 offset2"> <!-- Right Block -->		
 						<?php startblock('signup_sidebar') ?>
 						<?php endblock() ?> 
 				</div> 	<!-- End of Right Block -->
@@ -134,7 +134,7 @@
 						<?php endblock() ?> 
 				</div> 	<!-- End of Middle Block -->
 			
-				<div class="span3 offset1"> <!-- Right Block -->		
+				<div class="span1 offset2"> <!-- Right Block -->		
 						<?php startblock('data_sidebar') ?>
 						<?php endblock() ?> 
 				</div> 	<!-- End of Right Block -->	
@@ -177,7 +177,7 @@
 						<?php endblock() ?> 
 				</div> 	<!-- End of Middle Block -->
 			
-				<div class="span3 offset1"> <!-- Right Block -->		
+				<div class="span1 offset2"> <!-- Right Block -->		
 						<?php startblock('surfboard_sidebar') ?>
 						<?php endblock() ?> 
 				</div> 	<!-- End of Right Block -->	
@@ -219,7 +219,7 @@
 						<?php endblock() ?> 
 				</div> 	<!-- End of Middle Block -->
 			
-				<div class="span3 offset1"> <!-- Right Block -->		
+				<div class="span1 offset2"> <!-- Right Block -->		
 						<?php startblock('leaderboard_sidebar') ?>
 						<?php endblock() ?> 
 				</div> 	<!-- End of Right Block -->	
@@ -260,7 +260,7 @@
 						<?php endblock() ?> 
 				</div> 	<!-- End of Middle Block -->
 			
-				<div class="span3 offset1"> <!-- Right Block -->		
+				<div class="span1 offset2"> <!-- Right Block -->		
 						<?php startblock('news_sidebar') ?>
 						<?php endblock() ?> 
 				</div> 	<!-- End of Right Block -->	
@@ -387,7 +387,7 @@
 
 
 <div class="container">
-	
+</br>	
 <?php include ('./includes/footer.inc.php') // get the footer in ?>
 
 </div>	
