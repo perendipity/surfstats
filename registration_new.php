@@ -9,7 +9,7 @@
 	            	<h4 class="custom-h3">Request Early Access!</h4>
 	            	<h5 class="custom-h4">We update you via email when we're ready</h5></br>
 					<!-- Begin email form -->
-					<form id="email" action="./includes/db_surfscore.inc.php" method="post">
+					<form id="email" action="./includes/db_surfscore_local.inc.php" method="post">
 					   		<div id="signup-box signup-container" class="email input-append">
 					   			<input size="20" id="appendedInputButton" type="email" required="" placeholder="Your email address" name="email">
 					    		<button id="signup-button" class="btn btn-danger" type="submit">»</button>
@@ -29,6 +29,8 @@
 					
 			</div>
         </div>
+        
+<?php include ('./includes/footer.inc.php'); ?>
     </body>
 </html>
 
