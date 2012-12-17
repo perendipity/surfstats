@@ -49,9 +49,10 @@
 	<?php endblock() ?>
 
 	<?php startblock('signup_sidebar') ?> 
-		<img src="./img/surfscore/lifetimesidenav.png" ></br>
-		<img src="./img/surfscore/lifetimesidenav.png" ></br>
-		<img src="./img/surfscore/lifetimesidenav.png" ></br>
+		<a href="#"><img class="img-border sidebar_image img-pull-up img-pull-up-top" src="./img/sidebar/lifetimesidenav.png"></a>
+		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
+		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
+		<a href="#"><img class="img-border sidebar_image" src="./img/sidebar/lifetimesidenav.png"></a>
 	<?php endblock() ?>
 
 <!-- End of Sign-up page -->
@@ -112,9 +113,10 @@
 	<?php endblock() ?>
 
 	<?php startblock('data_sidebar') ?> 
-		<img src="./img/surfscore/lifetimesidenav.png" ></br>
-		<img src="./img/surfscore/lifetimesidenav.png" ></br>
-		<img src="./img/surfscore/lifetimesidenav.png" ></br>
+		<a href="#"><img class="img-border sidebar_image img-pull-up img-pull-up-top" src="./img/sidebar/lifetimesidenav.png"></a>
+		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
+		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
+		<a href="#"><img class="img-border sidebar_image" src="./img/sidebar/lifetimesidenav.png"></a>
 	<?php endblock() ?>	
 	
 <!-- End of Data page -->
@@ -141,9 +143,10 @@
 	<?php endblock() ?>
 
 	<?php startblock('surfboard_sidebar') ?> 
-		<img src="./img/surfscore/lifetimesidenav.png" ></br>
-		<img src="./img/surfscore/lifetimesidenav.png" ></br>
-		<img src="./img/surfscore/lifetimesidenav.png" ></br>
+		<a href="#"><img class="img-border sidebar_image img-pull-up img-pull-up-top" src="./img/sidebar/lifetimesidenav.png"></a>
+		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
+		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
+		<a href="#"><img class="img-border sidebar_image" src="./img/sidebar/lifetimesidenav.png"></a>
 	<?php endblock() ?>	
 	
 <!-- End of surfboard page -->
@@ -170,9 +173,10 @@
 	<?php endblock() ?>
 
 	<?php startblock('leaderboard_sidebar') ?> 
-		<img src="./img/surfscore/lifetimesidenav.png" ></br>
-		<img src="./img/surfscore/lifetimesidenav.png" ></br>
-		<img src="./img/surfscore/lifetimesidenav.png" ></br>
+		<a href="#"><img class="img-border sidebar_image img-pull-up img-pull-up-top" src="./img/sidebar/lifetimesidenav.png"></a>
+		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
+		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
+		<a href="#"><img class="img-border sidebar_image" src="./img/sidebar/lifetimesidenav.png"></a>
 	<?php endblock() ?>	
 
 <!-- End of Leaderboard page -->
@@ -199,9 +203,10 @@
 	<?php endblock() ?>
 
 	<?php startblock('news_sidebar') ?> 
-		<img src="./img/surfscore/lifetimesidenav.png" ></br>
-		<img src="./img/surfscore/lifetimesidenav.png" ></br>
-		<img src="./img/surfscore/lifetimesidenav.png" ></br>
+		<a href="#"><img class="img-border sidebar_image img-pull-up img-pull-up-top" src="./img/sidebar/lifetimesidenav.png"></a>
+		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
+		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
+		<a href="#"><img class="img-border sidebar_image" src="./img/sidebar/lifetimesidenav.png"></a>
 	<?php endblock() ?>	
 
 <!-- End of News page -->
