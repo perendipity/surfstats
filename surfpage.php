@@ -49,10 +49,7 @@
 	<?php endblock() ?>
 
 	<?php startblock('signup_sidebar') ?> 
-		<a href="#"><img class="img-border sidebar_image img-pull-up img-pull-up-top" src="./img/sidebar/lifetimesidenav.png"></a>
-		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
-		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
-		<a href="#"><img class="img-border sidebar_image" src="./img/sidebar/lifetimesidenav.png"></a>
+		<?php include './includes/sidebar.inc.php'; ?>
 	<?php endblock() ?>
 
 <!-- End of Sign-up page -->
@@ -65,15 +62,15 @@
 		<?php endblock() ?> 
 
 		<?php startblock('howitworks_point1') ?> 
-			<img class="img-circle" src="http://placehold.it/140x140">
+			<img class="" src="./img/surfscore/shred-o-meter.png">
 			</br>
-	        	<h2 class="custom-h2">Get "Shred-o-Metered"</h2>
+	        	<h2 class="custom-h2">Grab Your surfscore</h2>
 	        	<h5 class="custom-h5">One small device to track all your data</h5>
 	        	<p><a class="btn btn-success" href="#">View details &raquo;</a></p>
 		<?php endblock() ?> 
 
 		<?php startblock('howitworks_point2') ?> 
-			<img class="img-circle" src="http://placehold.it/140x140">
+			<img class="img-circle" src="./img/surfscore/surfing.png">
 			</br>
 	          	<h2 class="custom-h2">Go Surfing</h2>
 	          	<h5 class="custom-h5">Surf hard. Go Radical. Be Yourself!</h5>
@@ -81,10 +78,10 @@
 		<?php endblock() ?> 
 		
 		<?php startblock('howitworks_point3') ?> 
-			<img class="img-circle" src="http://placehold.it/140x140">
+			<img class="img-circle" src="./img/surfscore/surf_data.png">
 			</br>
-		        <h2 class="custom-h2">Get Feedback</h2>
-		        <h5 class="custom-h5">Waves. Tricks. Ride Visualization</h5>
+		        <h2 class="custom-h2">Get Detailed Feedback</h2>
+		        <h5 class="custom-h5">Waves. Shredder Score. Ride Visualization</h5>
 		        <p><a class="btn btn-success" href="#">View details &raquo;</a></p>
 		<?php endblock() ?> 
       
@@ -109,14 +106,11 @@
 	<?php endblock() ?>
 
 	<?php startblock('data_image') ?> 
-		<img src="./img/surfscore/surf_data.png" >  
+		<img class="img-home" src="./img/surfscore/surf_data2.png" >  
 	<?php endblock() ?>
 
 	<?php startblock('data_sidebar') ?> 
-		<a href="#"><img class="img-border sidebar_image img-pull-up img-pull-up-top" src="./img/sidebar/lifetimesidenav.png"></a>
-		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
-		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
-		<a href="#"><img class="img-border sidebar_image" src="./img/sidebar/lifetimesidenav.png"></a>
+		<?php include './includes/sidebar.inc.php'; ?>
 	<?php endblock() ?>	
 	
 <!-- End of Data page -->
@@ -139,14 +133,11 @@
 	<?php endblock() ?>
 
 	<?php startblock('surfboard_image') ?> 
-		<img src="./img/surfscore/kooks.png" >  
+		<img class="img-home" src="./img/surfscore/shred-o-meter.png" >  
 	<?php endblock() ?>
 
 	<?php startblock('surfboard_sidebar') ?> 
-		<a href="#"><img class="img-border sidebar_image img-pull-up img-pull-up-top" src="./img/sidebar/lifetimesidenav.png"></a>
-		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
-		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
-		<a href="#"><img class="img-border sidebar_image" src="./img/sidebar/lifetimesidenav.png"></a>
+		<?php include './includes/sidebar.inc.php'; ?>
 	<?php endblock() ?>	
 	
 <!-- End of surfboard page -->
@@ -169,14 +160,11 @@
 	<?php endblock() ?>
 
 	<?php startblock('leaderboard_image') ?> 
-		<img src="./img/surfscore/kooks.png" >  
+		<img class="img-home" src="./img/surfscore/iphone_template2.png" >  
 	<?php endblock() ?>
 
 	<?php startblock('leaderboard_sidebar') ?> 
-		<a href="#"><img class="img-border sidebar_image img-pull-up img-pull-up-top" src="./img/sidebar/lifetimesidenav.png"></a>
-		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
-		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
-		<a href="#"><img class="img-border sidebar_image" src="./img/sidebar/lifetimesidenav.png"></a>
+		<?php include './includes/sidebar.inc.php'; ?>
 	<?php endblock() ?>	
 
 <!-- End of Leaderboard page -->
@@ -203,10 +191,7 @@
 	<?php endblock() ?>
 
 	<?php startblock('news_sidebar') ?> 
-		<a href="#"><img class="img-border sidebar_image img-pull-up img-pull-up-top" src="./img/sidebar/lifetimesidenav.png"></a>
-		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
-		<a href="#"><img class="img-border sidebar_image img-pull-up" src="./img/sidebar/lifetimesidenav.png"></a>
-		<a href="#"><img class="img-border sidebar_image" src="./img/sidebar/lifetimesidenav.png"></a>
+		<?php include './includes/sidebar.inc.php'; ?>
 	<?php endblock() ?>	
 
 <!-- End of News page -->

@@ -53,12 +53,12 @@
 				</div> 	<!-- End of Left Block -->
 					
 					
-				<div class="span3"> <!-- Middle Block -->		
+				<div class="span3 offset1"> <!-- Middle Block -->		
 						<?php startblock('signup_image') ?> 
 						<?php endblock() ?> 
 				</div> 	<!-- End of Middle Block -->
 			
-				<div class="span1 offset3"> <!-- Right Block -->		
+				<div class="span1 offset2"> <!-- Right Block -->		
 						<?php startblock('signup_sidebar') ?>
 						<?php endblock() ?> 
 				</div> 	<!-- End of Right Block -->
@@ -72,7 +72,7 @@
 <!-- HOW IT WORKS. First -> Second -> Third
 ================================================== -->
 <div class="container">	
-	<div class="howitworks-section">		
+	<div class="howitworks-section" id="howitworks-section">		
       <!-- Three columns of text below the carousel -->
 	 			<h1 class="custom-h1">
 					<?php startblock('howitworks_title') ?> 
@@ -105,7 +105,7 @@
 
 <!-- DATA PAGE
 ================================================== -->
-<div class="data-section"> <!-- data-section-background -->	
+<div class="data-section" id="data-section"> <!-- data-section-background -->	
 		
 	<div class="container">
 		<div class="row">
@@ -129,12 +129,12 @@
 				</div> 	<!-- End of Left Block -->
 					
 					
-				<div class="span3"> <!-- Middle Block -->		
+				<div class="span3 offset1"> <!-- Middle Block -->		
 						<?php startblock('data_image') ?> 
 						<?php endblock() ?> 
 				</div> 	<!-- End of Middle Block -->
 			
-				<div class="span1 offset3"> <!-- Right Block -->		
+				<div class="span1 offset2"> <!-- Right Block -->		
 						<?php startblock('data_sidebar') ?>
 						<?php endblock() ?> 
 				</div> 	<!-- End of Right Block -->	
@@ -148,7 +148,7 @@
 
 <!-- SURFBOARD PAGE
 ================================================== -->
-<div class="surfboard-section"> <!-- surfboard-section-background -->	
+<div class="surfboard-section" id="surfboard-section"> <!-- surfboard-section-background -->	
 		
 	<div class="container">
 		<div class="row">
@@ -190,7 +190,7 @@
 <!-- LEADERBOARD PAGE
 ================================================== -->
 
-<div class="leaderboard-section"> <!-- leaderboard-section-background -->	
+<div class="leaderboard-section" id="leaderboard-section"> <!-- leaderboard-section-background -->	
 		
 	<div class="container">
 		<div class="row">
@@ -231,7 +231,7 @@
 <!-- NEWS PAGE
 ================================================== -->
 
-<div class="news-section"> <!-- news-section-background -->	
+<div class="news-section" id="team-section"> <!-- news-section-background -->	
 		
 	<div class="container">
 		<div class="row">
@@ -272,7 +272,7 @@
 
 <!-- TEAM PAGE
 ================================================== -->
-<div class="team-section"> <!-- team-section-background -->	
+<div class="team-section" id="team-section"> <!-- team-section-background -->	
 	<div class="container">
 		<!-- Headline Section -->
 			<h1 class="custom-h1">

@@ -8,11 +8,11 @@
               <li <?php if ($currentPage == 'home.php') {
                  echo 'class="active"'; } ?>><a href="surfpage.php">home</a></li>
               <li <?php if ($currentPage == 'team.php') {
-                echo 'class="active"'; } ?>><a href="#team">team</a></li>
+                echo 'class="active"'; } ?>><a href="#team-section">team</a></li>
               <li <?php if ($currentPage == 'dontbeakook.tumblr.com') {
-                echo 'class="active"'; } ?>><a href="http://www.dontbeakook.tumblr.com">blog</a></li>
+                echo 'class="active"'; } ?>><a href="#news-section">blog</a></li>
               <li <?php if ($currentPage == 'contact.php') {
-                echo 'class="active"'; } ?><a href="contact.php"><img border="0" href="./contact.php" src="./img/mail.png"></a</li>
+                echo 'class="active"'; } ?>><a href="contact.php">contact</a></li>
             </ul>            
 		</div>
 	</div>
