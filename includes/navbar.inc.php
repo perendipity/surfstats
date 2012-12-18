@@ -2,7 +2,7 @@
     ================================================== -->
     <div class="container navbar-wrapper">
       <div class="navbar navbar-inverse">
-          <a class="surfscore-brand" href=".surfpage.php">surfscore</a>
+          <a class="surfscore-brand" href="surfpage.php">surfscore</a>
           <div class="nav-collapse">
             <ul class="nav pull-right">
               <li <?php if ($currentPage == 'home.php') {
