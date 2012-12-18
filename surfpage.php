@@ -21,12 +21,11 @@
 <!-- Start of Sign-up page -->
 
 	<?php startblock('signup_title') ?> 
-		Surf Better. Be Smart!
+		Improve Your Surfing
 	<?php endblock() ?> 
 
 	<?php startblock('signup_h2') ?> 
-		Use surfscores' feedback &</br> 
-		Start Surfing Better!  
+		Track Each Wave. Surf Better</br> 
 	<?php endblock() ?>
 	
 	<?php startblock('signup_copy') ?> 
@@ -92,12 +91,12 @@
 <!-- Start of Data page -->
 
 	<?php startblock('data_title') ?> 
-		Get Feedback
+		See Every Wave
 	<?php endblock() ?> 
 	
 	<?php startblock('data_h2') ?> 
-		Know What's Happening &</br> 
-		Visualize Every Wave!  
+		Get Your Stats &</br> 
+		Know What's Happening!  
 	<?php endblock() ?>
 	
 	<?php startblock('data_copy') ?> 
@@ -150,7 +149,7 @@
 	<?php endblock() ?> 
 	
 	<?php startblock('leaderboard_h2') ?> 
-		Surf with your Buddies</br> 
+		Challenge Your Friends</br> 
 		Dominate the Leaderboard!  
 	<?php endblock() ?>
 	

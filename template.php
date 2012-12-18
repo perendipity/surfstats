@@ -231,7 +231,7 @@
 <!-- NEWS PAGE
 ================================================== -->
 
-<div class="news-section" id="team-section"> <!-- news-section-background -->	
+<div class="news-section" id="news-section"> <!-- news-section-background -->	
 		
 	<div class="container">
 		<div class="row">
