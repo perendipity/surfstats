@@ -21,12 +21,12 @@
 <!-- Start of Sign-up page -->
 
 	<?php startblock('signup_title') ?> 
-		Hang Loose
+		Surf Better. Be Smart!
 	<?php endblock() ?> 
 
 	<?php startblock('signup_h2') ?> 
-		Get better, faster.</br> 
-		Use surfscore. Win!  
+		Use surfscores' feedback &</br> 
+		Start Surfing Better!  
 	<?php endblock() ?>
 	
 	<?php startblock('signup_copy') ?> 
@@ -66,7 +66,7 @@
 			</br>
 	        	<h2 class="custom-h2">Grab Your surfscore</h2>
 	        	<h5 class="custom-h5">One small device to track all your data</h5>
-	        	<p><a class="btn btn-success" href="#">View details &raquo;</a></p>
+	        	<p><a class="btn btn-success" href="#data-section">View details &raquo;</a></p>
 		<?php endblock() ?> 
 
 		<?php startblock('howitworks_point2') ?> 
@@ -92,12 +92,12 @@
 <!-- Start of Data page -->
 
 	<?php startblock('data_title') ?> 
-		Get data. Improve Instantly!
+		Get Feedback
 	<?php endblock() ?> 
 	
 	<?php startblock('data_h2') ?> 
-		Get better, faster.</br> 
-		Use surfscore. Win!  
+		Know What's Happening &</br> 
+		Visualize Every Wave!  
 	<?php endblock() ?>
 	
 	<?php startblock('data_copy') ?> 
@@ -119,12 +119,12 @@
 <!-- Start of Surfboard page -->
 
 	<?php startblock('surfboard_title') ?> 
-		Get your Shred-o-Meter. Track Everything!
+		One Simple Device
 	<?php endblock() ?> 
 	
 	<?php startblock('surfboard_h2') ?> 
-		Get better, faster.</br> 
-		Use surfscore. Win!  
+		Smaller than fin-plug.</br> 
+		Battery Power for 6 Month!
 	<?php endblock() ?>
 	
 	<?php startblock('surfboard_copy') ?> 
@@ -146,12 +146,12 @@
 <!-- Start of Leaderboard page -->
 
 	<?php startblock('leaderboard_title') ?> 
-		Train Hard. Rule the Leaderboard!
+		Surf Hard. Compete!
 	<?php endblock() ?> 
 	
 	<?php startblock('leaderboard_h2') ?> 
-		Get better, faster.</br> 
-		Use surfscore. Win!  
+		Surf with your Buddies</br> 
+		Dominate the Leaderboard!  
 	<?php endblock() ?>
 	
 	<?php startblock('leaderboard_copy') ?> 
