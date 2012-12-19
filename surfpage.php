@@ -35,7 +35,7 @@
 
 	<?php startblock('signup_emailform') ?> 
 		<!-- Begin email form -->
-			<form id="email" action="./includes/db_surfscore.inc.php" method="post">
+			<form id="email" action="" method="post">
 			   	<div class="email input-append">
 			   		<input size="20" id="appendedInputButton" type="email" required="" placeholder="Your email address" name="email">
 			    	<button class="btn btn-danger" type="submit">»</button>
@@ -63,7 +63,7 @@
 		<?php startblock('howitworks_point1') ?> 
 			<img class="" src="./img/surfscore/shred-o-meter.png">
 			</br>
-	        	<h2 class="custom-h2">Grab Your surfscore</h2>
+	        	<h2 class="custom-h2">Mount Your surfscore</h2>
 	        	<h5 class="custom-h5">One small device to track all your data</h5>
 	        	<p><a class="btn btn-success" href="#data-section">View details &raquo;</a></p>
 		<?php endblock() ?> 
@@ -122,7 +122,7 @@
 	<?php endblock() ?> 
 	
 	<?php startblock('surfboard_h2') ?> 
-		Smaller than fin-plug.</br> 
+		Smaller than a fin-plug.</br> 
 		Battery Power for 6 Month!
 	<?php endblock() ?>
 	
