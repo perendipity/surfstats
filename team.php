@@ -1,4 +1,4 @@
-<?php include './includes/template.team.php' ?> 
+<?php include './includes/template.team.inc.php' ?> 
 
 <style>
 	body {

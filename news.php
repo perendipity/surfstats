@@ -1,4 +1,4 @@
-<?php include './includes/template.news.php' ?> 
+<?php include './includes/template.news.inc.php' ?> 
 
 <style>
 	body {
