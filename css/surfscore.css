@@ -9,6 +9,18 @@ surfscore.me is built with all the love in the World by @MarcoMorawec, Peter, Co
 	color: #FFFFFF;
 }
 
+footer .surfscore-brand{
+    font-family: Exo, Helvetica, san-serif;
+    font-weight: 500;
+    font-size: 60px;
+	color: grey;
+}
+
+.surfscore-brand:hover{
+	text-decoration:none;
+	color: #FFFFFF;
+}
+
 .location {
     font-family: Exo, Helvetica, san-serif;
     font-weight: 100;
@@ -69,6 +81,12 @@ surfscore.me is built with all the love in the World by @MarcoMorawec, Peter, Co
 .navbar .surfscore-brand:hover {
   text-decoration: none;
   color: #FFFFFF;
+}
+
+.nav-links {
+    font-family: Exo, Helvetica, san-serif;
+    font-weight: 500;
+    font-size: 18px;
 }
 
 .container-signup {
@@ -199,8 +217,15 @@ surfscore.me is built with all the love in the World by @MarcoMorawec, Peter, Co
   max-width: 150%	
 }
 
-/* Responsive Part*/
+/* Footer */
 
-
+footer {
+    border-top: 1px solid #DDDDDD;
+    box-shadow: 0 1px 0 #FFFFFF inset;
+    clear: both;
+    color: #999999;
+    padding: 60px 20px 20px;
+    width: auto;
+}
 
 	

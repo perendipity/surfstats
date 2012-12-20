@@ -386,8 +386,6 @@
 
 
 
-<div class="container">
-</br>	
 <?php include ('./includes/footer.inc.php') // get the footer in ?>
 
 </div>	
