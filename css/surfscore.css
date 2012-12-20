@@ -78,11 +78,6 @@ footer .surfscore-brand{
   text-shadow: 0 1px 0 #ffffff;
 }
 
-.navbar .surfscore-brand:hover {
-  text-decoration: none;
-  color: #FFFFFF;
-}
-
 .nav-links {
     font-family: Exo, Helvetica, san-serif;
     font-weight: 500;
@@ -98,7 +93,8 @@ footer .surfscore-brand{
 /*BACKGROUND IMAGE all sections */
 
 .body {
-  background-color: black;	
+  background-color: black;
+  	
 }
 
 @media (min-width: 481px) {
@@ -119,8 +115,7 @@ footer .surfscore-brand{
   background-repeat: no-repeat;
   background-attachment: top;
   background-size: cover;
-  margin-top: 20px;
-  margin-bottom: 80px;
+  border-top: 2px solid #DDDDDD;
 }
 
 .data-section {
@@ -133,6 +128,7 @@ footer .surfscore-brand{
   padding: 230px 0 70px 0;
   margin-top: 20px;
   margin-bottom: 0px;
+  border-top: 2px solid #DDDDDD;
 }
 
 .surfboard-section {
@@ -145,6 +141,7 @@ footer .surfscore-brand{
   padding: 230px 0 70px 0;
   margin-top: 0px;
   margin-bottom: 0px;
+  border-top: 2px solid #DDDDDD;
 }
 
 .leaderboard-section {
@@ -157,6 +154,7 @@ footer .surfscore-brand{
   padding: 230px 0 70px 0;
   margin-top: 0px;
   margin-bottom: 0px;
+  border-top: 2px solid #DDDDDD;
 }
 
 .news-section {
@@ -166,10 +164,29 @@ footer .surfscore-brand{
   background-repeat: no-repeat;
   background-attachment: top;
   background-size: cover;
-  padding: 0px 0 70px 0;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  
+  
 }
+/*
+.news-section {
+	background: url(../img/background/news-section.jpg) no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	
+}
+
+background-image: url("/images/1_intro/bg1.jpg?v=0.0.6"); 
+background-repeat: no-repeat; 
+background-position: center center; 
+background-size: 100% auto; 
+visibility: hidden; 
+position: absolute; 
+top: 0px; 
+left: 0px; 
+opacity: 1;
+*/
 
 .team-section {
   background-image: url('../img/background/team-section3s.png');

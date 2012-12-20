@@ -32,6 +32,10 @@
 		This is the best thing since sliced bread. Track all your metrics, get better, see what's happening
 		and improve consistently. Compete with friends and be the best surfer you could possibly be.  
 	<?php endblock() ?>
+	
+	<?php startblock('signup_beta') ?> 
+		Request Early Access Now!
+	<?php endblock() ?> 
 
 	<?php startblock('signup_emailform') ?> 
 		<!-- Begin email form -->
@@ -50,15 +54,16 @@
 	<?php startblock('signup_sidebar') ?> 
 		<?php include './includes/sidebar.inc.php'; ?>
 	<?php endblock() ?>
+	
+		<?php startblock('howitworks_title') ?> 
+			How It Works
+		<?php endblock() ?> 
 
 <!-- End of Sign-up page -->
 
 
 <!-- Start of How it works page -->
 
-		<?php startblock('howitworks_title') ?> 
-			How it works
-		<?php endblock() ?> 
 
 		<?php startblock('howitworks_point1') ?> 
 			<img class="" src="./img/surfscore/shred-o-meter.png">
@@ -103,7 +108,11 @@
 		This is the best thing since sliced bread. Track all your metrics, get better, see what's happening
 		and improve consistently. Compete with friends and be the best surfer you could possibly be.  
 	<?php endblock() ?>
-
+	
+	<?php startblock('signup_data') ?> 
+			</br><a href="signup.php"><button class="pull-right btn btn-large btn-danger"><h1 class="custom-h1">Sign-Up</h1></button></a>
+	<?php endblock() ?>
+	
 	<?php startblock('data_image') ?> 
 		<img class="img-home" src="./img/surfscore/surf_data2.png" >  
 	<?php endblock() ?>
@@ -129,6 +138,10 @@
 	<?php startblock('surfboard_copy') ?> 
 		This is the best thing since sliced bread. Track all your metrics, get better, see what's happening
 		and improve consistently. Compete with friends and be the best surfer you could possibly be.  
+	<?php endblock() ?>
+	
+	<?php startblock('signup_surfboard') ?> 
+			</br><a href="signup.php"><button class="pull-right btn btn-large btn-danger"><h1 class="custom-h1">Sign-Up</h1></button></a>
 	<?php endblock() ?>
 
 	<?php startblock('surfboard_image') ?> 
@@ -156,6 +169,10 @@
 	<?php startblock('leaderboard_copy') ?> 
 		This is the best thing since sliced bread. Track all your metrics, get better, see what's happening
 		and improve consistently. Compete with friends and be the best surfer you could possibly be.  
+	<?php endblock() ?>
+	
+	<?php startblock('signup_leaderboard') ?> 
+			</br><a href="signup.php"><button class="pull-right btn btn-large btn-danger"><h1 class="custom-h1">Sign-Up</h1></button></a>
 	<?php endblock() ?>
 
 	<?php startblock('leaderboard_image') ?> 

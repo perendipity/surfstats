@@ -46,7 +46,12 @@
 						<?php startblock('signup_copy') ?> 
 						<?php endblock() ?> 
 					</h5>
-					</br>	
+					
+					<br><h3 class="custom-h3">
+						<?php startblock('signup_beta') ?> 
+						<?php endblock() ?> 
+					</h3>
+					
 						<?php startblock('signup_emailform') ?> 
 						<?php endblock() ?>
 						 
@@ -64,20 +69,22 @@
 				</div> 	<!-- End of Right Block -->
 	
 
-		</div> <!-- End of Row -->	
+		</div> <!-- End of Row -->
+		<!-- How it works title -->
+			 	<h1 class="custom-h1">
+					<?php startblock('howitworks_title') ?> 
+					<?php endblock() ?>
+				</h1>
+		<!-- ./ How it works title -->
 	</div> <!-- End of Background image section -->
 
 </div> <!-- end of sign-up section container -->	
 
 <!-- HOW IT WORKS. First -> Second -> Third
 ================================================== -->
-<div class="container">	
-	<div class="howitworks-section" id="howitworks-section">		
+<div class="howitworks-section" id="howitworks-section">		
+  <div class="container">	
       <!-- Three columns of text below the carousel -->
-	 			<h1 class="custom-h1">
-					<?php startblock('howitworks_title') ?> 
-					<?php endblock() ?> 
-				</h1>
 				</br>
 	<div class="container marketing">
       	<div class="row">
@@ -125,6 +132,9 @@
 						<?php startblock('data_copy') ?> 
 						<?php endblock() ?> 
 					</h5>
+					
+						<?php startblock('signup_data') ?> 
+						<?php endblock() ?>
 						 
 				</div> 	<!-- End of Left Block -->
 					
@@ -169,6 +179,9 @@
 						<?php endblock() ?> 
 					</h5>
 						 
+						<?php startblock('signup_surfboard') ?> 
+						<?php endblock() ?>
+						 
 				</div> 	<!-- End of Left Block -->
 					
 					
@@ -210,6 +223,9 @@
 						<?php startblock('leaderboard_copy') ?> 
 						<?php endblock() ?> 
 					</h5>
+						 
+						<?php startblock('signup_leaderboard') ?> 
+						<?php endblock() ?>
 						 
 				</div> 	<!-- End of Left Block -->
 					
