@@ -6,7 +6,7 @@
           <div class="nav-collapse">
             <ul class="nav pull-right nav-links">
               <li <?php if ($currentPage == 'home.php') {
-                echo 'class="active"'; } ?>><a href="home.pph#howitworks-section">How It Works</a></li>
+                echo 'class="active"'; } ?>><a href="home.php#howitworks-section">How It Works</a></li>
               <li <?php if ($currentPage == 'home.php') {
                 echo 'class="active"'; } ?>><a href="home.php#data-section">Features</a></li>
               <li <?php if ($currentPage == 'sign-up.php') {
