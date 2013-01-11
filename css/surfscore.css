@@ -212,21 +212,15 @@ opacity: 1;
 }
 
 .img-border {
-  border: 6px solid white;
+  border: 8px solid white;
   padding: 12px;
 }
 
 .img-border:hover {
-  border: 6px solid black;
+  border: 8px solid black;
 }
 
-.img-pull-up {
-  margin-bottom: -50px;
-}
 
-.img-pull-up-top {
-  margin-top: -50px;
-}
 
 /* images */
 

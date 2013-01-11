@@ -31,7 +31,7 @@
 <div class="container container-signup">
 		<div class="row">
 				<div class="span5"> <!-- Left Block -->
-				
+								
 					<h1 class="custom-h1">
 						<?php startblock('signup_title') ?> 
 						<?php endblock() ?> 
@@ -62,12 +62,7 @@
 						<?php startblock('signup_image') ?> 
 						<?php endblock() ?> 
 				</div> 	<!-- End of Middle Block -->
-			
-				<div class="span1 offset2"> <!-- Right Block -->		
-						<?php startblock('signup_sidebar') ?>
-						<?php endblock() ?> 
-				</div> 	<!-- End of Right Block -->
-	
+				
 
 		</div> <!-- End of Row -->
 		<!-- How it works title -->
@@ -118,6 +113,13 @@
 		<div class="row">
 				<div class="span5"> <!-- Left Block -->
 				
+				<div class="row"> <!-- nav Block -->
+						<div class="span4">	
+							<?php startblock('data_sidebar') ?>
+							<?php endblock() ?> 
+						</div>
+				</div> 	<!-- End of nav Block -->
+				
 					<h1 class="custom-h1">
 						<?php startblock('data_title') ?> 
 						<?php endblock() ?> 
@@ -144,10 +146,6 @@
 						<?php endblock() ?> 
 				</div> 	<!-- End of Middle Block -->
 			
-				<div class="span1 offset2"> <!-- Right Block -->		
-						<?php startblock('data_sidebar') ?>
-						<?php endblock() ?> 
-				</div> 	<!-- End of Right Block -->	
 
 		</div> <!-- End of Row -->	
 	</div> 	<!-- End of container -->
@@ -163,6 +161,13 @@
 	<div class="container">
 		<div class="row">
 				<div class="span5"> <!-- Left Block -->
+				
+				<div class="row"> <!-- nav Block -->
+						<div class="span4">	
+							<?php startblock('surfboard_sidebar') ?>
+							<?php endblock() ?> 
+						</div>
+				</div> 	<!-- End of nav Block -->
 				
 					<h1 class="custom-h1">
 						<?php startblock('surfboard_title') ?> 
@@ -190,10 +195,6 @@
 						<?php endblock() ?> 
 				</div> 	<!-- End of Middle Block -->
 			
-				<div class="span1 offset3"> <!-- Right Block -->		
-						<?php startblock('surfboard_sidebar') ?>
-						<?php endblock() ?> 
-				</div> 	<!-- End of Right Block -->	
 
 		</div> <!-- End of Row -->	
 	</div> 	<!-- End of container -->
@@ -208,6 +209,13 @@
 	<div class="container">
 		<div class="row">
 				<div class="span5"> <!-- Left Block -->
+				
+				<div class="row"> <!-- nav Block -->
+						<div class="span4">	
+							<?php startblock('leaderboard_sidebar') ?>
+							<?php endblock() ?> 
+						</div>	
+				</div> 	<!-- End of nav Block -->
 				
 					<h1 class="custom-h1">
 						<?php startblock('leaderboard_title') ?> 
@@ -235,10 +243,6 @@
 						<?php endblock() ?> 
 				</div> 	<!-- End of Middle Block -->
 			
-				<div class="span1 offset3"> <!-- Right Block -->		
-						<?php startblock('leaderboard_sidebar') ?>
-						<?php endblock() ?> 
-				</div> 	<!-- End of Right Block -->	
 
 		</div> <!-- End of Row -->	
 	</div> 	<!-- End of container -->

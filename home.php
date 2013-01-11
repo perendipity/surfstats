@@ -52,7 +52,6 @@
 	<?php endblock() ?>
 
 	<?php startblock('signup_sidebar') ?> 
-		<?php include './includes/sidebar.inc.php'; ?>
 	<?php endblock() ?>
 	
 		<?php startblock('howitworks_title') ?> 
@@ -95,6 +94,10 @@
 
 <!-- Start of Data page -->
 
+	<?php startblock('data_sidebar') ?> 
+		<?php include './includes/sidebar.inc.php'; ?>
+	<?php endblock() ?>	
+
 	<?php startblock('data_title') ?> 
 		See Every Wave
 	<?php endblock() ?> 
@@ -117,14 +120,15 @@
 		<img class="img-home" src="./img/surfscore/surf_data2.png" >  
 	<?php endblock() ?>
 
-	<?php startblock('data_sidebar') ?> 
-		<?php include './includes/sidebar.inc.php'; ?>
-	<?php endblock() ?>	
 	
 <!-- End of Data page -->
 
 
 <!-- Start of Surfboard page -->
+
+	<?php startblock('surfboard_sidebar') ?> 
+		<?php include './includes/sidebar.inc.php'; ?>
+	<?php endblock() ?>	
 
 	<?php startblock('surfboard_title') ?> 
 		One Simple Device
@@ -148,14 +152,15 @@
 		<img class="img-home" src="./img/surfscore/shred-o-meter.png" >  
 	<?php endblock() ?>
 
-	<?php startblock('surfboard_sidebar') ?> 
-		<?php include './includes/sidebar.inc.php'; ?>
-	<?php endblock() ?>	
 	
 <!-- End of surfboard page -->
 
 
 <!-- Start of Leaderboard page -->
+
+	<?php startblock('leaderboard_sidebar') ?> 
+		<?php include './includes/sidebar.inc.php'; ?>
+	<?php endblock() ?>	
 
 	<?php startblock('leaderboard_title') ?> 
 		Surf Hard. Compete!
@@ -179,9 +184,6 @@
 		<img class="img-home" src="./img/surfscore/iphone_template2.png" >  
 	<?php endblock() ?>
 
-	<?php startblock('leaderboard_sidebar') ?> 
-		<?php include './includes/sidebar.inc.php'; ?>
-	<?php endblock() ?>	
 
 <!-- End of Leaderboard page -->
 
