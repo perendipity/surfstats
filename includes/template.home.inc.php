@@ -58,7 +58,7 @@
 				</div> 	<!-- End of Left Block -->
 					
 					
-				<div class="span3 offset1"> <!-- Middle Block -->		
+				<div class="span5"> <!-- Middle Block -->		
 						<?php startblock('signup_image') ?> 
 						<?php endblock() ?> 
 				</div> 	<!-- End of Middle Block -->

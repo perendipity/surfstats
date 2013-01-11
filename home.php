@@ -48,7 +48,7 @@
 	<?php endblock() ?>
 
 	<?php startblock('signup_image') ?> 
-		<img src="./img/surfscore/kooks.png" >  
+		<img class="img-home" src="./img/surfscore/phone_tablet.png" >  
 	<?php endblock() ?>
 
 	<?php startblock('signup_sidebar') ?> 
@@ -117,7 +117,7 @@
 	<?php endblock() ?>
 	
 	<?php startblock('data_image') ?> 
-		<img class="img-home" src="./img/surfscore/surf_data2.png" >  
+		<img class="img-home" src="./img/surfscore/surf_data2.pn" >  
 	<?php endblock() ?>
 
 	
@@ -149,7 +149,7 @@
 	<?php endblock() ?>
 
 	<?php startblock('surfboard_image') ?> 
-		<img class="img-home" src="./img/surfscore/shred-o-meter.png" >  
+		<img class="img-home" src="./img/surfscore/score3.png" >  
 	<?php endblock() ?>
 
 	
