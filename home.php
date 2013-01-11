@@ -65,7 +65,7 @@
 
 
 		<?php startblock('howitworks_point1') ?> 
-			<img class="" src="./img/surfscore/shred-o-meter.png">
+			<img class="" src="./img/surfscore/score2.png">
 			</br>
 	        	<h2 class="custom-h2">Mount Your surfscore</h2>
 	        	<h5 class="custom-h5">One small device to track all your data</h5>
