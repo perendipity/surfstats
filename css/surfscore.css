@@ -126,7 +126,7 @@ footer .surfscore-brand{
   background-attachment: top;
   background-size: cover;
   padding: 230px 0 70px 0;
-  margin-top: 20px;
+  margin-top: 0px;
   margin-bottom: 0px;
   border-top: 2px solid #DDDDDD;
 }
@@ -231,6 +231,7 @@ opacity: 1;
 /* Footer */
 
 footer {
+	background-color: black;
     border-top: 1px solid #DDDDDD;
     box-shadow: 0 1px 0 #FFFFFF inset;
     clear: both;

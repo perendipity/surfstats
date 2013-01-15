@@ -16,7 +16,7 @@
 
 
 <body> 
-<div class="signup-section"> <!-- Background image section -->
+<div class="signup-sectio"> <!-- Background image section -->
 	<?php include ('./includes/navbar.inc.php') // get the navbar in ?>
 
 
@@ -256,6 +256,9 @@
 
 
 <?php include ('./includes/footer.inc.php') // get the footer in ?>
+
+<?php include ('./includes/backstretch.inc.php') // get the backstretch going ?>
+
 
 </div>	
 	</body> 
