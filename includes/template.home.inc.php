@@ -250,13 +250,14 @@
 </div> <!--./ leaderboard-section background -->
 
 
+<?php include ('./includes/footer.inc.php') // get the footer in ?>
+
 
 </div> <!-- End container -->
 
 
 
 
-<?php include ('./includes/footer.inc.php') // get the footer in ?>
 
 <?php include ('./includes/backstretch.inc.php') // get the backstretch going ?>
 
