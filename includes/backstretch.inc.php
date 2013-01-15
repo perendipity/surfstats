@@ -11,7 +11,7 @@
   // Or, to start a slideshow, just pass in an array of images
   $.backstretch([
     "./img/background/data-section.jpg",
-    "./img/background/signup-section.jpg",
-    "./img/background/news-section.jpg",
+    "./img/background/surfboard-section2.jpg",
+    "./img/background/leaderboard-section.jpg",
   ], {duration: 4000, fade: 750});
 </script>

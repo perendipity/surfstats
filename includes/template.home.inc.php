@@ -16,7 +16,7 @@
 
 
 <body> 
-<div class="signup-sectio"> <!-- Background image section -->
+<!--<div class="signup-section"> <!-- Background image section -->
 	<?php include ('./includes/navbar.inc.php') // get the navbar in ?>
 
 
