@@ -99,6 +99,13 @@ footer .surfscore-brand{
 
 @media (min-width: 481px) {
 	
+.background-section {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+	
+	
 .signup-section {
   background-image: url('../img/background/signup-section.jpg');
   background-color: black;
@@ -106,7 +113,8 @@ footer .surfscore-brand{
   background-repeat: no-repeat;
   background-attachment: top;
   background-size: cover;
-  
+  height: 100%;
+  width: 100%;
 }
 
 .howitworks-section {
@@ -116,6 +124,7 @@ footer .surfscore-brand{
   background-attachment: top;
   background-size: cover;
   border-top: 2px solid #DDDDDD;
+  position: relative;
 }
 
 .data-section {
