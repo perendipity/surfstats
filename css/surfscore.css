@@ -128,7 +128,7 @@ footer .surfscore-brand{
 }
 
 .data-section {
-  background-image: url('../img/background/3Metrics.jpg');
+  background-image: url('../img/background/metrics.jpg');
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
@@ -140,6 +140,7 @@ footer .surfscore-brand{
   border-top: 2px solid #DDDDDD;
 }
 
+/* One Simple Device */
 .surfboard-section {
   background-image: url('../img/background/surfboard-section.jpg');
   background-color: black;
@@ -154,7 +155,7 @@ footer .surfscore-brand{
 }
 
 .leaderboard-section {
-  background-image: url('../img/background/4Interface.jpg');
+  background-image: url('../img/background/leaderboard.jpg');
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
@@ -198,7 +199,7 @@ opacity: 1;
 */
 
 .team-section {
-  background-image: url('../img/background/5Team.jpg');
+  background-image: url('../img/background/team.jpg');
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
