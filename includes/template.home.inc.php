@@ -31,7 +31,7 @@
 
 <div class="container container-signup">
 		<div class="row">
-				<div class="span5"> <!-- Left Block -->
+				<div class="span6"> <!-- Left Block -->
 								
 					<h1 class="custom-h1">
 						<?php startblock('signup_title') ?> 
@@ -112,7 +112,7 @@
 		
 	<div class="container">
 		<div class="row">
-				<div class="span5"> <!-- Left Block -->
+				<div class="span6"> <!-- Left Block -->
 				
 				<div class="row"> <!-- nav Block -->
 						<div class="span4">	
@@ -161,7 +161,7 @@
 		
 	<div class="container">
 		<div class="row">
-				<div class="span5"> <!-- Left Block -->
+				<div class="span6"> <!-- Left Block -->
 				
 				<div class="row"> <!-- nav Block -->
 						<div class="span4">	
@@ -209,7 +209,7 @@
 		
 	<div class="container">
 		<div class="row">
-				<div class="span5"> <!-- Left Block -->
+				<div class="span6"> <!-- Left Block -->
 				
 				<div class="row"> <!-- nav Block -->
 						<div class="span4">	
