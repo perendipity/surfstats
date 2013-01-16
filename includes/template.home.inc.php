@@ -48,7 +48,7 @@
 						<?php endblock() ?> 
 					</h5>
 					
-					<br><h3 class="custom-h3">
+					<h3 class="custom-h3">
 						<?php startblock('signup_beta') ?> 
 						<?php endblock() ?> 
 					</h3>
@@ -67,10 +67,12 @@
 
 		</div> <!-- End of Row -->
 		<!-- How it works title -->
+			<div class="howitworks-title">
 			 	<h1 class="custom-h1">
 					<?php startblock('howitworks_title') ?> 
 					<?php endblock() ?>
 				</h1>
+			</div>
 		<!-- ./ How it works title -->
 	</div> <!-- End of Background image section -->
 

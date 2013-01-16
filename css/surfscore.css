@@ -94,7 +94,13 @@ footer .surfscore-brand{
 .container-signup {
   margin-top: 45px;
   padding-bottom: 20px;
-	
+}
+
+/*sticking this to the bottom of the element */
+
+.howitworks-title { 
+  position: absolute;
+  bottom: 0;
 }
 
 /*HOW IT WORKS section */

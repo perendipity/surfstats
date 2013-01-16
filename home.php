@@ -48,7 +48,7 @@
 	<?php endblock() ?>
 
 	<?php startblock('signup_image') ?> 
-		<img class="img-home" src="./img/surfscore/phone_tablet.png" >  
+		<!--<img class="img-home" src="./img/surfscore/phone_tablet.png" >  -->
 	<?php endblock() ?>
 
 	<?php startblock('signup_sidebar') ?> 
