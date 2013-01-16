@@ -1,0 +1,43 @@
+/* CSS stylings for the surfboard page describing the feedback a surfer gets */
+/* @author: Cody Canning */
+
+body{
+    background-image: url('../img/background/board.jpg');
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: top;
+    background-size: cover;
+}
+
+.small-header{
+    font-family: Exo, Helvetica, san-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: gray;
+    
+}
+
+.large-header{
+    font-family: Exo, Helvetica, san-serif;
+    font-weight: 500;
+    font-size: 56px;
+    color: white;
+    text-align:left;
+}
+
+.header{
+    width: 600px;
+    margin-top: 6%;
+    margin-left: auto ;
+    margin-right: auto ;
+float:center;
+}
+
+.rad-score{
+    width: 100px;
+    height:100px;
+    margin-left:5%;
+    margin-top:5%;
+    
+}
