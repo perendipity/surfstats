@@ -2,6 +2,13 @@
 surfscore.me is built with all the love in the World by @MarcoMorawec, Peter, Cody and Alec
 **/
 
+
+.logo {
+  margin: 1% 2% 0 0;
+  max-width: 20%;
+  max-height: 20%
+}
+
 .surfscore-brand{
     font-family: Exo, Helvetica, san-serif;
     font-weight: 500;
@@ -22,43 +29,43 @@ footer .surfscore-brand{
 }
 
 .location {
-    font-family: Exo, Helvetica, san-serif;
+    font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
     font-weight: 100;
     font-size: 24px;
 }
 
 .user-name {
-    font-family: Exo, Helvetica, san-serif;
+    font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
     font-weight: 100;
     font-size: 72px;
 }
 
 .custom-h1 {
-    font-family: Exo, Helvetica, san-serif;
-    font-weight: 500;
-    font-size: 48px;
+    font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
+    font-weight: 100;
+    font-size: 64px;
 }
 
 .custom-h2 {
-    font-family: Exo, Helvetica, san-serif;
-    font-weight: 400;
+    font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
+    font-weight: 300;
     font-size: 36px;
 }
 
 .custom-h3 {
-    font-family: Exo, Helvetica, san-serif;
+    font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
     font-weight: 400;
     font-size: 24px;
 }
 
 .custom-h4{
-    font-family: Exo, Helvetica, san-serif;
+    font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
     font-weight: 400;
     font-size: 18px;
 }
 
 .custom-h5{
-    font-family: Exo, Helvetica, san-serif;
+    font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
     font-weight: 500;
     font-size: 14px;
 }
@@ -87,7 +94,26 @@ footer .surfscore-brand{
 .container-signup {
   margin-top: 45px;
   padding-bottom: 20px;
-	
+}
+
+/*sticking this to the bottom of the element */
+
+.howitworks-title { 
+  position: absolute;
+  bottom: 0;
+}
+
+/*HOW IT WORKS section */
+
+.how-it-works-link {
+  text-decoration: none;
+  color: white;
+}
+
+.how-it-works-link:hover {
+  text-decoration: none;
+  color: #00debd;
+
 }
 
 /*BACKGROUND IMAGE all sections */
@@ -118,6 +144,7 @@ footer .surfscore-brand{
 }
 
 .howitworks-section {
+  background-image: url('../img/background/1Lander.jpg');
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;

@@ -48,7 +48,7 @@
 	<?php endblock() ?>
 
 	<?php startblock('signup_image') ?> 
-		<img class="img-home" src="./img/surfscore/phone_tablet.png" >  
+		<!--<img class="img-home" src="./img/surfscore/phone_tablet.png" >  -->
 	<?php endblock() ?>
 
 	<?php startblock('signup_sidebar') ?> 
@@ -65,27 +65,30 @@
 
 
 		<?php startblock('howitworks_point1') ?> 
-			<img class="" src="./img/surfscore/score2.png">
-			</br>
-	        	<h2 class="custom-h2">Mount Your surfscore</h2>
-	        	<h5 class="custom-h5">One small device to track all your data</h5>
-	        	<p><a class="btn btn-success" href="#data-section">View details &raquo;</a></p>
+			<a class="how-it-works-link" href="#surfboard-section">
+				<img class="" src="./img/surfscore/score2.png">
+				</br>
+		        	<h2 class="custom-h2">Mount Your surfscore</h2>
+		        	<h5 class="custom-h5">One small device to track all your data</h5>
+	        </a>	
 		<?php endblock() ?> 
 
-		<?php startblock('howitworks_point2') ?> 
-			<img class="img-circle" src="./img/surfscore/surfing.png">
-			</br>
-	          	<h2 class="custom-h2">Go Surfing</h2>
-	          	<h5 class="custom-h5">Surf hard. Go Radical. Be Yourself!</h5>
-	          	<p><a class="btn btn-success" href="#">View details &raquo;</a></p>
+		<?php startblock('howitworks_point2') ?>
+			<a class="how-it-works-link" href="#leaderboard-section">
+				<img class="img-circle" src="./img/surfscore/surfing.png">
+				</br>
+		          	<h2 class="custom-h2">Go Surfing</h2>
+		          	<h5 class="custom-h5">Surf hard. Go Radical. Be Yourself!</h5>
+	        </a>	
 		<?php endblock() ?> 
 		
 		<?php startblock('howitworks_point3') ?> 
-			<img class="img-circle" src="./img/surfscore/surf_data.png">
-			</br>
-		        <h2 class="custom-h2">Get Detailed Feedback</h2>
-		        <h5 class="custom-h5">Waves. Shredder Score. Ride Visualization</h5>
-		        <p><a class="btn btn-success" href="#">View details &raquo;</a></p>
+			<a class="how-it-works-link" href="#data-section">
+				<img class="img-circle" src="./img/surfscore/surf_data.png">
+				</br>
+			        <h2 class="custom-h2">Get Detailed Feedback</h2>
+			        <h5 class="custom-h5">Waves. Shredder Score. Ride Visualization</h5>
+			</a>
 		<?php endblock() ?> 
       
 	
