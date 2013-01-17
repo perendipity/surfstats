@@ -9,18 +9,20 @@ surfscore.me is built with all the love in the World by @MarcoMorawec, Peter, Co
   max-height: 20%
 }
 
+body{
+    font-family: "HelveticaNeue-Light", Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Lucia Grande", sans-serif !important;
+}
+
 .surfscore-brand{
-    font-family: Exo, Helvetica, san-serif;
     font-weight: 500;
     font-size: 60px;
 	color: #FFFFFF;
 }
 
 footer .surfscore-brand{
-    font-family: Exo, Helvetica, san-serif;
     font-weight: 500;
     font-size: 60px;
-	color: grey;
+    color: grey;
 }
 
 .surfscore-brand:hover{
@@ -29,13 +31,11 @@ footer .surfscore-brand{
 }
 
 .location {
-    font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
     font-weight: 100;
     font-size: 24px;
 }
 
 .user-name {
-    font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
     font-weight: 100;
     font-size: 72px;
 }
@@ -48,7 +48,7 @@ footer .surfscore-brand{
 
 .custom-h2 {
     font-family: Helvetica Neue Light, Helvetica Neue, Helvetica, san-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 36px;
 }
 
