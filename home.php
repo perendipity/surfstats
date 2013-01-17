@@ -184,7 +184,8 @@
 	<?php endblock() ?>
 
 	<?php startblock('leaderboard_image') ?> 
-		<img class="img-home" src="./img/surfscore/iphone_template2.png" >  
+		<?php include './includes/leaderboard.inc.php' ?>
+		<!--<img class="img-home" src="./img/surfscore/iphone_template2.png" >  -->
 	<?php endblock() ?>
 
 
