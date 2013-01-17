@@ -6,38 +6,104 @@ body{
     background-color: black;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: top;
     background-size: cover;
 }
 
-.small-header{
-    font-family: Exo, Helvetica, san-serif;
-    font-weight: 500;
-    font-size: 24px;
+.head-sm{
+    font-size: 30px;
     color: gray;
-    
+    line-height: 40px;
+    margin-top: 20px;
+    text-align:center;
 }
 
-.large-header{
-    font-family: Exo, Helvetica, san-serif;
-    font-weight: 500;
-    font-size: 56px;
+.head-large{
+    font-size: 80px;
     color: white;
     text-align:left;
+    line-height:70px;
+    margin-left:35px;
+}
+
+.head-sm2{
+    font-size: 30px;
+    color: gray;
+    line-height: 40px;
+    margin-top: 20px;
+    margin-left:37px;
+}
+
+.header-medium{
+    font-size: 50px;
+    color:gray;
+    line-height:50px;
+}
+
+.frost-layer{
+    background-color:rgba(36,32,33,0.8);
 }
 
 .header{
-    width: 600px;
     margin-top: 6%;
-    margin-left: auto ;
-    margin-right: auto ;
-float:center;
 }
 
 .rad-score{
-    width: 100px;
-    height:100px;
-    margin-left:5%;
     margin-top:5%;
-    
+    max-height:190px;
+    max-width:190px;
+}
+
+.pad-left{
+    padding-left:16px;
+}
+
+
+.row-2{
+    margin-top:5%;
+}
+
+.scores{
+    text-align:center;
+    font-size:50px;
+    color:rgb(0,231,195);
+    line-height:60px;
+}
+
+.graph{
+    text-align:center;
+    color:gray;
+    font-size:16px;
+}
+
+.pad-sm{
+    margin-bottom:5px;
+
+}
+
+.custom-button1{
+    border-radius:0;
+    margin-top:3px;
+    background-image:none;
+    background-color:rgb(0,231,195);
+}
+
+.custom-button2{
+    border-radius:0;
+    margin-top:3px;
+    background-image:none;
+}
+
+.btn:hover { 
+    background-color: rgb(0,231,195);
+}
+
+.btn:visited{
+    background-color:rgb(0,231,195);
+}
+
+.btn-large:hover{
+    background-color:rgb(0,231,195);
+}
+.btn-large:visited{
+    background-color:rgb(0,231,195);
 }
