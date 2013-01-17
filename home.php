@@ -1,7 +1,7 @@
 
 
 
-<?php include './includes/template.home.inc.php' ?> 
+<?php include './includes/template.home2.inc.php' ?> 
 
 <!-- Surf page specific styles
 ================================================== -->
@@ -29,7 +29,7 @@
 	<?php endblock() ?>
 	
 	<?php startblock('signup_copy') ?> 
-		This is the best thing since sliced bread. Track all your metrics, get better, see what's happening
+		Track all your metrics, get better, see what's happening
 		and improve consistently. Compete with friends and be the best surfer you could possibly be.  
 	<?php endblock() ?>
 	
@@ -94,6 +94,37 @@
 	
 <!-- End of How it works page -->
 
+<!-- Start of Surfboard page -->
+
+	<?php startblock('surfboard_sidebar') ?> 
+		<?php include './includes/sidebar.inc.php'; ?>
+	<?php endblock() ?>	
+
+	<?php startblock('surfboard_title') ?> 
+		One Simple Device
+	<?php endblock() ?> 
+	
+	<?php startblock('surfboard_h2') ?> 
+		Smaller than a fin-plug.</br> 
+		Battery Power for multiple sessions!
+	<?php endblock() ?>
+	
+	<?php startblock('surfboard_copy') ?> 
+		Use the same device to track all your metrics for any sport. 
+		Easily syncs data with your smartphone after you're done surfing.
+	<?php endblock() ?>
+	
+	<?php startblock('signup_surfboard') ?> 
+			</br><a href="signup.php"><button class="pull-right btn btn-large btn-danger"><h1 class="custom-h1">Sign-Up</h1></button></a>
+	<?php endblock() ?>
+
+	<?php startblock('surfboard_image') ?> 
+		<img class="img-home" src="./img/surfscore/score3.png" >  
+	<?php endblock() ?>
+
+	
+<!-- End of surfboard page -->
+
 
 <!-- Start of Data page -->
 
@@ -111,8 +142,8 @@
 	<?php endblock() ?>
 	
 	<?php startblock('data_copy') ?> 
-		This is the best thing since sliced bread. Track all your metrics, get better, see what's happening
-		and improve consistently. Compete with friends and be the best surfer you could possibly be.  
+		Track all your metrics, get better and improve consistently.  
+		Save every single ride of your life on one platform.
 	<?php endblock() ?>
 	
 	<?php startblock('signup_data') ?> 
@@ -126,37 +157,6 @@
 	
 <!-- End of Data page -->
 
-
-<!-- Start of Surfboard page -->
-
-	<?php startblock('surfboard_sidebar') ?> 
-		<?php include './includes/sidebar.inc.php'; ?>
-	<?php endblock() ?>	
-
-	<?php startblock('surfboard_title') ?> 
-		One Simple Device
-	<?php endblock() ?> 
-	
-	<?php startblock('surfboard_h2') ?> 
-		Smaller than a fin-plug.</br> 
-		Battery Power for 6 Month!
-	<?php endblock() ?>
-	
-	<?php startblock('surfboard_copy') ?> 
-		This is the best thing since sliced bread. Track all your metrics, get better, see what's happening
-		and improve consistently. Compete with friends and be the best surfer you could possibly be.  
-	<?php endblock() ?>
-	
-	<?php startblock('signup_surfboard') ?> 
-			</br><a href="signup.php"><button class="pull-right btn btn-large btn-danger"><h1 class="custom-h1">Sign-Up</h1></button></a>
-	<?php endblock() ?>
-
-	<?php startblock('surfboard_image') ?> 
-		<img class="img-home" src="./img/surfscore/score3.png" >  
-	<?php endblock() ?>
-
-	
-<!-- End of surfboard page -->
 
 
 <!-- Start of Leaderboard page -->
@@ -175,8 +175,8 @@
 	<?php endblock() ?>
 	
 	<?php startblock('leaderboard_copy') ?> 
-		This is the best thing since sliced bread. Track all your metrics, get better, see what's happening
-		and improve consistently. Compete with friends and be the best surfer you could possibly be.  
+		Know who surfed your spot the best after every session. 
+		Compete with friends and see how you stack up.  
 	<?php endblock() ?>
 	
 	<?php startblock('signup_leaderboard') ?> 
@@ -184,7 +184,8 @@
 	<?php endblock() ?>
 
 	<?php startblock('leaderboard_image') ?> 
-		<img class="img-home" src="./img/surfscore/iphone_template2.png" >  
+		<?php include './includes/leaderboard.inc.php' ?>
+		<!--<img class="img-home" src="./img/surfscore/iphone_template2.png" >  -->
 	<?php endblock() ?>
 
 
