@@ -5,7 +5,7 @@
 			<div class="span3">
 		        <a class="surfscore-brand" href="home.php">surfscore</a>
 		        <h4 class="custom-h4">Technical Feedback for Surfers</h4>
-		        <p>&copy; 2012 surfscore, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+		        <p>&copy; <?php echo date('Y'); ?> surfscore, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
 			</div>
 			<div class="nav navbar-inverse">
 				<div class="span2 offset1">
