@@ -1,0 +1,85 @@
+/* CSS for surfscore.me homepage */
+/* @author: Cody Canning */
+
+body{
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-size:16px;
+}
+
+.float-left{
+    float: left;
+}
+
+.pad-left-sm{
+    margin-left:5px;
+}
+
+.pad-left-med1{
+    margin-left:15px;
+}
+
+.pad-left-med2{
+    margin-left:20px;
+}
+
+.pad-left-large{
+    margin-left:25px;
+} 
+
+.custom-h1{
+    font-weight: 100;
+    font-size: 72px;
+    line-height:90px;
+}
+
+.custom-h5{
+    font-weight: 500;
+    font-size:   48px;
+}
+.custom-h3{
+    font-weight: 200;
+    font-size:   22px;
+    color: rgb(200,200,200);
+}
+.custom-h2{
+    font-weight:200;
+    font-size:27px;
+}
+
+.navbar{
+    margin-top:30px;
+}
+
+.nav-links{
+    cursor:pointer;
+    color: white;
+    text-align:right;
+    
+}
+
+.text-block{
+    width:480px;
+}
+
+#heading{
+    margin-top:150px;
+    color:white;
+}
+
+#lander-slide{
+    background-image: url('../img/background/lander.jpg');
+}
+
+#score-icon{
+    max-width:30px;
+    width:30px;
+    height:30px;
+    max-height:30px;
+}
+
+#score-logo{
+    color:       white;
+    margin-left:15px;
+
+}
