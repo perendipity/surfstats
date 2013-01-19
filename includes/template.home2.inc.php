@@ -31,7 +31,7 @@
 
 <div class="container container-signup">
 		<div class="row">
-				<div class="span6"> <!-- Left Block -->
+				<div class="span6 frost-layer-home"> <!-- Left Block -->
 								
 					<h1 class="custom-h1">
 						<?php startblock('signup_title') ?> 

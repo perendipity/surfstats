@@ -21,42 +21,41 @@
 <!-- Start of Sign-up page -->
 
 	<?php startblock('signup_title') ?> 
-		Improve Your Surfing
+		Improve your surfing
 	<?php endblock() ?> 
 
 	<?php startblock('signup_h2') ?> 
-		Track Each Wave. Surf Better</br> 
+	Track each wave, surf better 
 	<?php endblock() ?>
-	
+
 	<?php startblock('signup_copy') ?> 
-		Track all your metrics, get better, see what's happening
-		and improve consistently. Compete with friends and be the best surfer you could possibly be.  
+	
+        <div style="margin-bottom:250px;">
+          Track all your metrics, get better, see what's happening
+	  and improve consistently. Compete with friends and be the best surfer you could possibly be.  </div>
 	<?php endblock() ?>
 	
 	<?php startblock('signup_beta') ?> 
-		Request Early Access Now!
+        Get your invite
 	<?php endblock() ?> 
 
 	<?php startblock('signup_emailform') ?> 
-		<!-- Begin email form -->
-			<form id="email" action="" method="post">
-			   	<div class="email input-append">
-			   		<input size="20" id="appendedInputButton" type="email" required="" placeholder="Your email address" name="email">
-			    	<button class="btn btn-danger" type="submit">»</button>
-			    </div>				
-			</form>
+	<!-- Begin email form -->
+	<form id="email" action="" method="post">
+	  <div class="email input-append">
+	    <input size="20" id="appendedInputButton" type="email" required="" placeholder="Your email address" name="email">
+	    <button class="btn" style="margin-bottom:80px;" type="submit">»</button>
+	  </div>				
+	</form>
 	<?php endblock() ?>
 
 	<?php startblock('signup_image') ?> 
-		<!--<img class="img-home" src="./img/surfscore/phone_tablet.png" >  -->
+	<!--<img class="img-home" src="./img/surfscore/phone_tablet.png" >  -->
 	<?php endblock() ?>
 
 	<?php startblock('signup_sidebar') ?> 
 	<?php endblock() ?>
 	
-		<?php startblock('howitworks_title') ?> 
-			How It Works
-		<?php endblock() ?> 
 
 <!-- End of Sign-up page -->
 
@@ -114,12 +113,9 @@
 		Easily syncs data with your smartphone after you're done surfing.
 	<?php endblock() ?>
 	
-	<?php startblock('signup_surfboard') ?> 
-			<!-- </br><a href="signup.php"><button class="pull-right btn btn-large btn-danger"><h1 class="custom-h1">Sign-Up</h1></button></a> -->
-	<?php endblock() ?>
 
 	<?php startblock('surfboard_image') ?> 
-		<img class="img-home" src="./img/surfscore/score3.png" >  
+		<img class="img-home" src="./img/surfscore/score2_3.png" >  
 	<?php endblock() ?>
 
 	
@@ -147,11 +143,11 @@
 	<?php endblock() ?>
 	
 	<?php startblock('signup_data') ?> 
-			</br><a href="board.html"><button class="pull-right btn btn-large btn-danger"><h1 class="custom-h1">Check my Stats</h1></button></a>
+			</br><a href="board.php"><button class="pull-right btn btn-large btn-danger"><h2 class="custom-h2">Check my Stats</h2></button></a>
 	<?php endblock() ?>
 	
 	<?php startblock('data_image') ?> 
-		<img class="img-home" src="./img/surfscore/surf_data2.pn" >  
+		<!-- <img class="img-home" src="./img/surfscore/surf_data2.png" >   -->
 	<?php endblock() ?>
 
 	
@@ -179,10 +175,6 @@
 		Compete with friends and see how you stack up.  
 	<?php endblock() ?>
 	
-	<?php startblock('signup_leaderboard') ?> 
-			<!--</br><a href="signup.php"><button class="pull-right btn btn-large btn-danger"><h1 class="custom-h1">Sign-Up</h1></button></a>-->
-	<?php endblock() ?>
-
 	<?php startblock('leaderboard_image') ?> 
 		<?php include './includes/leaderboard.inc.php' ?>
 		<!--<img class="img-home" src="./img/surfscore/iphone_template2.png" >  -->

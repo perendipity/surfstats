@@ -82,7 +82,7 @@ footer .surfscore-brand{
   float: left;
   padding: 10px 20px 10px;
   margin-left: -20px;
-  text-shadow: 0 1px 0 #ffffff;
+
 }
 
 .nav-links {
@@ -96,11 +96,30 @@ footer .surfscore-brand{
   padding-bottom: 20px;
 }
 
-/*sticking this to the bottom of the element */
+/*transparent background for home */
+.frost-layer-home{
+	box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.25);
+    background-color: rgba(36,32,33,0.25);
+    padding: 1%;
+}
 
+
+
+/*sticking the "how it works" to the bottom of the element for regular screens */
+
+@media (min-width: 481px) {
 .howitworks-title { 
   position: absolute;
   bottom: 0;
+}
+}
+
+/* for default for smaller screens*/
+.howitworks-title { 
+  position: relative;
+  bottom: 0;
+  padding-top: 5%;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /*HOW IT WORKS section */
@@ -133,7 +152,6 @@ footer .surfscore-brand{
 	
 	
 .signup-section {
-  background-image: url('../img/background/signup-section.jpg');
   background-color: black;
   background-position: center;
   background-repeat: no-repeat;
@@ -254,7 +272,7 @@ opacity: 1;
 }
 
 .img-border:hover {
-  border: 8px solid black;
+  border: 8px solid #00E7C3;
 }
 
 
