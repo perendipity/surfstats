@@ -11,7 +11,6 @@
 			background-color: black;
 			color: #FFFFFF;
 		}
-	
 </style>
 
 
@@ -147,7 +146,7 @@
 	<?php endblock() ?>
 	
 	<?php startblock('signup_data') ?> 
-			</br><a href="board.html"><button class="pull-right btn btn-large btn-danger"><h1 class="custom-h1">Check my Stats</h1></button></a>
+			</br><a href="board.php"><button class="pull-right btn btn-large btn-danger"><h1 class="custom-h1">Check my Stats</h1></button></a>
 	<?php endblock() ?>
 	
 	<?php startblock('data_image') ?> 

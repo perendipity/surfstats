@@ -2,10 +2,14 @@
 
 <?php include ('./includes/headers.inc.php') ?>
 
+<body>
+
+ <div class="board-background">
+
+
 <?php include ('./includes/navbar.inc.php') // get the navbar in ?>
 
 
-  <body>
     <div class="well-clear frost-layer container">
       
       <div class="row">
@@ -81,6 +85,7 @@
       <!--   OLDER SESSIONS -->
       <!-- </div> -->
     </div>
+  </div>  <!-- End of board section -->
 <?php include ('./includes/footer.inc.php') // get the footer in ?>
     
   </body>

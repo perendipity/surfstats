@@ -10,13 +10,14 @@ surfscore.me is built with all the love in the World by @MarcoMorawec, Peter, Co
 }
 
 body{
-    font-family: "HelveticaNeue-Light", Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Lucia Grande", sans-serif !important;
+    font-family: "HelveticaNeue-Light", Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Lucia Grande", sans-serif;
 }
 
 .surfscore-brand{
     font-weight: 500;
     font-size: 60px;
 	color: #FFFFFF;
+    font-family: "HelveticaNeue-Light", Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, Lucia Grande", sans-serif;
 }
 
 footer .surfscore-brand{
@@ -222,26 +223,6 @@ footer .surfscore-brand{
   
   
 }
-/*
-.news-section {
-	background: url(../img/background/news-section.jpg) no-repeat center center fixed; 
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	
-}
-
-background-image: url("/images/1_intro/bg1.jpg?v=0.0.6"); 
-background-repeat: no-repeat; 
-background-position: center center; 
-background-size: 100% auto; 
-visibility: hidden; 
-position: absolute; 
-top: 0px; 
-left: 0px; 
-opacity: 1;
-*/
 
 .team-section {
   background-image: url('../img/background/team.jpg');
