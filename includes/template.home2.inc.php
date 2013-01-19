@@ -17,7 +17,7 @@
 
 <body> 
 <div class="background-section">
-	<div class="signup-section"> <!-- Background image section -->
+	<div class="signup-section" id="signup-section"> <!-- Background image section -->
 		<?php include ('./includes/navbar.inc.php') // get the navbar in ?>
 
 
@@ -31,7 +31,7 @@
 
 <div class="container container-signup">
 		<div class="row">
-				<div class="span6"> <!-- Left Block -->
+				<div class="span6 frost-layer-home"> <!-- Left Block -->
 								
 					<h1 class="custom-h1">
 						<?php startblock('signup_title') ?> 

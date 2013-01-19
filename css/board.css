@@ -1,14 +1,23 @@
-/* CSS stylings for the surfboard page describing the feedback a surfer gets */
+/* CSS stylings for the surfboard page*/
 /* @author: Cody Canning */
 
 body{
-    background-image: url('../img/background/board.jpg');
     background-color: black;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; !important;
-    font-weight:300 !important; 
+    font-weight:300; 
+}
+
+@media (min-width: 481px) {
+.board-background {
+	background-image: url('../img/background/board.jpg');
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 }
 
 .head-sm{

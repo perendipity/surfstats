@@ -20,11 +20,11 @@
 	 
 <!-- Marco -->
 	<?php startblock('team_marco_img') ?> 
-		<img src="./img/team/marco_bw.jpg" >
+		<img src="./img/team/marco_bw.jpg">
 	<?php endblock() ?> 
 	
 	<?php startblock('team_marco_h2') ?> 
-		Marco Morawec
+		Marco Morawec <a href="http://www.twitter.com/marcomorawec"  target="_blank"><img src="./img/team/smi-t.png"></a> <a href="http://www.linkedin.com/in/marcomorawec" target="_blank"><img src="./img/team/smi-in.png"></a>
 	<?php endblock() ?>
 	
 	<?php startblock('team_marco_copy') ?> 
@@ -39,7 +39,7 @@
 	<?php endblock() ?> 
 
 	<?php startblock('team_peter_h2') ?> 
-		Peter Nachbaur
+		Peter Nachbaur <a href="#" target="_blank"><img src="./img/team/smi-t.png"></a> <a href="#" target="_blank"><img src="./img/team/smi-in.png"></a>
 	<?php endblock() ?>
 	
 	<?php startblock('team_peter_copy') ?> 
@@ -55,7 +55,7 @@
 	<?php endblock() ?> 
 
 	<?php startblock('team_cody_h2') ?> 
-		Cody Canning
+		Cody Canning <a href="#" target="_blank"><img src="./img/team/smi-t.png"></a> <a href="#" target="_blank"><img src="./img/team/smi-in.png"></a>
 	<?php endblock() ?>
 	
 	<?php startblock('team_cody_copy') ?> 
@@ -69,7 +69,7 @@
 	<?php endblock() ?> 
 
 	<?php startblock('team_alec_h2') ?> 
-		Alec Babala
+		Alec Babala <a href="#" target="_blank"><img src="./img/team/smi-t.png"></a> <a href="#" target="_blank"><img src="./img/team/smi-in.png"></a>
 	<?php endblock() ?>
 	
 	<?php startblock('team_alec_copy') ?> 

@@ -10,8 +10,7 @@
 
   // Or, to start a slideshow, just pass in an array of images
   $(".signup-section").backstretch([
-    "./img/background/bck4.png",
+    "./img/background/bck7.jpg",
     "./img/background/bck3.png",
-    "./img/background/bck2.jpg",
   ], {duration: 4000, fade: 750});
 </script>

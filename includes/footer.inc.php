@@ -12,23 +12,23 @@
 					<h4 class="custom-h4">About</h4>
 						<ul class="nav">
 							<li><a href="team.php">team</a></li>
-							<li><a href="news.php">news</a></li>
-							<li><a href="#">contact</a></li>
+							<li><a href="#">news</a></li>
+							<li><a href="mailto:hello@surfscore.me">contact</a></li>
 						</ul>
 				</div>
 				<div class="span2">
 					<h4 class="custom-h4">Surfscore</h4>
 						<ul class="nav">
-							<li><a href="home.php#howitworks-section">how it works</a></li>
+							<li><a href="#signup-section">how it works</a></li>
 							<li><a href="home.php#data-section">features</a></li>
-							<li><a href="#">sign-up</a></li>
+							<li><a href="#signup-section">sign-up</a></li>
 						</ul>
 				</div>
 				<div class="span2">
 					<h4 class="custom-h4">Follow us</h4>
 						<ul class="nav">
-							<li><a href="#">Facebook</a></li>
-							<li><a href="#">twitter</a></li>
+							<li><a href="http://www.twitter.com/surfscoreme" target="_blank">twitter</a></li>
+							<li><a href="#">facebook</a></li>
 							<li><a href="#">rss</a></li>
 						</ul>
 				</div>
