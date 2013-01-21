@@ -22,29 +22,39 @@
 	      	
 	      	<!-- Start of Map -->
 		      	<div class="circle" style="top:55%; left:17%;">
-		      		<h5 class="custom-h5 market-text">12.5</h5>
+		      		<h3 class="custom-h3 market-text">12.5</h3>
 		      	</div>
 		      	<div class="circle" style="top:45%; left:38%;">
-		      		<h5 class="custom-h5">4.75</h5>
+		      		<h3 class="custom-h3">4.75</h3>
 		      	</div>
 		      	<div class="circle" style="top:65%; left:41%;">
-		      		<h5 class="custom-h5">4.75</h5>
+		      		<h3 class="custom-h3">4.75</h3>
 		      	</div>
 		      	<div class="circle" style="top:52%; left:55%;">
-		      		<h5 class="custom-h5">6.5</h5>
+		      		<h3 class="custom-h3">6.5</h3>
 		      	</div>
 		      	<div class="circle" style="top:78%; left:62%;">
-		      		<h5 class="custom-h5">6.5</h5>
+		      		<h3 class="custom-h3">6.5</h3>
 		      	</div>
 	      	
 	      	<div class="span9">
 	      		<img class="map" src="./img/market/worldmap.png"></img>
 	      	</div>
 	      	
-	      	<div class="span2 market">
-	      		<h3 class="custom-h3 sidebar-box">26 Million Surfers Worldwide in 2000</h3>
-	      		<h3 class="custom-h3 sidebar-box">30 Million Surfers Worldwide in 2012</h3>
-	      		<h3 class="custom-h3 sidebar-box">40 Million Surfers Worldwide in 2020</h3>
+	      	<div class="span2">
+	      		<div class="market-box">
+		      		<h2 class="custom-h2 market-text2">Worldwide</h2> 
+		      		<h3 class="custom-h3 market-text1">26 MILLION</h3>
+		      		<h3 class="custom-h3 market-text3">Surfers in 2000</h3>
+	      		 </div>
+	      		<div class="market-box2">
+		      		<h3 class="custom-h3 market-text1" style="color:#00E7C3">35 MILLION</h3>
+		      		<h3 class="custom-h3 market-text3">Surfers in 2012</h3>
+	      		 </div>
+	      		<div class="market-box">
+		      		<h3 class="custom-h3 market-text1">47 MILLION</h3>
+		      		<h3 class="custom-h3 market-text3">Surfers in 2020</h3>
+	      		 </div>
 	      		
 	      	</div>
 	      	

@@ -2,7 +2,7 @@
 
 .circle {
 	background: none repeat scroll 0 0 white;
-    border: 4px solid #12C3F4;
+    border: 8px solid #00E7C3;
     border-radius: 100px 100px 100px 100px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
     cursor: pointer;
@@ -34,7 +34,24 @@
 .sidebar-box{
 	margin-left: -10%;
 }
+.market-box {
+	margin-bottom: 3%;
+}
 
-.market-text {
-	weight:;	
+.market-box2 {
+	margin-bottom: 3%;
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+
+}
+
+.market-text1 {
+	color: white;
+	font-size: 31px;
+}
+.market-text2 {
+	color: #00E7C3;
+}
+.market-text3 {
+	color: white;
 }
