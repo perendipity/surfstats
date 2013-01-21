@@ -118,7 +118,7 @@
 	<?php endblock() ?>
 
 	<?php startblock('surfboard_image') ?> 
-		<img class="img-home" src="./img/surfscore/score3.png" >  
+		<img class="img-home" src="./img/surfscore/score2.png" >  
 	<?php endblock() ?>
 
 	
