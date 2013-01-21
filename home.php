@@ -1,7 +1,7 @@
 
 
 
-<?php include './includes/template.home2.inc.php' ?> 
+<?php include './includes/template.home3.inc.php' ?> 
 
 <!-- Surf page specific styles
 ================================================== -->
