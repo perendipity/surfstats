@@ -1,0 +1,39 @@
+#score-logo{
+    max-height:40px;
+    max-width:40px;
+    width:auto;
+    height:auto;
+    margin-left:-5%;
+    vertical-align: middle;
+   
+}
+
+#score-brand{
+    color:white;
+    margin-left:5px;
+    font-size:30px;
+    line-height:40px;
+    margin-top:-3px;
+    float:right;
+    
+
+}
+
+#navbar{
+    line-height:50px;
+
+}
+
+#navlinks{
+    text-align:right;
+    font-size:16px;
+}
+
+a{
+    color:rgb(0,231,195) !important;
+}
+
+a:hover {
+    color:gray !important;
+    text-decoration: underline;
+}

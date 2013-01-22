@@ -1,7 +1,30 @@
-/*
- * Surfscore CSS
- * Designed and built with all the love by Peter, Cody, Alec and Marco.
- */
+/* CSS stylings for the surfboard page*/
+/* @author: Cody Canning */
+
+body{
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; !important;
+ }
+
+@media (min-width: 481px) {
+.board-background {
+    background-image: url('../img/background/board.jpg');
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+
+#frost-container{
+    padding:0% 3% 3% 3%;
+    background-color:rgba(36,32,33,0.8);
+    height:100%;
+}
+
 
 .surfscore{
     font-family: Exo, Helvetica, san-serif;
@@ -89,7 +112,7 @@ table.tablesorter thead tr th, table.tablesorter tfoot tr th {
     padding: 4px;
 }
 table.tablesorter thead tr .header {
-    background-repeat: no-repeat;
+    background-repeat: no-epeat;
     background-position: center right;
     cursor: pointer;
 }
@@ -139,13 +162,6 @@ table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSo
 
 .session-title {
   text-align: center;
-}
-
-body{
-    background:url("../img/background.jpg") no-repeat center;
-    background-position:top;
-    background-attachment: fixed;
-    background-size: cover;
 }
 
 .well-clear{
