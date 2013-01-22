@@ -10,6 +10,7 @@
     <!-- Our surf-styles -->
     <link href="./css/surfscore.css" rel="stylesheet">
     <link href="./css/board.css" rel="stylesheet">
+    <link href="./css/market.css" rel="stylesheet">
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/bootstrap-responsive.css" rel="stylesheet">
 	<link href='http://fonts.googleapis.com/css?family=Exo:500,100,400' rel='stylesheet' type='text/css'>    

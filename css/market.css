@@ -1,0 +1,57 @@
+/* CSS for world market map - build by @marcomorawec */
+
+.circle {
+	background: none repeat scroll 0 0 white;
+    border: 8px solid #00E7C3;
+    border-radius: 100px 100px 100px 100px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    font-family: 'TradeGothicCondensed',sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    height: 55px;
+    left: 0;
+    line-height: 25px;
+    position: absolute;
+    text-align: center;
+    top: 0;
+    width: 55px;
+}	
+
+.market {
+	color: white;	
+}
+
+.headline {
+	text-align:center;
+	padding: 2%;
+}
+
+.map {
+	margin-left: -5%;	
+}
+
+.sidebar-box{
+	margin-left: -10%;
+}
+.market-box {
+	margin-bottom: 3%;
+}
+
+.market-box2 {
+	margin-bottom: 3%;
+	border-bottom: 2px solid white;
+	border-top: 2px solid white;
+
+}
+
+.market-text1 {
+	color: white;
+	font-size: 31px;
+}
+.market-text2 {
+	color: #00E7C3;
+}
+.market-text3 {
+	color: white;
+}
