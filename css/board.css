@@ -36,14 +36,6 @@ body{
     margin-left:35px;
 }
 
-.head-sm2{
-    font-size: 30px;
-    color: rgb(200,200,200);
-    line-height: 40px;
-    margin-top: 20px;
-    margin-left:37px;
-}
-
 .header-medium{
     font-size: 50px;
     color:rgb(120,120,120);
@@ -61,13 +53,12 @@ body{
 }
 
 .rad-score{
-    margin-top:5%;
     max-height:190px;
     max-width:190px;
 }
 
 .pad-left{
-    padding-left:16px;
+    padding-left:3%;
 }
 
 
@@ -144,4 +135,46 @@ body{
 }
 .btn-large:visited{
     background-color:rgb(0,231,195);
+}
+
+.custom-h4{
+    font-size: 30px;
+    color: rgb(200,200,200);
+    line-height: 40px;
+}
+
+.custom-h3{}
+
+.custom-h1{
+    font-size: 80px;
+    color: white;
+    text-align:left;
+    line-height:70px;
+}
+.custom-h2{
+
+}
+
+.pad-top{
+    margin-top:3%;
+}
+
+#lifetime-container{
+    text-align: center; 
+    font-variant:small-caps;
+    color:white;
+}
+
+.bignum{
+    color:white;
+    font-size:50px;
+}
+
+#profile-container{
+}
+
+
+#drilldown-container{
+    text-align:center;
+    color:white;
 }
