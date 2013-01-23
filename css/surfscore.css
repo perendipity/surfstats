@@ -75,7 +75,7 @@ footer .surfscore-brand{
 
 .navbar .surfscore-brand {
   margin-top: 20px;
-  margin-bottom: 68px;
+  margin-bottom: 50px;
 }
 
 .navbar .surfscore-brand {
@@ -99,8 +99,8 @@ footer .surfscore-brand{
 
 /*transparent background for home */
 .frost-layer-home{
-	box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.25);
-    background-color: rgba(36,32,33,0.25);
+    box-shadow: 2px -2px 2px 2px rgba(36,32,33,0.50);
+    background-color: rgba(36,32,33,0.50);
     padding: 1%;
 }
 
