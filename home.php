@@ -24,7 +24,7 @@
 	<?php endblock() ?> 
 
 	<?php startblock('signup_h2') ?> 
-		Track Each Wave. Surf Better</br> 
+		Track Each Wave. Surf Better.</br> 
 	<?php endblock() ?>
 	
 	<?php startblock('signup_copy') ?> 
