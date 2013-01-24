@@ -25,6 +25,12 @@ body{
     height:100%;
 }
 
+.table-header{
+    color:white;
+    text-align:center;
+}
+
+
 
 .surfscore{
     font-family: Exo, Helvetica, san-serif;
@@ -379,4 +385,3 @@ small {
   text-decoration: none;
   background-color: transparent !important;
 }
-
