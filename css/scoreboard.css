@@ -1,0 +1,130 @@
+/* CSS stylings for the surfboard page*/
+/* @author: Cody Canning */
+
+body{
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; !important;
+ }
+
+@media (min-width: 481px) {
+.board-background {
+	background-image: url('../img/background/board.jpg');
+        background-color: black;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+}
+
+#rad-score{
+    max-height:190px;
+    max-width:190px;
+}
+
+.custom-button1{
+    border-radius:0;
+    margin-top:3px;
+    background-image:none;
+    background-color:rgb(0,231,195);
+    color: rgb(240,240,240);
+    text-shadow:none;
+    display:inline;
+    float:left;
+    margin-left:20px;
+    font-weight:300 !important; 
+}
+
+.custom-button2{
+    border-radius:0;
+    margin-top:3px;
+    background-image:none;
+    background-color:rgb(0,0,0);
+    color: gray;
+    text-shadow:none;
+    display:inline;
+    float:left;
+    margin-left:15px;
+    font-weight:300 !important; 
+}
+
+.btn:hover { 
+    background-color: rgb(0,231,195);
+}
+
+.btn:visited{
+    background-color:rgb(0,231,195);
+}
+
+.btn-large:hover{
+    background-color:rgb(0,231,195);
+}
+.btn-large:visited{
+    background-color:rgb(0,231,195);
+}
+
+.custom-h1{
+    font-size: 100px !important;
+    color: white;
+    text-align:left;
+    line-height:90px !important;
+    font-weight:300;
+}
+
+.custom-h2{
+   
+}
+
+.custom-h3{
+    font-size:40px;
+    font-weight:normal;
+}
+
+.custom-h4{
+    font-size: 30px;
+    color: rgb(150,150,150);
+    font-weight:300;
+    line-height:40px;
+}
+
+.pad-top{
+    margin-top:3%;
+}
+
+#lifetime-container{
+    text-align: left; 
+    color:white;
+}
+
+.bignum{
+    color:rgb(0,231,195);
+    color:white;
+    font-size:50px;
+    line-height:50px;
+
+}
+
+#profile-container{
+}
+
+#lifetime-total{
+    text-align:center;
+    margin-left:-3%;
+}
+
+#lifetime-average{
+    text-align:center;
+    margin-left:-3%;
+}
+
+.graph{
+    
+}
+
+#frost-container{
+    padding:0% 3% 3% 3%;
+    background-color:rgba(36,32,33,0.8);
+}
+
