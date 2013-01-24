@@ -71,8 +71,6 @@ footer .surfscore-brand{
     font-size: 14px;
 }
 
-
-
 .navbar .surfscore-brand {
   margin-top: 20px;
   margin-bottom: 50px;
@@ -297,4 +295,8 @@ footer {
 }
 .btn-large:visited{
     background-color:rgb(0,231,195);
+}
+
+.pitch-blurb{
+  
 }

@@ -14,7 +14,7 @@
 	<?php endblock() ?> 
 
 	<?php startblock('team_h2') ?> 
-		Who is helping you surf better
+		helping you surf better
 	<?php endblock() ?>
 	
 	 

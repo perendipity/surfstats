@@ -84,9 +84,9 @@
 					</div>
 				</div>
 			</div>
-	
+
 		</div><!-- ./ row -->
-		</br></br>
+		</br></br><br><br>
 		<div class="row">	
 			<div class="span6">	
 				<div class="row">
@@ -133,14 +133,13 @@
 
 	<!-- ./ Team Member Section -->
 					
+<br><br><br><br><br><br>
 </div> <!--./ team-section background -->
 
 </div> <!-- End container -->
 
 
 
-
-<?php include ('./includes/footer.inc.php') // get the footer in ?>
 
 </div>	
 	</body> 

@@ -13,28 +13,24 @@
   </head>
   
   <body>
-
-
     <div class="board-background">
-      
       <div class="container" id="frost-container">
         <br>
-        <br>
-        
          <nav id="navbar">
           <div style="float:left">
             <img id="score-logo" src="img/surfscore/surfscore-logo.png">
-            <div id="score-brand">score</div>
+            <div id="score-brand">surfscore</div>
      
-     </div>
+          </div>
           <div id="navlinks">
             <a href="/home.php/">home</a> |
             <a href="/scoreboard.html">my scoreboard</a> |
             <a href="/leaderboards.html">leaderboards</a>
           </div>
         </nav> 
-
+         <br>
         <h1 class="table-header custom-h1">How do you stack up...</h1>
+        <br>
         
         <!-- Accordion contains different leaderboards -->
         <div class="accordion" id="leaderboard-charts">
@@ -43,7 +39,7 @@
               <a class="accordion-toggle" data-toggle="collapse"
                  data-parent="#leaderboard-charts" href="#friends"
                  style="text-align:center;padding:1px;color:#000000;">
-                <h2 class="custom-h2">against your friends?</h2>
+                <h2 class="custom-h2 table-header">against your friends?</h2>
               </a>
             </div>
             <div id="friends" class="accordion-body collapse">
@@ -75,25 +71,25 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Marco Morawec</td>
+                      <td>Zach Shore</td>
                       <td>New England</td>
                       <td>9.8</td>
-                      <td>8861</td>
-                      <td>323</td>
+                      <td>3261</td>
+                      <td>2676</td>
                     </tr>
                     <tr>
                       <td>Nick Shikuma</td>
                       <td>Hawaii</td>
-                      <td>9.7</td>
-                      <td>8743</td>
-                      <td>756</td>
+                      <td>6.2</td>
+                      <td>1200</td>
+                      <td>1405</td>
                     </tr>
                     <tr>
                       <td>Bethany Warburton</td>
                       <td>Hawaii</td>
-                      <td>8.7</td>
-                      <td>6783</td>
-                      <td>132</td>
+                      <td>5.5</td>
+                      <td>878</td>
+                      <td>1238</td>
                     </tr>
                   </tbody>
                 </table>
@@ -105,7 +101,7 @@
               <a class="accordion-toggle" data-toggle="collapse"
                  data-parent="#leaderboard-charts" href="#national"
                  style="text-align:center;padding:1px;color:#000000;">
-                <h2 class="custom-h2">across the country?</h2>
+                <h2 class="custom-h2 table-header">across the country?</h2>
               </a>
             </div>
             <div id="national" class="accordion-body collapse">
@@ -137,50 +133,57 @@
                   </thead>
                   <tbody>
                     <tr>
-                      <td>Marco Morawec</td>
-                      <td>New England</td>
-                      <td>9.8</td>
-                      <td>8861</td>
-                      <td>323</td>
-                    </tr>
-                    <tr>
-                      <td>Nick Shikuma</td>
-                      <td>Hawaii</td>
-                      <td>9.7</td>
-                      <td>8743</td>
-                      <td>756</td>
-                    </tr>
-                    <tr>
-                      <td>Bethany Warburton</td>
-                      <td>Hawaii</td>
-                      <td>8.7</td>
-                      <td>6783</td>
-                      <td>132</td>
+                      <td>Tarah Smith</td>
+                      <td>Honolulu</td>
+                      <td>8.1</td>
+                      <td>4321</td>
+                      <td>4001</td>
                     <tr>
                       <td>Albert Jacobs</td>
                       <td>Florida</td>
                       <td>5.3</td>
-                      <td>5463</td>
-                      <td>164</td>
+                      <td>3201</td>
+                      <td>2857</td>
+                    </tr>
+                    <tr>
+                      <td>Zach Shore</td>
+                      <td>New England</td>
+                      <td>9.8</td>
+                      <td>3261</td>
+                      <td>2676</td>
+                    </tr>
+                    <tr>
+                      <td>Nick Shikuma</td>
+                      <td>Hawaii</td>
+                      <td>6.2</td>
+                      <td>1200</td>
+                      <td>1405</td>
+                    </tr>
+                    <tr>
+                      <td>Bethany Warburton</td>
+                      <td>Hawaii</td>
+                      <td>5.5</td>
+                      <td>878</td>
+                      <td>1238</td>
                     </tr>
                     <tr>
                       <td>Harry Taft</td>
                       <td>California</td>
                       <td>5.7</td>
-                      <td>200</td>
-                      <td>65</td>
+                      <td>212</td>
+                      <td>76</td>
                     </tr>
                     <tr>
                       <td>Jenny Smith</td>
                       <td>Cambridge</td>
                       <td>8.7</td>
-                      <td>6783</td>
-                      <td>132</td>
+                      <td>102</td>
+                      <td>32</td>
                     <tr>
                       <td>John Johnson</td>
                       <td>Boston</td>
                       <td>5.3</td>
-                      <td>5463</td>
+                      <td>203</td>
                       <td>164</td>
                     </tr>
                     <tr>
@@ -200,7 +203,7 @@
               <a class="accordion-toggle" data-toggle="collapse"
                  data-parent="#leaderboard-charts" href="#international"
                  style="text-align:center;padding:1px;color:#000000;">
-                <h2 class="custom-h2">around the world?</h2>
+                <h2 class="custom-h2 table-header">around the world?</h2>
               </a>
             </div>
             <div id="international" class="accordion-body collapse">
@@ -235,29 +238,43 @@
                       <td>Juan Alvarez</td>
                       <td>Brazil</td>
                       <td>8.7</td>
-                      <td>6783</td>
-                      <td>132</td>
+                      <td>1203</td>
+                      <td>1100</td>
                     </tr>
                     <tr>
                       <td>Sven Alsvik</td>
                       <td>Sweden</td>
                       <td>5.3</td>
-                      <td>5463</td>
-                      <td>164</td>
+                      <td>3421</td>
+                      <td>2971</td>
                     </tr>
                     <tr>
                       <td>Natalia Olsen</td>
                       <td>South Africa</td>
                       <td>5.7</td>
-                      <td>200</td>
-                      <td>65</td>
+                      <td>564</td>
+                      <td>866</td>
+                    </tr>
+                    <tr>
+                      <td>Zach Shore</td>
+                      <td>New England</td>
+                      <td>9.8</td>
+                      <td>3261</td>
+                      <td>2676</td>
+                    </tr>
+                    <tr>
+                      <td>Nick Shikuma</td>
+                      <td>Hawaii</td>
+                      <td>6.2</td>
+                      <td>1200</td>
+                      <td>1405</td>
                     </tr>
                     <tr>
                       <td>Bethany Warburton</td>
                       <td>Hawaii</td>
-                      <td>8.7</td>
-                      <td>6783</td>
-                      <td>132</td>
+                      <td>5.5</td>
+                      <td>878</td>
+                      <td>1238</td>
                     </tr>
                     <tr>
                       <td>Albert Jacobs</td>
@@ -267,24 +284,17 @@
                       <td>164</td>
                     </tr>
                     <tr>
-                      <td>Harry Taft</td>
-                      <td>California</td>
-                      <td>5.7</td>
-                      <td>200</td>
-                      <td>65</td>
-                    </tr>
-                    <tr>
                       <td>Jenny Smith</td>
                       <td>Cambridge</td>
                       <td>8.7</td>
-                      <td>6783</td>
-                      <td>132</td>
+                      <td>2373</td>
+                      <td>1976</td>
                     <tr>
                       <td>John Johnson</td>
                       <td>Boston</td>
                       <td>5.3</td>
-                      <td>5463</td>
-                      <td>164</td>
+                      <td>1002</td>
+                      <td>768</td>
                     </tr>
                     <tr>
                       <td>Danny Clark</td>

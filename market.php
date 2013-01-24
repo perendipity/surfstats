@@ -42,11 +42,13 @@
 	      	
 	      	</div><!-- End of Map -->
 	    </div> <!-- end of span12 -->
+    <br><br><br><br><br><br><br>
+<br><br><br><br><br>
 
 
 
   </div>  <!-- End of board section -->
     
-<?php include ('./includes/footer.inc.php') // get the footer in ?>
+
     
 
