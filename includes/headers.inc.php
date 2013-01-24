@@ -9,7 +9,6 @@
 
     <!-- Our surf-styles -->
     <link href="./css/surfscore.css" rel="stylesheet">
-    <link href="./css/board.css" rel="stylesheet">
     <link href="./css/market.css" rel="stylesheet">
     <link href="./css/bootstrap.css" rel="stylesheet">
     <link href="./css/bootstrap-responsive.css" rel="stylesheet">

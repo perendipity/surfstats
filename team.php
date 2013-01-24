@@ -20,7 +20,7 @@
 	 
 <!-- Marco -->
 	<?php startblock('team_marco_img') ?> 
-		<img src="./img/team/marco_bw.jpg">
+		<img class="team-image" src="./img/team/marco_bw.jpg">
 	<?php endblock() ?> 
 	
 	<?php startblock('team_marco_h2') ?> 
@@ -28,18 +28,16 @@
 	<?php endblock() ?>
 	
 	<?php startblock('team_marco_copy') ?> 
-		I surf waves wherever I can find them, do front-end web-dev stuff, and tell everyone that Google keeps calling me a Shoestring
-		Travel Expert because I traveled to over 30 countries on less than $25 a day. Calling Germany, Hawaii and South Africa home I'm
-		always on the search for the next cool idea to push surfscore.me forward. Love ice-cream and suck at ironing my shirts!
+		I surf waves wherever I can find them, do Product Management and Front-end web-dev stuff, and tell everyone that Google keeps 			calling me a Shoestring Travel Expert because I traveled to over 30 countries on less than $25 a day. Calling Germany, Hawaii and 		South Africa home I'm always on the search for the next cool idea to push surfscore.me forward. Love ice-cream and suck at ironing 		my shirts!
 	<?php endblock() ?> 
 	
 <!-- Peter -->
 	<?php startblock('team_peter_img') ?> 
-		<img src="./img/team/peter_bw.jpg" >
+		<img class="team-image" src="./img/team/peter_bw.jpg" >
 	<?php endblock() ?> 
 
 	<?php startblock('team_peter_h2') ?> 
-		Peter Nachbaur <a href="#" target="_blank"><img src="./img/team/smi-t.png"></a> <a href="#" target="_blank"><img src="./img/team/smi-in.png"></a>
+		Peter Nachbaur <a href="http://www.twitter.com/peternachbaur" target="_blank"><img src="./img/team/smi-t.png"></a> <a href="http://www.linkedin.com/in/peternachbaur" target="_blank"><img src="./img/team/smi-in.png"></a>
 	<?php endblock() ?>
 	
 	<?php startblock('team_peter_copy') ?> 
@@ -51,11 +49,11 @@
 	
 <!-- Cody -->
 	<?php startblock('team_cody_img') ?> 
-		<img src="./img/team/cody_bw.jpg" >
+		<img class="team-image" src="./img/team/cody_bw.jpg" >
 	<?php endblock() ?> 
 
 	<?php startblock('team_cody_h2') ?> 
-		Cody Canning <a href="#" target="_blank"><img src="./img/team/smi-t.png"></a> <a href="#" target="_blank"><img src="./img/team/smi-in.png"></a>
+		Cody Canning <a href="http://www.linkedin.com/in/codycanning"" target="_blank"><img src="./img/team/smi-in.png"></a>
 	<?php endblock() ?>
 	
 	<?php startblock('team_cody_copy') ?> 
@@ -65,11 +63,11 @@
 	
 <!-- Alec -->
 	<?php startblock('team_alec_img') ?> 
-		<img src="./img/team/alec.jpg" >
+		<img class="team-image" src="./img/team/alec.jpg" >
 	<?php endblock() ?> 
 
 	<?php startblock('team_alec_h2') ?> 
-		Alec Babala <a href="#" target="_blank"><img src="./img/team/smi-t.png"></a> <a href="#" target="_blank"><img src="./img/team/smi-in.png"></a>
+		Alec Babala <a href="http://www.twitter.com/alecbabala" target="_blank"><img src="./img/team/smi-t.png"></a> <a href="http://www.linkedin.com/in/alecbabala" target="_blank"><img src="./img/team/smi-in.png"></a>
 	<?php endblock() ?>
 	
 	<?php startblock('team_alec_copy') ?> 

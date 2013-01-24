@@ -2,6 +2,7 @@
 
 <?php include ('./includes/headers.inc.php') ?>
 
+</head>
 <body>
 
  <div class="board-background">
@@ -18,27 +19,8 @@
 	    		<h1 class="custom-h1">Market Size</h1>  
 	      	</div>
 	      	
-	 
-	      	
-	      	<!-- Start of Map -->
-		      	<div class="circle" style="top:55%; left:17%;">
-		      		<h3 class="custom-h3 market-text">12.5</h3>
-		      	</div>
-		      	<div class="circle" style="top:45%; left:38%;">
-		      		<h3 class="custom-h3">4.75</h3>
-		      	</div>
-		      	<div class="circle" style="top:65%; left:41%;">
-		      		<h3 class="custom-h3">4.75</h3>
-		      	</div>
-		      	<div class="circle" style="top:52%; left:55%;">
-		      		<h3 class="custom-h3">6.5</h3>
-		      	</div>
-		      	<div class="circle" style="top:78%; left:62%;">
-		      		<h3 class="custom-h3">6.5</h3>
-		      	</div>
-	      	
 	      	<div class="span9">
-	      		<img class="map" src="./img/market/worldmap.png"></img>
+	      		<img class="map" src="./img/market/map.png"></img>
 	      	</div>
 	      	
 	      	<div class="span2">
@@ -63,11 +45,8 @@
 
 
 
-
-
-    </div>
   </div>  <!-- End of board section -->
+    
 <?php include ('./includes/footer.inc.php') // get the footer in ?>
     
-  </body>
-</html>
+
