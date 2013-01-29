@@ -38,7 +38,7 @@
 
 	<?php startblock('signup_emailform') ?> 
 		<!-- Begin email form -->
-			<form id="email" action="./includes/db_surfscore_local.inc.php" method="post">
+			<form id="email" action="./includes/db_surfscore.inc.php" method="post">
 			   	<div class="email input-append">
 			   		<input size="20" id="appendedInputButton" type="email" required="" placeholder="Your email address" name="email">
 			    	<button class="btn btn-danger" type="submit">»</button>
