@@ -73,7 +73,7 @@
 	<?php startblock('team_alec_copy') ?> 
 		I'm a California boy raised in New Hampshire, and I study industrial design at RISD. Being artsy-fartsy is in my nature, so my
 		days always consist of thinking and making. I like to bring people together for any reason, but the only child in me does enjoy
-		going on solo adventures with my board or bike. I wish I had more time to spend in the kitchen, to clean up the surfscore dishes.
+		going on solo adventures with my board or bike.
 	<?php endblock() ?> 
 
 <!-- End of Team page -->
