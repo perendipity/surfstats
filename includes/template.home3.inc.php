@@ -18,7 +18,7 @@
 <body> 
 <div class="background-section">
 	<div class="signup-section" id="signup-section"> <!-- Background image section -->
-		<?php include ('./includes/navbar.inc.php') // get the navbar in ?>
+		<?php include ('./includes/navbar2.inc.php') // get the navbar in ?>
 
 
 <!-- MAIN SITE CONTENT
@@ -79,7 +79,7 @@
 
 
 
-<?php include ('./includes/footer.inc.php') // get the footer in ?>
+<?php include ('./includes/footer2.inc.php') // get the footer in ?>
 
 
 </div> <!-- End container -->
